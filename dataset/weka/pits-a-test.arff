@@ -1,0 +1,38 @@
+@relation nasa
+
+@attribute Text string
+@attribute class-att {1, 2, 3, 4, 5}
+
+@data
+
+'Build 5.3 Unitialized Variables',3
+'Build 5.3 FSW: Typecast Mismatch in Memory Deallocation',3
+'Build 5.3 FSW: Parameter Type Mismatch',3
+'Build 5.3 FSW: Unchecked Return Status',3
+'Build 5.3 FSW: Typecast Mismatch in Memory Deallocation',3
+'"Uninitialized variable ""Status"" in acnavigate.c"',3
+'L3-SFS-925 no traceability links from L4',3
+'L3-SFS-919 incomplete traceability links from L4',3
+'L3-SFS-1028 no traceability links from L4',3
+'L3-SFS-904 and L3-SFS-974 no traceability links from L4',3
+'L3-SFS-887 incomplete traceability to the L4 requirements',3
+'L3-SFS-2725 and L3-SFS-886 incomplete traceability to L4 requirements',3
+'L2-PRD-712 inconsistent with L3-SFS-1985',3
+'Build 5.1 OBC Code: Symbol tbl_ptr and sm_cond_commit_crc not initialized',3
+'Build 5.1 OBC Code: loss of sign in assigning an integer to an unsigned long',3
+'OBC Build 5.1 Code: Unusual pointer cast',3
+'OBC Build 5.1 Code: Unusual pointer cast',3
+'OBC Build 5.1 Code: Unusual pointer cast',3
+'UPL Build 5.1 Code: WORDS_PER_MONITOR macro usage inconsistent with description',3
+'OBC Build 5.1 Code: possible data overrun for function memcpy',3
+'OBC Build 5.1 Code: variable vm_10Hz_frame_delay tested against out-of-range value',3 
+'OBC Build 5.1 Code: function check_to_report_tag missing return value',3
+'Build 5.1.1 OBC Code: Version Conflict of eepromImage.bld Referenced by Build 5.1 SMD',4
+'Build 5.1 OBC Code: Possible use of null pointer',4
+'Requirement XB007 Is Not Verified By Script xb_write_test.scr.',3
+'Requirement XB006 Is Not Verified By Script xb_select_bus_test.scr.',3
+'HSS1 Requirements S1002 and S1003 Are Not Linked To The Assigned Test Script',3
+'Build 5.1 OBC Code: Symbol not referenced',4
+'Uplink HLP Requirements Should be Verified by Test rather than Analysis as specified in DOORS DB',2
+'Build 5.1 OBC Code: Confusing Combination of Operators; Possible Algorithm Implementation Error',5
+'Uplink Build 5.1 Code: Unusual pointer cast',3
