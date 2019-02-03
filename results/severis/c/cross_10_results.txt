@@ -1,0 +1,57 @@
+=== Run information ===
+
+Scheme:weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1
+Relation:     nasa-weka.filters.unsupervised.attribute.StringToWordVector-R1-W100-prune-rate-1.0-C-T-I-N0-L-S-stemmerweka.core.stemmers.LovinsStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-R2-38-weka.filters.unsupervised.attribute.Remove-R68-76
+Instances:    323
+Attributes:   111
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+JRIP rules:
+===========
+
+(incorrect >= 1.447827) and (trac <= 0) => class-att=5 (7.0/1.0)
+(incorrect >= 1.447827) and (docum <= 0) => class-att=5 (2.0/0.0)
+(specif >= 0.721881) and (command >= 0.925352) => class-att=3 (85.0/0.0)
+(ha <= 0) and (matric <= 0) => class-att=3 (50.0/9.0)
+(cdh >= 3.52431) => class-att=3 (2.0/0.0)
+ => class-att=4 (177.0/6.0)
+
+Number of Rules : 6
+
+
+Time taken to build model: 0.22 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         299               92.5697 %
+Incorrectly Classified Instances        24                7.4303 %
+Kappa statistic                          0.8554
+Mean absolute error                      0.0477
+Root mean squared error                  0.167 
+Relative absolute error                 22.9253 %
+Root relative squared error             51.9885 %
+Total Number of Instances              323     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          ?        1
+                 0         0          0         0         0          ?        2
+                 0.932     0.063      0.912     0.932     0.922      0.936    3
+                 0.934     0.077      0.939     0.934     0.936      0.928    4
+                 0.667     0.003      0.857     0.667     0.75       0.884    5
+Weighted Avg.    0.926     0.07       0.925     0.926     0.925      0.93 
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   0   0   0   0   0 |   a = 1
+   0   0   0   0   0 |   b = 2
+   0   0 124   9   0 |   c = 3
+   0   0  11 169   1 |   d = 4
+   0   0   1   2   6 |   e = 5
+

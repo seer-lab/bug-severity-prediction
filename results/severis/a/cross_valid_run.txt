@@ -1,0 +1,158 @@
+=== Run information ===
+
+Scheme:weka.classifiers.rules.JRip -F 10 -N 2.0 -O 2 -S 1
+Relation:     nasa-weka.filters.unsupervised.attribute.StringToWordVector-R1-W100-prune-rate-1.0-C-T-I-N0-L-S-stemmerweka.core.stemmers.SnowballStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-R2-37-weka.filters.unsupervised.attribute.Remove-R3-4,6-8,12,15-16,18-19,23,25,28-29,31-32,34,40-41,47,59,66-67,69-70,72-73,76-78,80-82,85,87-88,90-93,95-98,101,103-108,112-113,116-118,120,126,128-130,133,135,137-138,140-143,145-149,151-153,156,159-160,162,165-166,170,172-173,175,177,179-180,182-211,215-216,218-224,226-230,232-240,242-244
+Instances:    965
+Attributes:   98
+              class-att
+              ac_mode_
+              acs-ac020
+              analysis
+              build
+              c&dh
+              cm
+              code
+              defaulted
+              dwn-upl203
+              engcntrl
+              enum
+              fsw_test_01
+              fsw_test_03
+              fsw_test_04
+              incomplete
+              incorrect
+              issue
+              l3
+              l4
+              linked
+              missing
+              obc
+              out-of-bounds
+              pointer
+              pointing
+              procedure/script
+              projecta
+              properly
+              requirement
+              requirements
+              rms
+              rvm
+              script
+              scripts
+              sfs
+              software
+              srs
+              symbol
+              targetattsteering
+              test
+              text
+              traceability
+              traces
+              v1
+              verify
+              vml
+              array
+              cast
+              data
+              dd-310
+              defined
+              existing
+              function
+              instances
+              intent
+              links
+              rqt
+              rqts
+              rta
+              satisfied
+              sc&fsrd
+              ta
+              trace
+              tracing
+              ts_test
+              unclear
+              uninitialized
+              unusual
+              1553
+              accessed
+              added
+              bus
+              details
+              fgicd
+              identically
+              l2
+              link
+              log
+              macro
+              preprocessor
+              redundant
+              referenced
+              req
+              responsibility
+              sc&fs
+              surom
+              terminology
+              transition
+              unnecessary
+              v0
+              l2-prd-759
+              l3-psr-39
+              l3-psr-59
+              maintenance
+              psmp
+              sdr
+              trd
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+JRIP rules:
+===========
+
+(rqt >= 1.734726) => class-att=4 (79.0/13.0)
+(obc >= 0.961625) and (instances >= 2.478896) => class-att=4 (27.0/6.0)
+(requirement <= 0) and (traceability <= 0) and (rqts >= 2.886319) => class-att=4 (13.0/3.0)
+(obc >= 0.961625) and (req >= 2.934141) => class-att=4 (11.0/0.0)
+(obc >= 0.961625) and (referenced >= 3.101302) => class-att=4 (4.0/0.0)
+(requirement >= 0.78265) and (engcntrl >= 1.580251) => class-att=2 (184.0/9.0)
+(cm >= 1.848925) => class-att=2 (67.0/1.0)
+(ac_mode_ >= 3.647819) => class-att=2 (5.0/0.0)
+(test >= 1.428167) and (engcntrl <= 0.997027) and (linked >= 1.838656) => class-att=2 (6.0/0.0)
+ => class-att=3 (569.0/224.0)
+
+Number of Rules : 10
+
+
+Time taken to build model: 1.29 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         690               71.5026 %
+Incorrectly Classified Instances       275               28.4974 %
+Kappa statistic                          0.5568
+Mean absolute error                      0.1626
+Root mean squared error                  0.2873
+Relative absolute error                 60.2826 %
+Root relative squared error             78.2674 %
+Total Number of Instances              965     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          ?        1
+                 0.763     0.016      0.961     0.763     0.851      0.885    2
+                 0.917     0.41       0.587     0.917     0.716      0.761    3
+                 0.41      0.032      0.81      0.41      0.544      0.79     4
+                 0         0          0         0         0          0.662    5
+Weighted Avg.    0.715     0.173      0.752     0.715     0.7        0.807
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   0   0   0   0   0 |   a = 1
+   0 248  76   1   0 |   b = 2
+   0   9 344  22   0 |   c = 3
+   0   0 141  98   0 |   d = 4
+   0   1  25   0   0 |   e = 5
+

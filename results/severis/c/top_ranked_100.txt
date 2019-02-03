@@ -1,0 +1,125 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 100
+Relation:     nasa-weka.filters.unsupervised.attribute.StringToWordVector-R1-W100-prune-rate-1.0-C-T-I-N0-L-S-stemmerweka.core.stemmers.LovinsStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-R2-38-weka.filters.unsupervised.attribute.Remove-R68-76
+Instances:    323
+Attributes:   111
+[list of attributes omitted]
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 1 class-att):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.4888    55 specif
+ 0.443     10 command
+ 0.415     67 wh
+ 0.2655    18 fsw
+ 0.2605    22 ha
+ 0.2556    53 smrd
+ 0.2329    49 sc
+ 0.2012    45 requir
+ 0.1831    62 trace
+ 0.1831    34 matric
+ 0.1821    13 dh
+ 0.182     54 spec
+ 0.1676    48 rqt
+ 0.1595    60 tim
+ 0.1522    37 parent
+ 0.1439    15 docum
+ 0.1244    61 trac
+ 0.1196    68 child
+ 0.1169    27 incorrect
+ 0.1111    39 pip
+ 0.0927    85 mu
+ 0.0618     2 adac
+ 0.0516    51 sect
+ 0.0504   108 shown
+ 0.0504   110 text
+ 0.0503    77 incomples
+ 0.0451    83 mechan
+ 0.0273   106 word
+ 0.0201    59 test
+ 0.0201    56 tbd
+ 0.0162   111 undefin
+ 0.0162   109 tabl
+ 0.0162   107 acronym
+ 0.016     20 glor
+ 0.016     41 plan
+ 0         76 icd
+ 0         25 inclus
+ 0        102 tp
+ 0         26 inconsist
+ 0         24 highes
+ 0         82 maxim
+ 0         23 hav
+ 0        103 unit
+ 0         28 indirect
+ 0         29 issu
+ 0         30 level
+ 0         31 lin
+ 0         36 oper
+ 0         35 mod
+ 0        101 threshold
+ 0         33 map
+ 0         32 list
+ 0         21 ground
+ 0         19 gener
+ 0         38 perform
+ 0          6 boolean
+ 0          8 cas
+ 0          7 build
+ 0          5 ar
+ 0        104 vehicl
+ 0          4 appropri
+ 0          3 alway
+ 0          9 cdh
+ 0         79 instrum
+ 0         11 compound
+ 0         12 criter
+ 0         17 fil
+ 0         16 evalu
+ 0        105 volt
+ 0         14 differ
+ 0         78 incorrecttrac
+ 0        100 therm
+ 0         99 telemeter
+ 0         75 genport
+ 0         63 tru
+ 0         65 valis
+ 0         64 tw
+ 0         87 number
+ 0         58 term
+ 0         88 part
+ 0         89 pattern
+ 0         66 valu
+ 0         86 non-realtim
+ 0         84 mis
+ 0         69 comples
+ 0         74 found
+ 0         73 emerg
+ 0         72 electr
+ 0         71 default
+ 0         70 control
+ 0         90 perfm
+ 0         57 tbr
+ 0         40 plac
+ 0         44 request
+ 0         46 requirement
+ 0         98 switch
+ 0         43 refer
+ 0         91 performac
+ 0         42 receiv
+ 0         80 launch
+
+Selected attributes: 55,10,67,18,22,53,49,45,62,34,13,54,48,60,37,15,61,68,27,39,85,2,51,108,110,77,83,106,59,56,111,109,107,20,41,76,25,102,26,24,82,23,103,28,29,30,31,36,35,101,33,32,21,19,38,6,8,7,5,104,4,3,9,79,11,12,17,16,105,14,78,100,99,75,63,65,64,87,58,88,89,66,86,84,69,74,73,72,71,70,90,57,40,44,46,98,43,91,42,80 : 100
+
+
