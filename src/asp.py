@@ -46,8 +46,8 @@ def preprocess(train_data, test_data):
 	cores = multiprocessing.cpu_count()
 
 	# instantiate Doc2Vec object
-	model_DM = gensim.models.doc2vec.Doc2Vec(vector_size=50, min_count=2, epochs=40, workers=cores,  dm=1, dm_concat=1 )
-	model_DBOW = gensim.models.doc2vec.Doc2Vec(vector_size=50, min_count=2, epochs=40, workers=cores, dm=0)
+	model_DM = gensim.models.doc2vec.Doc2Vec(vector_size=50, min_count=2, epochs=400, workers=cores,  dm=1, dm_concat=1 )
+	model_DBOW = gensim.models.doc2vec.Doc2Vec(vector_size=50, min_count=2, epochs=400, workers=cores, dm=0)
 
 	# build a vocabulary
 	model_DM.build_vocab(train_corpus)
@@ -74,7 +74,49 @@ def _read_corpus(data, tokens_only=False):
 		else:
 			# For training data, add tags
 			yield gensim.models.doc2vec.TaggedDocument(gensim.utils.simple_preprocess(line[0]), [i])
+
 			
+class ASP():
+	def __init__(self, X_train, Y_train, X_test, Y_test):
+		self.X_train, self.Y_train = X_train, Y_train
+		self.X_test, self.Y_test = X_test, Y_test
+		self.classifier = MLPClassifier(alpha = 0.7, max_iter=10000)
+		
+	def fit(self):
+		self.classifier.fit(self.X_train, self.Y_train)
 
+		df_results = pd.DataFrame(data=np.zeros(shape=(0,3)), columns = ['classifier', 'train_score', 'test_score'] )
+		train_score = self.classifier.score(X_train, Y_train)
+		test_score = self.classifier.score(X_test, Y_test)
+		 
+		#print  (classifier.predict_proba(X_test))
+		#print  (classifier.predict(X_test))
+		 
+		df_results.loc[1,'classifier'] = "MLP"
+		df_results.loc[1,'train_score'] = train_score
+		df_results.loc[1,'test_score'] = test_score
+		print(df_results)
 
+# testing code -----------------------------------------------------------------
+# dataset file locations
+pits_train = ['../dataset/raw/pitsE.csv',
+              '../dataset/raw/pitsA.csv',
+              '../dataset/raw/pitsB.csv',
+              '../dataset/raw/pitsC.csv',
+              '../dataset/raw/pitsD.csv',]
 
+pits_test = '../dataset/raw/pitsF.csv'
+
+# load data
+train_data = load_data(pits_train)
+test_data = load_data(pits_test)
+print('loaded data')
+
+# create training and testing sets
+X_train, Y_train, X_test, Y_test = preprocess(train_data, test_data)
+print('preprocessed')
+
+# classify
+classifier = ASP(X_train, Y_train, X_test, Y_test)
+classifier.fit()
+print('trained classifier')
