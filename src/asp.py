@@ -13,6 +13,7 @@ from sklearn.neural_network import MLPClassifier
 
 # Evaluation
 from sklearn.metrics import confusion_matrix
+from sklearn.metrics import precision_recall_fscore_support
 
 def load_data(datasets):
 	'''Reads in and formats data from the list of datasets given.
@@ -59,21 +60,22 @@ def _load_data(dataset):
 	data = np.insert(data, 2, project_id_column, axis=1)
 
 	# filter dataset percent
-	size = len(data)
-	train_size = int(size * dataset.percent)
-	if dataset.train:
-		# delete row not needed from last row
-		data = np.delete(data, slice(train_size, size), axis=0)
+	if dataset.percent != 1:
+		size = len(data)
+		train_size = int(size * dataset.percent)
+		if dataset.train:
+			# delete row not needed from last row
+			data = np.delete(data, slice(train_size, size), axis=0)
 
-		#print('Range to delete: ', train_size, '-', size)
-	else:
-		# delete rows not needed from first row
-		data = np.delete(data, slice(0, train_size), axis=0)
+			#print('Range to delete: ', train_size, '-', size)
+		else:
+			# delete rows not needed from first row
+			data = np.delete(data, slice(0, train_size), axis=0)
 
-		#print('Range to delete: ', 0, '-', train_size)
+			#print('Range to delete: ', 0, '-', train_size)
 
-	#print('Size of Dataset: ', size)
-	#print('Size of remaining', len(data))
+		#print('Size of Dataset: ', size)
+		#print('Size of remaining', len(data))
 
 	return data
 
@@ -138,24 +140,29 @@ class ASP():
 	def fit(self):
 		self.classifier.fit(self.X_train, self.Y_train)
 
-		df_results = pd.DataFrame(data=np.zeros(shape=(0,3)), columns = ['classifier', 'train_score', 'test_score'] )
-		train_score = self.classifier.score(self.X_train, self.Y_train)
-		test_score = self.classifier.score(self.X_test, self.Y_test)
+		#df_results = pd.DataFrame(data=np.zeros(shape=(0,3)), columns = ['classifier', 'train_score', 'test_score'] )
+		#train_score = self.classifier.score(self.X_train, self.Y_train)
+		#test_score = self.classifier.score(self.X_test, self.Y_test)
 		 
 		#print  (classifier.predict_proba(X_test))
 		#print  (classifier.predict(X_test))
 		 
-		df_results.loc[1,'classifier'] = "MLP"
-		df_results.loc[1,'train_score'] = train_score
-		df_results.loc[1,'test_score'] = test_score
-		print(df_results)
+		#df_results.loc[1,'classifier'] = "MLP"
+		#df_results.loc[1,'train_score'] = train_score
+		#df_results.loc[1,'test_score'] = test_score
+		#print(df_results)
 		
 
 	def predict(self):
 		prediction = self.classifier.predict(self.X_test)
-		matrix = confusion_matrix(self.Y_test, prediction, labels=[1, 2, 3, 4])
 
-		print(matrix)
+		#matrix = confusion_matrix(self.Y_test, prediction, labels=[1, 2, 3, 4])
+		#print(matrix)
+
+		prf = precision_recall_fscore_support(y_true=self.Y_test, y_pred=prediction, average='weighted')
+		print('Precision | Recall | F-Score')
+		print(prf)
+
 
 class Dataset():
 	def __init__(self, path, project_id, percent=1, train=True):
@@ -173,43 +180,80 @@ class Experiment():
 		# load data
 		train_data = load_data(self.train)
 		test_data = load_data(self.test)
-		print('loaded data')
+		#print('loaded data')
 
 		# create training and testing sets
 		X_train, Y_train, X_test, Y_test = preprocess(train_data, test_data)
-		print('preprocessed')
+		#print('preprocessed')
 
 		# classify
 		classifier = ASP(X_train, Y_train, X_test, Y_test)
 		classifier.fit()
-		print('trained classifier')
+		#print('trained classifier')
 
 		classifier.predict()
-		print('prediction complete')		
+		#print('prediction complete')		
 
-def split_percent(data, percent):
-	size = len(data)
-	train_size = size * percent
-	test_size = size - train_size
+# SCRIPT START -----------------------------------------------------------------
 
-	train_data = [data[i] for i in range(train_size)]
-	test_data = [data[i] for i in range(train_size, size)]
+# dataset variables
+a = '../dataset/raw/pitsA.csv'
+b = '../dataset/raw/pitsB.csv'
+c = '../dataset/raw/pitsC.csv'
+d = '../dataset/raw/pitsD.csv'
+e = '../dataset/raw/pitsE.csv'
+f = '../dataset/raw/pitsE.csv'
 
-	return train_data, test_data
+# ------------------------------------------------------------------------------
+# pitsF experiments
+# ------------------------------------------------------------------------------
+#percent of test data that will be in training data
+import time
+print(time.ctime(time.time()))
+start = time.time()
 
+percent_range = [1, 0.20, 0.50, 0.80, 0.95]
+experiment_count = 1
+for per in percent_range:
+	train_datasets = [
+		[a, b, c, d, e],
+		[a, b, c, d],
+		[a, b, c],
+		[a, b],
+		[a],
+		[b, c, d, e],
+		[b, c, d],
+		[b, c],
+		[b],
+		[c, d, e],
+		[c, d],
+		[c],
+		[d, e],
+		[d],
+		[e]
+	]
 
+	for datasets in train_datasets:
+		# set up training data and test data for experiment
+		project_id = 1
+		pits_train = []
+		for dataset in datasets:
+			pits_train.append(Dataset(dataset, project_id, percent=1, train=True))
+			project_id += 1
+		if per != 1:
+			pits_train.append(Dataset(f, project_id, percent=per, train=True))
+		pits_test = [Dataset(f, project_id, percent=per, train=False)]
 
-# testing code -----------------------------------------------------------------
-# list of dataset objects
-'''pits_train = [Dataset('../dataset/raw/pitsA.csv', 1),
-              Dataset('../dataset/raw/pitsB.csv', 2),
-              Dataset('../dataset/raw/pitsC.csv', 3),
-              Dataset('../dataset/raw/pitsD.csv', 4),
-              Dataset('../dataset/raw/pitsE.csv', 5)]'''
+		# run experiment
+		print('-----EXPERIMENT ', experiment_count, ' START-----')
+		print('Percent: ', per)
+		print('Training Data: ', datasets)
+		experiment = Experiment(pits_train, pits_test)
+		experiment.run()
+		print('-----EXPERIMENT ', experiment_count, ' END-------')
+		experiment_count +=1
+		print('')
 
-pits_train = [Dataset('../dataset/raw/pitsF.csv', 6, percent=1, train=True)]
-
-pits_test = [Dataset('../dataset/raw/pitsF.csv', 6, percent=0.9, train=False)]
-
-experiment = Experiment(pits_train, pits_test)
-experiment.run()
+print(time.ctime(time.time()))
+print('TOTAL RUNTIME: ', time.time()-start, 's')
+print('')
