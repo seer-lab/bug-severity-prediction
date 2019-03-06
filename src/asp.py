@@ -58,11 +58,24 @@ def _load_data(dataset):
 	project_id_column = [dataset.project_id for i in range(dataset_size)]
 	data = np.insert(data, 2, project_id_column, axis=1)
 
-	return data
+	# filter dataset percent
+	size = len(data)
+	train_size = int(size * dataset.percent)
+	if dataset.train:
+		# delete row not needed from last row
+		data = np.delete(data, slice(train_size, size), axis=0)
 
-#def __data(data, percent):
-	'''Split 
-	'''
+		#print('Range to delete: ', train_size, '-', size)
+	else:
+		# delete rows not needed from first row
+		data = np.delete(data, slice(0, train_size), axis=0)
+
+		#print('Range to delete: ', 0, '-', train_size)
+
+	#print('Size of Dataset: ', size)
+	#print('Size of remaining', len(data))
+
+	return data
 
 
 def preprocess(train_data, test_data):
@@ -126,8 +139,8 @@ class ASP():
 		self.classifier.fit(self.X_train, self.Y_train)
 
 		df_results = pd.DataFrame(data=np.zeros(shape=(0,3)), columns = ['classifier', 'train_score', 'test_score'] )
-		train_score = self.classifier.score(X_train, Y_train)
-		test_score = self.classifier.score(X_test, Y_test)
+		train_score = self.classifier.score(self.X_train, self.Y_train)
+		test_score = self.classifier.score(self.X_test, self.Y_test)
 		 
 		#print  (classifier.predict_proba(X_test))
 		#print  (classifier.predict(X_test))
@@ -140,38 +153,63 @@ class ASP():
 
 	def predict(self):
 		prediction = self.classifier.predict(self.X_test)
-		matrix = confusion_matrix(Y_test, prediction, labels=[1, 2, 3, 4])
+		matrix = confusion_matrix(self.Y_test, prediction, labels=[1, 2, 3, 4])
 
 		print(matrix)
 
 class Dataset():
-	def __init__(self, path, project_id):
+	def __init__(self, path, project_id, percent=1, train=True):
 		self.path = path
 		self.project_id = project_id
+		self.percent = percent
+		self.train = train
+
+class Experiment():
+	def __init__(self, train, test):
+		self.train = train
+		self.test = test
+
+	def run(self):
+		# load data
+		train_data = load_data(self.train)
+		test_data = load_data(self.test)
+		print('loaded data')
+
+		# create training and testing sets
+		X_train, Y_train, X_test, Y_test = preprocess(train_data, test_data)
+		print('preprocessed')
+
+		# classify
+		classifier = ASP(X_train, Y_train, X_test, Y_test)
+		classifier.fit()
+		print('trained classifier')
+
+		classifier.predict()
+		print('prediction complete')		
+
+def split_percent(data, percent):
+	size = len(data)
+	train_size = size * percent
+	test_size = size - train_size
+
+	train_data = [data[i] for i in range(train_size)]
+	test_data = [data[i] for i in range(train_size, size)]
+
+	return train_data, test_data
+
+
 
 # testing code -----------------------------------------------------------------
 # list of dataset objects
-pits_train = [Dataset('../dataset/raw/pitsA.csv', 1),
+'''pits_train = [Dataset('../dataset/raw/pitsA.csv', 1),
               Dataset('../dataset/raw/pitsB.csv', 2),
               Dataset('../dataset/raw/pitsC.csv', 3),
               Dataset('../dataset/raw/pitsD.csv', 4),
-              Dataset('../dataset/raw/pitsE.csv', 5)]
+              Dataset('../dataset/raw/pitsE.csv', 5)]'''
 
-pits_test = [Dataset('../dataset/raw/pitsF.csv', 6)]
+pits_train = [Dataset('../dataset/raw/pitsF.csv', 6, percent=1, train=True)]
 
-# load data
-train_data = load_data(pits_train)
-test_data = load_data(pits_test)
-print('loaded data')
+pits_test = [Dataset('../dataset/raw/pitsF.csv', 6, percent=0.9, train=False)]
 
-# create training and testing sets
-X_train, Y_train, X_test, Y_test = preprocess(train_data, test_data)
-print('preprocessed')
-
-# classify
-classifier = ASP(X_train, Y_train, X_test, Y_test)
-classifier.fit()
-print('trained classifier')
-
-classifier.predict()
-print('prediction complete')
+experiment = Experiment(pits_train, pits_test)
+experiment.run()
