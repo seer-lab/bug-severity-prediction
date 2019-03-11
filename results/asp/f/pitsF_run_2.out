@@ -1,0 +1,2699 @@
+Mon Mar 11 16:16:09 2019
+-----EXPERIMENT  1  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsA.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5028769295018777, 0.28763440860215056, 0.3522917479257858, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.00355872, 0.63888889, 0.33185841, 0.        ]),
+ array([0.11111111, 0.28930818, 0.35885167, 0.        ]),
+ array([0.00689655, 0.3982684 , 0.34482759, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  1  END-------
+
+-----EXPERIMENT  2  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsB.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5776644058429186, 0.5967741935483871, 0.5859354770417465, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.70291262, 0.42541436, 0.11627907]),
+ array([0.        , 0.75890985, 0.36842105, 0.10416667]),
+ array([0.        , 0.72983871, 0.39487179, 0.10989011]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  2  END-------
+
+-----EXPERIMENT  3  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsC.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5663365638937023, 0.4838709677419355, 0.49120143340565786, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.7442623 , 0.31742243, 0.        ]),
+ array([0.        , 0.47589099, 0.63636364, 0.        ]),
+ array([0.        , 0.58056266, 0.42356688, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  3  END-------
+
+-----EXPERIMENT  4  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsD.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4984651817716333, 0.5981182795698925, 0.4892592447781452, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.63142857, 0.33333333, 0.        ]),
+ array([0.        , 0.92662474, 0.01435407, 0.        ]),
+ array([0.        , 0.75106202, 0.02752294, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  4  END-------
+
+-----EXPERIMENT  5  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsE.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5453004647032115, 0.5577956989247311, 0.5415218577631519, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.67920792, 0.2991453 , 0.4       ]),
+ array([0.        , 0.71907757, 0.33492823, 0.04166667]),
+ array([0.        , 0.69857434, 0.31602709, 0.0754717 ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  5  END-------
+
+-----EXPERIMENT  6  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5645426470932736, 0.5577956989247311, 0.5521117735558391, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.5       , 0.6979405 , 0.36241611, 0.14285714]),
+ array([0.11111111, 0.639413  , 0.51674641, 0.02083333]),
+ array([0.18181818, 0.66739606, 0.4260355 , 0.03636364]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  6  END-------
+
+-----EXPERIMENT  7  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.48372654438119334, 0.4932795698924731, 0.48666253101736984, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.63180828, 0.28      , 0.        ]),
+ array([0.        , 0.60796646, 0.36842105, 0.        ]),
+ array([0.        , 0.61965812, 0.31818182, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  7  END-------
+
+-----EXPERIMENT  8  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5383042961399791, 0.521505376344086, 0.4581440244913777, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.03389831, 0.61990212, 0.5       , 0.        ]),
+ array([0.44444444, 0.7966457 , 0.01913876, 0.        ]),
+ array([0.06299213, 0.69724771, 0.03686636, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  8  END-------
+
+-----EXPERIMENT  9  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.47051698475064385, 0.5120967741935484, 0.4845247320337983, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.       , 0.6179159, 0.21875  , 0.2      ]),
+ array([0.        , 0.70859539, 0.20095694, 0.02083333]),
+ array([0.        , 0.66015625, 0.20947631, 0.03773585]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  9  END-------
+
+-----EXPERIMENT  10  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5365162731167245, 0.5564516129032258, 0.5462272349688805, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.67203219, 0.36915888, 0.03030303]),
+ array([0.        , 0.70020964, 0.37799043, 0.02083333]),
+ array([0.        , 0.68583162, 0.37352246, 0.02469136]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  10  END-------
+
+-----EXPERIMENT  11  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5459694697862558, 0.6397849462365591, 0.5050985692397032, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.64140731, 0.25      , 1.        ]),
+ array([0.        , 0.99371069, 0.00478469, 0.02083333]),
+ array([0.        , 0.77960526, 0.00938967, 0.04081633]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  11  END-------
+
+-----EXPERIMENT  12  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5670956385193636, 0.5913978494623656, 0.5676783461269885, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.67837338, 0.3556701 , 0.5       ]),
+ array([0.        , 0.76939203, 0.33014354, 0.08333333]),
+ array([0.        , 0.72102161, 0.34243176, 0.14285714]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  12  END-------
+
+-----EXPERIMENT  13  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.581759093097562, 0.6424731182795699, 0.5095833256763743, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.64450475, 0.6       , 0.        ]),
+ array([0.        , 0.99580713, 0.01435407, 0.        ]),
+ array([0.        , 0.78253707, 0.02803738, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  13  END-------
+
+-----EXPERIMENT  14  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5462563955238173, 0.5645161290322581, 0.5497447190995579, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.67557252, 0.28787879, 0.5       ]),
+ array([0.        , 0.74213836, 0.27272727, 0.1875    ]),
+ array([0.        , 0.70729271, 0.28009828, 0.27272727]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  14  END-------
+
+-----EXPERIMENT  15  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5604566259808196, 0.635752688172043, 0.5898396864244864, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.69256757, 0.41447368, 0.        ]),
+ array([0.        , 0.85953878, 0.30143541, 0.        ]),
+ array([0.        , 0.76707203, 0.34903047, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  15  END-------
+
+-----EXPERIMENT  16  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5515313384158836, 0.614247311827957, 0.5797919293052198, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.69244604, 0.38297872, 0.        ]),
+ array([0.        , 0.80712788, 0.34449761, 0.        ]),
+ array([0.        , 0.74540174, 0.3627204 , 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  16  END-------
+
+-----EXPERIMENT  17  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5274143722776733, 0.6263440860215054, 0.5463285469162439, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.65321375, 0.38666667, 0.        ]),
+ array([0.        , 0.91614256, 0.13875598, 0.        ]),
+ array([0.        , 0.76265271, 0.20422535, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  17  END-------
+
+-----EXPERIMENT  18  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5841599859377439, 0.6061827956989247, 0.5829658132103932, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([1.        , 0.68876611, 0.38095238, 0.36363636]),
+ array([0.11111111, 0.78406709, 0.34449761, 0.08333333]),
+ array([0.2       , 0.73333333, 0.36180905, 0.13559322]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  18  END-------
+
+-----EXPERIMENT  19  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5384378284420729, 0.6276881720430108, 0.5383116612486456, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.65204678, 0.42857143, 0.        ]),
+ array([0.        , 0.93501048, 0.10047847, 0.        ]),
+ array([0.        , 0.76830319, 0.1627907 , 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  19  END-------
+
+-----EXPERIMENT  20  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4515597970245646, 0.4274193548387097, 0.43155781859431225, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.       , 0.5862069, 0.2006689, 0.3      ]),
+ array([0.        , 0.53459119, 0.28708134, 0.0625    ]),
+ array([0.        , 0.55921053, 0.23622047, 0.10344828]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  20  END-------
+
+-----EXPERIMENT  21  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5051793481894672, 0.5672043010752689, 0.5250997629904777, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.65247019, 0.24657534, 0.27272727]),
+ array([0.        , 0.80293501, 0.1722488 , 0.0625    ]),
+ array([0.        , 0.71992481, 0.2028169 , 0.10169492]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  21  END-------
+
+-----EXPERIMENT  22  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5991213559125274, 0.6424731182795699, 0.5064126107974618, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.64237517, 0.66666667, 0.        ]),
+ array([0.        , 0.99790356, 0.00956938, 0.        ]),
+ array([0.        , 0.7816092 , 0.01886792, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  22  END-------
+
+-----EXPERIMENT  23  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5550658894343151, 0.5846774193548387, 0.5676469746557624, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.6875    , 0.35326087, 0.23333333]),
+ array([0.        , 0.76100629, 0.31100478, 0.14583333]),
+ array([0.        , 0.72238806, 0.3307888 , 0.17948718]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  23  END-------
+
+-----EXPERIMENT  24  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5762017682982916, 0.6169354838709677, 0.5853908353483904, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.69014085, 0.3803681 , 0.41666667]),
+ array([0.        , 0.82180294, 0.29665072, 0.10416667]),
+ array([0.        , 0.75023923, 0.33333333, 0.16666667]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  24  END-------
+
+-----EXPERIMENT  25  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5351451231647544, 0.5994623655913979, 0.5535709141518746, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.67221298, 0.28333333, 0.38095238]),
+ array([0.        , 0.84696017, 0.16267943, 0.16666667]),
+ array([0.        , 0.74953618, 0.20668693, 0.23188406]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  25  END-------
+
+-----EXPERIMENT  26  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5358252753539132, 0.6276881720430108, 0.553103833065091, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.65407855, 0.41463415, 0.        ]),
+ array([0.        , 0.90775681, 0.16267943, 0.        ]),
+ array([0.        , 0.76031607, 0.23367698, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  26  END-------
+
+-----EXPERIMENT  27  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.47297508534603944, 0.5483870967741935, 0.5042012144687205, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.62818336, 0.25      , 0.        ]),
+ array([0.        , 0.77568134, 0.18181818, 0.        ]),
+ array([0.        , 0.69418386, 0.21052632, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  27  END-------
+
+-----EXPERIMENT  28  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5416165266560506, 0.6048387096774194, 0.5601802810975123, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.67001675, 0.35294118, 0.2       ]),
+ array([0.        , 0.83857442, 0.22966507, 0.04166667]),
+ array([0.        , 0.74487896, 0.27826087, 0.06896552]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  28  END-------
+
+-----EXPERIMENT  29  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.496803103448825, 0.5309139784946236, 0.507667763578777, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.64391144, 0.22826087, 0.30769231]),
+ array([0.        , 0.73165618, 0.20095694, 0.08333333]),
+ array([0.        , 0.68498528, 0.21374046, 0.13114754]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  29  END-------
+
+-----EXPERIMENT  30  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.554644332019858, 0.5577956989247311, 0.5527043321166666, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.68322981, 0.31666667, 0.42857143]),
+ array([0.        , 0.6918239 , 0.36363636, 0.1875    ]),
+ array([0.        , 0.6875    , 0.33853007, 0.26086957]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  30  END-------
+
+-----EXPERIMENT  31  START-----
+Percent of test data included in training:  0
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5219519186668706, 0.6129032258064516, 0.5504005952559903, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.65876777, 0.35454545, 0.        ]),
+ array([0.        , 0.87421384, 0.18660287, 0.        ]),
+ array([0.        , 0.75135135, 0.24451411, 0.        ]),
+ array([  9, 477, 209,  48]))
+-----EXPERIMENT  31  END-------
+
+-----EXPERIMENT  32  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsA.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.45617681656636133, 0.5419463087248322, 0.46564117897269697, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.57738095, 0.38554217, 0.        ]),
+ array([0.        , 0.87125749, 0.15609756, 0.        ]),
+ array([0.        , 0.69451074, 0.22222222, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  32  END-------
+
+-----EXPERIMENT  33  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsB.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4754788295760187, 0.5184563758389261, 0.47941659404743736, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.57589286, 0.39823009, 0.2       ]),
+ array([0.        , 0.77245509, 0.2195122 , 0.12765957]),
+ array([0.        , 0.65984655, 0.28301887, 0.15584416]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  33  END-------
+
+-----EXPERIMENT  34  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsC.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4823166878476927, 0.5604026845637584, 0.437414753965448, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.56514085, 0.48148148, 0.        ]),
+ array([0.        , 0.96107784, 0.06341463, 0.        ]),
+ array([0.        , 0.71175166, 0.11206897, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  34  END-------
+
+-----EXPERIMENT  35  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsD.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.38621937414085866, 0.5486577181208053, 0.4062988981110691, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.55765921, 0.21428571, 0.        ]),
+ array([0.        , 0.97005988, 0.01463415, 0.        ]),
+ array([0.        , 0.70819672, 0.02739726, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  35  END-------
+
+-----EXPERIMENT  36  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsE.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4239207297078801, 0.5335570469798657, 0.435014570238983, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.56792453, 0.21276596, 0.41176471]),
+ array([0.        , 0.9011976 , 0.04878049, 0.14893617]),
+ array([0.        , 0.69675926, 0.07936508, 0.21875   ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  36  END-------
+
+-----EXPERIMENT  37  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4989130491306785, 0.5604026845637584, 0.5032837891887962, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.59205021, 0.46296296, 0.1       ]),
+ array([0.        , 0.84730539, 0.24390244, 0.0212766 ]),
+ array([0.        , 0.69704433, 0.31948882, 0.03508772]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  37  END-------
+
+-----EXPERIMENT  38  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.43059453596366354, 0.5201342281879194, 0.45008948510353447, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.55757576, 0.34343434, 0.        ]),
+ array([0.        , 0.82634731, 0.16585366, 0.        ]),
+ array([0.        , 0.66586248, 0.22368421, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  38  END-------
+
+-----EXPERIMENT  39  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4317879792249049, 0.5536912751677853, 0.4236991518328866, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.5659051 , 0.33333333, 0.        ]),
+ array([0.        , 0.96407186, 0.03902439, 0.        ]),
+ array([0.        , 0.71317829, 0.069869  , 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  39  END-------
+
+-----EXPERIMENT  40  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4959233157146596, 0.5436241610738255, 0.4775670109293072, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.57228916, 0.38202247, 0.55555556]),
+ array([0.        , 0.85329341, 0.16585366, 0.10638298]),
+ array([0.        , 0.68509615, 0.23129252, 0.17857143]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  40  END-------
+
+-----EXPERIMENT  41  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.45814320964206445, 0.5335570469798657, 0.46326727595476264, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.57028112, 0.38372093, 0.08333333]),
+ array([0.        , 0.8502994 , 0.16097561, 0.0212766 ]),
+ array([0.        , 0.68269231, 0.22680412, 0.03389831]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  41  END-------
+
+-----EXPERIMENT  42  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5049877140866248, 0.5687919463087249, 0.46587457341126565, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.57377049, 0.53333333, 0.        ]),
+ array([0.        , 0.94311377, 0.11707317, 0.        ]),
+ array([0.        , 0.71347678, 0.192     , 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  42  END-------
+
+-----EXPERIMENT  43  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.43888107002003574, 0.5134228187919463, 0.44436210165758705, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.55959596, 0.28235294, 0.35714286]),
+ array([0.        , 0.82934132, 0.11707317, 0.10638298]),
+ array([0.        , 0.66827503, 0.16551724, 0.16393443]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  43  END-------
+
+-----EXPERIMENT  44  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5188261067893444, 0.5654362416107382, 0.4324149160002641, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.56476684, 0.58823529, 0.        ]),
+ array([0.        , 0.97904192, 0.04878049, 0.        ]),
+ array([0.        , 0.71631982, 0.09009009, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  44  END-------
+
+-----EXPERIMENT  45  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.44345848634502555, 0.5486577181208053, 0.44854129526636033, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.57924528, 0.25      , 0.41666667]),
+ array([0.        , 0.91916168, 0.04878049, 0.21276596]),
+ array([0.        , 0.71064815, 0.08163265, 0.28169014]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  45  END-------
+
+-----EXPERIMENT  46  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4801902808049082, 0.5385906040268457, 0.479996509349638, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.58577406, 0.34615385, 0.41666667]),
+ array([0.        , 0.83832335, 0.17560976, 0.10638298]),
+ array([0.        , 0.68965517, 0.23300971, 0.16949153]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  46  END-------
+
+-----EXPERIMENT  47  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4609176980904307, 0.5436241610738255, 0.477955774161011, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.57581967, 0.40186916, 0.        ]),
+ array([0.        , 0.84131737, 0.2097561 , 0.        ]),
+ array([0.        , 0.6836983 , 0.27564103, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  47  END-------
+
+-----EXPERIMENT  48  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.40632224503381054, 0.5369127516778524, 0.4176257472034027, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.55456172, 0.27777778, 0.        ]),
+ array([0.        , 0.92814371, 0.04878049, 0.        ]),
+ array([0.        , 0.69428891, 0.08298755, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  48  END-------
+
+-----EXPERIMENT  49  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.46774587209984647, 0.5369127516778524, 0.48137703739213816, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.59871245, 0.36448598, 0.08695652]),
+ array([0.        , 0.83532934, 0.1902439 , 0.04255319]),
+ array([0.        , 0.6975    , 0.25      , 0.05714286]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  49  END-------
+
+-----EXPERIMENT  50  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.43940161396157346, 0.5553691275167785, 0.4124157549922189, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.56089194, 0.36363636, 0.        ]),
+ array([0.        , 0.97904192, 0.0195122 , 0.        ]),
+ array([0.        , 0.7131952 , 0.03703704, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  50  END-------
+
+-----EXPERIMENT  51  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.49868190337989, 0.5604026845637584, 0.47773900674741965, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.58108108, 0.42666667, 0.33333333]),
+ array([0.        , 0.9011976 , 0.15609756, 0.0212766 ]),
+ array([0.        , 0.70657277, 0.22857143, 0.04      ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  51  END-------
+
+-----EXPERIMENT  52  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4650511116363531, 0.5453020134228188, 0.4615258586656139, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.57751938, 0.35820896, 0.23076923]),
+ array([0.        , 0.89221557, 0.11707317, 0.06382979]),
+ array([0.        , 0.70117647, 0.17647059, 0.1       ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  52  END-------
+
+-----EXPERIMENT  53  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5163494836198707, 0.5637583892617449, 0.4238739204035996, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.56335616, 0.58333333, 0.        ]),
+ array([0.        , 0.98502994, 0.03414634, 0.        ]),
+ array([0.        , 0.7167756 , 0.06451613, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  53  END-------
+
+-----EXPERIMENT  54  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.48041345313293093, 0.5285234899328859, 0.48733837216992015, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.58705357, 0.36607143, 0.32352941]),
+ array([0.        , 0.78742515, 0.2       , 0.23404255]),
+ array([0.        , 0.67263427, 0.25867508, 0.27160494]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  54  END-------
+
+-----EXPERIMENT  55  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.417065017176874, 0.5134228187919463, 0.43417851723220857, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.56886228, 0.19753086, 0.38461538]),
+ array([0.        , 0.85329341, 0.07804878, 0.10638298]),
+ array([0.        , 0.68263473, 0.11188811, 0.16666667]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  55  END-------
+
+-----EXPERIMENT  56  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4867067658195973, 0.5570469798657718, 0.471111369446284, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.58349328, 0.33333333, 0.57142857]),
+ array([0.        , 0.91017964, 0.09756098, 0.17021277]),
+ array([0.        , 0.71111111, 0.1509434 , 0.26229508]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  56  END-------
+
+-----EXPERIMENT  57  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.47865265793118145, 0.5587248322147651, 0.44469378007034066, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.56428571, 0.47222222, 0.        ]),
+ array([0.        , 0.94610778, 0.08292683, 0.        ]),
+ array([0.        , 0.70693512, 0.14107884, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  57  END-------
+
+-----EXPERIMENT  58  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.49163025252972553, 0.5503355704697986, 0.4610167556955668, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.57224335, 0.38235294, 0.5       ]),
+ array([0.        , 0.9011976 , 0.12682927, 0.0212766 ]),
+ array([0.        , 0.7       , 0.19047619, 0.04081633]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  58  END-------
+
+-----EXPERIMENT  59  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4622781355384675, 0.5469798657718121, 0.4668258265491777, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.57309942, 0.41025641, 0.        ]),
+ array([0.        , 0.88023952, 0.15609756, 0.        ]),
+ array([0.        , 0.69421488, 0.22614841, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  59  END-------
+
+-----EXPERIMENT  60  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.43646942280784207, 0.5083892617449665, 0.4393298870248545, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.55130785, 0.28735632, 0.36363636]),
+ array([0.        , 0.82035928, 0.12195122, 0.08510638]),
+ array([0.        , 0.65944645, 0.17123288, 0.13793103]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  60  END-------
+
+-----EXPERIMENT  61  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4589055586314307, 0.5251677852348994, 0.4555563921929548, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.56539235, 0.31111111, 0.44444444]),
+ array([0.        , 0.84131737, 0.13658537, 0.08510638]),
+ array([0.        , 0.67629362, 0.18983051, 0.14285714]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  61  END-------
+
+-----EXPERIMENT  62  START-----
+Percent of test data included in training:  0.2
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.42348090065154553, 0.5436241610738255, 0.433448844428877, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.56386861, 0.3125    , 0.        ]),
+ array([0.        , 0.9251497 , 0.07317073, 0.        ]),
+ array([0.        , 0.70068027, 0.11857708, 0.        ]),
+ array([  9, 334, 205,  47]))
+-----EXPERIMENT  62  END-------
+
+-----EXPERIMENT  63  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsA.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.45790607963156127, 0.49193548387096775, 0.4273729833173361, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.52013423, 0.5       , 0.09090909]),
+ array([0.        , 0.8423913 , 0.18309859, 0.05      ]),
+ array([0.        , 0.64315353, 0.26804124, 0.06451613]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  63  END-------
+
+-----EXPERIMENT  64  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsB.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.47119080422325227, 0.5080645161290323, 0.4415421597398326, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.56013746, 0.48979592, 0.06666667]),
+ array([0.        , 0.88586957, 0.16901408, 0.05      ]),
+ array([0.        , 0.68631579, 0.2513089 , 0.05714286]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  64  END-------
+
+-----EXPERIMENT  65  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsC.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4917935341921289, 0.5134408602150538, 0.4495750506239818, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.52145215, 0.5       , 0.4       ]),
+ array([0.        , 0.85869565, 0.19014085, 0.15      ]),
+ array([0.        , 0.64887064, 0.2755102 , 0.21818182]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  65  END-------
+
+-----EXPERIMENT  66  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsD.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5321656661439953, 0.510752688172043, 0.4076425763837101, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.50737463, 0.65217391, 0.3       ]),
+ array([0.        , 0.93478261, 0.1056338 , 0.075     ]),
+ array([0.        , 0.65774379, 0.18181818, 0.12      ]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  66  END-------
+
+-----EXPERIMENT  67  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsE.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4037961244697139, 0.4489247311827957, 0.35904602910752437, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.47368421, 0.20930233, 0.83333333]),
+ array([0.        , 0.83152174, 0.06338028, 0.125     ]),
+ array([0.       , 0.6035503, 0.0972973, 0.2173913]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  67  END-------
+
+-----EXPERIMENT  68  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.49551872172335276, 0.5268817204301075, 0.44967365249676433, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.5       , 0.5504886 , 0.52272727, 0.15789474]),
+ array([0.2       , 0.91847826, 0.16197183, 0.075     ]),
+ array([0.28571429, 0.68839104, 0.24731183, 0.10169492]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  68  END-------
+
+-----EXPERIMENT  69  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.440885308160862, 0.4946236559139785, 0.39105726152208437, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.5060241 , 0.40540541, 0.33333333]),
+ array([0.        , 0.91304348, 0.1056338 , 0.025     ]),
+ array([0.        , 0.65116279, 0.16759777, 0.04651163]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  69  END-------
+
+-----EXPERIMENT  70  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5046217579957983, 0.5268817204301075, 0.45482710083728767, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.52903226, 0.56603774, 0.25      ]),
+ array([0.        , 0.89130435, 0.21126761, 0.05      ]),
+ array([0.        , 0.66396761, 0.30769231, 0.08333333]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  70  END-------
+
+-----EXPERIMENT  71  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.47388208033263496, 0.49731182795698925, 0.4543028974236589, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.51459854, 0.4494382 , 0.44444444]),
+ array([0.        , 0.76630435, 0.28169014, 0.1       ]),
+ array([0.        , 0.61572052, 0.34632035, 0.16326531]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  71  END-------
+
+-----EXPERIMENT  72  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.49680278045257587, 0.5080645161290323, 0.4081779059917904, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.50746269, 0.53125   , 0.4       ]),
+ array([0.        , 0.92391304, 0.11971831, 0.05      ]),
+ array([0.        , 0.65510597, 0.1954023 , 0.08888889]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  72  END-------
+
+-----EXPERIMENT  73  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.446437220630769, 0.5026881720430108, 0.38551349993061573, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.52852853, 0.44444444, 0.14285714]),
+ array([0.        , 0.95652174, 0.05633803, 0.075     ]),
+ array([0.        , 0.68085106, 0.1       , 0.09836066]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  73  END-------
+
+-----EXPERIMENT  74  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5080017196572278, 0.5268817204301075, 0.4450331339080689, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.53144654, 0.5952381 , 0.16666667]),
+ array([0.        , 0.91847826, 0.17605634, 0.05      ]),
+ array([0.        , 0.67330677, 0.27173913, 0.07692308]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  74  END-------
+
+-----EXPERIMENT  75  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4914136622390892, 0.5080645161290323, 0.39462392094475046, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.51470588, 0.55      , 0.25      ]),
+ array([0.        , 0.95108696, 0.07746479, 0.075     ]),
+ array([0.        , 0.66793893, 0.13580247, 0.11538462]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  75  END-------
+
+-----EXPERIMENT  76  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4025475599669148, 0.48118279569892475, 0.3717297121213574, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.5       , 0.32      , 0.30769231]),
+ array([0.        , 0.9076087 , 0.05633803, 0.1       ]),
+ array([0.        , 0.64478764, 0.09580838, 0.1509434 ]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  76  END-------
+
+-----EXPERIMENT  77  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.39917176980393515, 0.4650537634408602, 0.3811074137666148, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.50160772, 0.25490196, 0.5       ]),
+ array([0.        , 0.84782609, 0.0915493 , 0.1       ]),
+ array([0.        , 0.63030303, 0.13471503, 0.16666667]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  77  END-------
+
+-----EXPERIMENT  78  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4161092687502093, 0.5026881720430108, 0.4086796683700627, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.51713396, 0.42      , 0.        ]),
+ array([0.        , 0.90217391, 0.14788732, 0.        ]),
+ array([0.        , 0.65742574, 0.21875   , 0.        ]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  78  END-------
+
+-----EXPERIMENT  79  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5207992666369358, 0.521505376344086, 0.4200084678548225, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.51785714, 0.58064516, 0.4       ]),
+ array([0.        , 0.94565217, 0.12676056, 0.05      ]),
+ array([0.        , 0.66923077, 0.20809249, 0.08888889]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  79  END-------
+
+-----EXPERIMENT  80  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.455247341777281, 0.5026881720430108, 0.4161274504589071, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.53354633, 0.48717949, 0.05      ]),
+ array([0.        , 0.9076087 , 0.13380282, 0.025     ]),
+ array([0.        , 0.67203219, 0.20994475, 0.03333333]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  80  END-------
+
+-----EXPERIMENT  81  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.40873045992590584, 0.49731182795698925, 0.3633597078514912, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.50857143, 0.41176471, 0.        ]),
+ array([0.        , 0.9673913 , 0.04929577, 0.        ]),
+ array([0.        , 0.66666667, 0.08805031, 0.        ]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  81  END-------
+
+-----EXPERIMENT  82  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.3977604961196381, 0.47043010752688175, 0.38491774790029676, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.50803859, 0.34146341, 0.15      ]),
+ array([0.        , 0.85869565, 0.09859155, 0.075     ]),
+ array([0.        , 0.63838384, 0.15300546, 0.1       ]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  82  END-------
+
+-----EXPERIMENT  83  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.40089582639403193, 0.4489247311827957, 0.39370737670535555, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.48432056, 0.32876712, 0.33333333]),
+ array([0.        , 0.75543478, 0.16901408, 0.1       ]),
+ array([0.        , 0.59023355, 0.22325581, 0.15384615]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  83  END-------
+
+-----EXPERIMENT  84  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5713724867032465, 0.5241935483870968, 0.4060527511783954, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.51724138, 0.70588235, 0.42857143]),
+ array([0.        , 0.97826087, 0.08450704, 0.075     ]),
+ array([0.        , 0.67669173, 0.1509434 , 0.12765957]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  84  END-------
+
+-----EXPERIMENT  85  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5506743194865686, 0.5591397849462365, 0.4865540193550952, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.55806452, 0.69387755, 0.09090909]),
+ array([0.        , 0.94021739, 0.23943662, 0.025     ]),
+ array([0.        , 0.70040486, 0.35602094, 0.03921569]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  85  END-------
+
+-----EXPERIMENT  86  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4898873527905786, 0.5188172043010753, 0.4111135438459916, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.52380952, 0.42857143, 0.625     ]),
+ array([0.        , 0.95652174, 0.08450704, 0.125     ]),
+ array([0.        , 0.67692308, 0.14117647, 0.20833333]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  86  END-------
+
+-----EXPERIMENT  87  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4784932351648812, 0.5026881720430108, 0.40899479843614367, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.50759878, 0.47058824, 0.44444444]),
+ array([0.        , 0.9076087 , 0.11267606, 0.1       ]),
+ array([0.        , 0.65107212, 0.18181818, 0.16326531]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  87  END-------
+
+-----EXPERIMENT  88  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.37180406212664285, 0.489247311827957, 0.3435171722648003, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.49444444, 0.33333333, 0.        ]),
+ array([0.        , 0.9673913 , 0.02816901, 0.        ]),
+ array([0.        , 0.65441176, 0.05194805, 0.        ]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  88  END-------
+
+-----EXPERIMENT  89  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.44999367613970315, 0.5053763440860215, 0.4392786571620754, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.50662252, 0.52238806, 0.        ]),
+ array([0.        , 0.83152174, 0.24647887, 0.        ]),
+ array([0.        , 0.62962963, 0.33492823, 0.        ]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  89  END-------
+
+-----EXPERIMENT  90  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4849115504682622, 0.5403225806451613, 0.465141469935238, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.53225806, 0.58064516, 0.        ]),
+ array([0.        , 0.89673913, 0.25352113, 0.        ]),
+ array([0.        , 0.66801619, 0.35294118, 0.        ]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  90  END-------
+
+-----EXPERIMENT  91  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4118130713460124, 0.4838709677419355, 0.39835146786069864, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.       , 0.5276873, 0.35     , 0.16     ]),
+ array([0.        , 0.88043478, 0.09859155, 0.1       ]),
+ array([0.        , 0.6598778 , 0.15384615, 0.12307692]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  91  END-------
+
+-----EXPERIMENT  92  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5308064213151061, 0.5188172043010753, 0.41581186004088405, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.5147929 , 0.53571429, 0.66666667]),
+ array([0.        , 0.94565217, 0.1056338 , 0.1       ]),
+ array([0.        , 0.66666667, 0.17647059, 0.17391304]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  92  END-------
+
+-----EXPERIMENT  93  START-----
+Percent of test data included in training:  0.5
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.3865164257913503, 0.4731182795698925, 0.37089116613915096, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.48942598, 0.37837838, 0.        ]),
+ array([0.        , 0.88043478, 0.09859155, 0.        ]),
+ array([0.        , 0.62912621, 0.15642458, 0.        ]),
+ array([  5, 184, 142,  40]))
+-----EXPERIMENT  93  END-------
+
+-----EXPERIMENT  94  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsA.csv']
+Average
+Precision | Recall | F-Score
+(0.5055161436000162, 0.48322147651006714, 0.48347150104319114, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.50632911, 0.58      , 0.15789474]),
+ array([0.        , 0.625     , 0.4084507 , 0.27272727]),
+ array([0.        , 0.55944056, 0.47933884, 0.2       ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  94  END-------
+
+-----EXPERIMENT  95  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsB.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4593185338151781, 0.46308724832214765, 0.4552675462547048, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.475     , 0.5       , 0.23076923]),
+ array([0.        , 0.59375   , 0.3943662 , 0.27272727]),
+ array([0.        , 0.52777778, 0.44094488, 0.25      ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  95  END-------
+
+-----EXPERIMENT  96  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsC.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.3694894065008554, 0.3691275167785235, 0.34213980679665285, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.38235294, 0.41666667, 0.09090909]),
+ array([0.        , 0.609375  , 0.21126761, 0.09090909]),
+ array([0.        , 0.46987952, 0.28037383, 0.09090909]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  96  END-------
+
+-----EXPERIMENT  97  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsD.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.47969838801373466, 0.48322147651006714, 0.4694951373058424, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.46067416, 0.54716981, 0.28571429]),
+ array([0.        , 0.640625  , 0.4084507 , 0.18181818]),
+ array([0.        , 0.53594771, 0.46774194, 0.22222222]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  97  END-------
+
+-----EXPERIMENT  98  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsE.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.516183132757396, 0.5033557046979866, 0.4820487482487729, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.46464646, 0.58695652, 0.5       ]),
+ array([0.        , 0.71875   , 0.38028169, 0.18181818]),
+ array([0.        , 0.56441718, 0.46153846, 0.26666667]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  98  END-------
+
+-----EXPERIMENT  99  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4267260664969529, 0.40939597315436244, 0.39917690035473047, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.49425287, 0.45      , 0.        ]),
+ array([0.        , 0.671875  , 0.25352113, 0.        ]),
+ array([0.        , 0.56953642, 0.32432432, 0.        ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  99  END-------
+
+-----EXPERIMENT  100  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4297530659806681, 0.3959731543624161, 0.3869641453534072, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.5       , 0.44117647, 0.06451613]),
+ array([0.        , 0.65625   , 0.21126761, 0.18181818]),
+ array([0.        , 0.56756757, 0.28571429, 0.0952381 ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  100  END-------
+
+-----EXPERIMENT  101  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5297995488851193, 0.5436241610738255, 0.5327017536489131, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.52564103, 0.59375   , 0.28571429]),
+ array([0.        , 0.640625  , 0.53521127, 0.18181818]),
+ array([0.        , 0.57746479, 0.56296296, 0.22222222]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  101  END-------
+
+-----EXPERIMENT  102  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.46439143627335566, 0.48322147651006714, 0.46688005506797464, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.44186047, 0.57627119, 0.        ]),
+ array([0.        , 0.59375   , 0.47887324, 0.        ]),
+ array([0.        , 0.50666667, 0.52307692, 0.        ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  102  END-------
+
+-----EXPERIMENT  103  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.40517528867397556, 0.40939597315436244, 0.370073060295458, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.5       , 0.39285714, 0.04347826]),
+ array([0.        , 0.765625  , 0.15492958, 0.09090909]),
+ array([0.        , 0.60493827, 0.22222222, 0.05882353]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  103  END-------
+
+-----EXPERIMENT  104  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5337921148479511, 0.5100671140939598, 0.4903529016455775, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.50515464, 0.64102564, 0.15384615]),
+ array([0.        , 0.765625  , 0.35211268, 0.18181818]),
+ array([0.        , 0.60869565, 0.45454545, 0.16666667]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  104  END-------
+
+-----EXPERIMENT  105  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.548744933218154, 0.5704697986577181, 0.535017081878511, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.51485149, 0.6875    , 0.        ]),
+ array([0.        , 0.8125    , 0.46478873, 0.        ]),
+ array([0.        , 0.63030303, 0.55462185, 0.        ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  105  END-------
+
+-----EXPERIMENT  106  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.3411952700543304, 0.37583892617449666, 0.31648921676077985, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.4       , 0.33333333, 0.14285714]),
+ array([0.        , 0.71875   , 0.12676056, 0.09090909]),
+ array([0.        , 0.51396648, 0.18367347, 0.11111111]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  106  END-------
+
+-----EXPERIMENT  107  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4498029677975494, 0.4429530201342282, 0.3973470373041275, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.44954128, 0.5       , 0.25      ]),
+ array([0.        , 0.765625  , 0.1971831 , 0.27272727]),
+ array([0.        , 0.56647399, 0.28282828, 0.26086957]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  107  END-------
+
+-----EXPERIMENT  108  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.18408437200383507, 0.4228187919463087, 0.25649670791055695, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.42857143, 0.        , 0.        ]),
+ array([0.      , 0.984375, 0.      , 0.      ]),
+ array([0.       , 0.5971564, 0.       , 0.       ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  108  END-------
+
+-----EXPERIMENT  109  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5015063385533184, 0.5100671140939598, 0.5033773241849273, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.52      , 0.55555556, 0.18181818]),
+ array([0.        , 0.609375  , 0.49295775, 0.18181818]),
+ array([0.        , 0.56115108, 0.52238806, 0.18181818]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  109  END-------
+
+-----EXPERIMENT  110  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4153917684159457, 0.3959731543624161, 0.38176386236428533, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.48192771, 0.41666667, 0.13333333]),
+ array([0.        , 0.625     , 0.21126761, 0.36363636]),
+ array([0.        , 0.54421769, 0.28037383, 0.19512195]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  110  END-------
+
+-----EXPERIMENT  111  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5409538794006676, 0.5436241610738255, 0.5251533520964133, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.53846154, 0.63265306, 0.11111111]),
+ array([0.        , 0.765625  , 0.43661972, 0.09090909]),
+ array([0.        , 0.63225806, 0.51666667, 0.1       ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  111  END-------
+
+-----EXPERIMENT  112  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4218164670790016, 0.4161073825503356, 0.3750373493390345, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.48039216, 0.44444444, 0.05      ]),
+ array([0.        , 0.765625  , 0.16901408, 0.09090909]),
+ array([0.        , 0.59036145, 0.24489796, 0.06451613]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  112  END-------
+
+-----EXPERIMENT  113  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4784829796239193, 0.46308724832214765, 0.4379232193255694, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.47      , 0.56756757, 0.08333333]),
+ array([0.        , 0.734375  , 0.29577465, 0.09090909]),
+ array([0.        , 0.57317073, 0.38888889, 0.08695652]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  113  END-------
+
+-----EXPERIMENT  114  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.48070186999129083, 0.47651006711409394, 0.4565850663674235, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.45360825, 0.57777778, 0.14285714]),
+ array([0.        , 0.6875    , 0.36619718, 0.09090909]),
+ array([0.        , 0.54658385, 0.44827586, 0.11111111]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  114  END-------
+
+-----EXPERIMENT  115  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5697093208684708, 0.5369127516778524, 0.5139592064400749, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.49514563, 0.71052632, 0.25      ]),
+ array([0.        , 0.796875  , 0.38028169, 0.18181818]),
+ array([0.        , 0.61077844, 0.49541284, 0.21052632]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  115  END-------
+
+-----EXPERIMENT  116  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5299917936543056, 0.5302013422818792, 0.5135094176228621, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.51648352, 0.6122449 , 0.22222222]),
+ array([0.        , 0.734375  , 0.42253521, 0.18181818]),
+ array([0.        , 0.60645161, 0.5       , 0.2       ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  116  END-------
+
+-----EXPERIMENT  117  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5609130212897075, 0.5503355704697986, 0.5212187082320597, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.51960784, 0.68292683, 0.16666667]),
+ array([0.        , 0.828125  , 0.3943662 , 0.09090909]),
+ array([0.        , 0.63855422, 0.5       , 0.11764706]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  117  END-------
+
+-----EXPERIMENT  118  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5058813870970469, 0.4899328859060403, 0.4521473717314059, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.46788991, 0.58823529, 0.33333333]),
+ array([0.        , 0.796875  , 0.28169014, 0.18181818]),
+ array([0.        , 0.58959538, 0.38095238, 0.23529412]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  118  END-------
+
+-----EXPERIMENT  119  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5439042421305127, 0.5302013422818792, 0.5040657196089546, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.54081633, 0.64102564, 0.08333333]),
+ array([0.        , 0.828125  , 0.35211268, 0.09090909]),
+ array([0.        , 0.65432099, 0.45454545, 0.08695652]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  119  END-------
+
+-----EXPERIMENT  120  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.4379051600836176, 0.44966442953020136, 0.3784594428808544, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.44262295, 0.52      , 0.        ]),
+ array([0.        , 0.84375   , 0.18309859, 0.        ]),
+ array([0.        , 0.58064516, 0.27083333, 0.        ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  120  END-------
+
+-----EXPERIMENT  121  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.49671735686342877, 0.5167785234899329, 0.5019011037064964, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.49350649, 0.55882353, 0.25      ]),
+ array([0.        , 0.59375   , 0.53521127, 0.09090909]),
+ array([0.        , 0.53900709, 0.54676259, 0.13333333]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  121  END-------
+
+-----EXPERIMENT  122  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5217166732464797, 0.4899328859060403, 0.4598345967939805, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.50980392, 0.625     , 0.06666667]),
+ array([0.        , 0.8125    , 0.28169014, 0.09090909]),
+ array([0.        , 0.62650602, 0.38834951, 0.07692308]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  122  END-------
+
+-----EXPERIMENT  123  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5470274644200105, 0.5369127516778524, 0.5194804847203357, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.48958333, 0.68085106, 0.16666667]),
+ array([0.        , 0.734375  , 0.45070423, 0.09090909]),
+ array([0.        , 0.5875    , 0.54237288, 0.11764706]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  123  END-------
+
+-----EXPERIMENT  124  START-----
+Percent of test data included in training:  0.8
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.556251461332957, 0.5771812080536913, 0.5440784507486859, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.52525253, 0.69387755, 0.        ]),
+ array([0.        , 0.8125    , 0.47887324, 0.        ]),
+ array([0.        , 0.63803681, 0.56666667, 0.        ]),
+ array([ 3, 64, 71, 11]))
+-----EXPERIMENT  124  END-------
+
+-----EXPERIMENT  125  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsA.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.5518092105263158, 0.5526315789473685, 0.4814394476757933, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.     , 0.5    , 0.59375, 0.     ]),
+ array([0.        , 0.11764706, 0.9047619 , 0.        ]),
+ array([0.        , 0.19047619, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  125  END-------
+
+-----EXPERIMENT  126  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsB.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.7698748619801251, 0.7368421052631579, 0.7344024956007038, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.81818182, 0.73076923, 0.        ]),
+ array([0.        , 0.52941176, 0.9047619 , 0.        ]),
+ array([0.        , 0.64285714, 0.80851064, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  126  END-------
+
+-----EXPERIMENT  127  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsC.csv']
+Average
+Precision | Recall | F-Score
+(0.1830827067669173, 0.23684210526315788, 0.19471797774004904, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.28571429, 0.1       , 0.        ]),
+ array([0.        , 0.47058824, 0.04761905, 0.        ]),
+ array([0.        , 0.35555556, 0.06451613, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  127  END-------
+
+-----EXPERIMENT  128  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsD.csv']
+Average
+Precision | Recall | F-Score
+(0.6263706140350876, 0.6052631578947368, 0.5518328224169942, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.59375   , 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  128  END-------
+
+-----EXPERIMENT  129  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsE.csv']
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.6298732943469785, 0.5, 0.49302920310179843, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.48148148, 0.75      , 0.        ]),
+ array([0.        , 0.76470588, 0.28571429, 0.        ]),
+ array([0.        , 0.59090909, 0.4137931 , 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  129  END-------
+
+-----EXPERIMENT  130  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv')
+Average
+Precision | Recall | F-Score
+(0.5866028708133971, 0.5789473684210527, 0.5108984582668793, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.6       , 0.57575758, 0.        ]),
+ array([0.        , 0.17647059, 0.9047619 , 0.        ]),
+ array([0.        , 0.27272727, 0.7037037 , 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  130  END-------
+
+-----EXPERIMENT  131  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.31439393939393934, 0.3684210526315789, 0.27684210526315783, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.39393939, 0.25      , 0.        ]),
+ array([0.        , 0.76470588, 0.04761905, 0.        ]),
+ array([0.  , 0.52, 0.08, 0.  ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  131  END-------
+
+-----EXPERIMENT  132  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsD.csv')
+Average
+Precision | Recall | F-Score
+(0.5866028708133971, 0.5789473684210527, 0.5108984582668793, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.6       , 0.57575758, 0.        ]),
+ array([0.        , 0.17647059, 0.9047619 , 0.        ]),
+ array([0.        , 0.27272727, 0.7037037 , 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  132  END-------
+
+-----EXPERIMENT  133  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.6263706140350876, 0.6052631578947368, 0.5518328224169942, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.59375   , 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  133  END-------
+
+-----EXPERIMENT  134  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv')
+Average
+Precision | Recall | F-Score
+(0.7181174089068826, 0.7105263157894737, 0.7009692242344674, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.75      , 0.69230769, 0.        ]),
+ array([0.        , 0.52941176, 0.85714286, 0.        ]),
+ array([0.        , 0.62068966, 0.76595745, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  134  END-------
+
+-----EXPERIMENT  135  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv')
+Average
+Precision | Recall | F-Score
+(0.6263706140350876, 0.6052631578947368, 0.5518328224169942, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.59375   , 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  135  END-------
+
+-----EXPERIMENT  136  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.7420242914979758, 0.7368421052631579, 0.7307398932112891, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.76923077, 0.72      , 0.        ]),
+ array([0.        , 0.58823529, 0.85714286, 0.        ]),
+ array([0.        , 0.66666667, 0.7826087 , 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  136  END-------
+
+-----EXPERIMENT  137  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+Average
+Precision | Recall | F-Score
+(0.2182017543859649, 0.2894736842105263, 0.22848206355948564, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.33333333, 0.125     , 0.        ]),
+ array([0.        , 0.58823529, 0.04761905, 0.        ]),
+ array([0.        , 0.42553191, 0.06896552, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  137  END-------
+
+-----EXPERIMENT  138  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.6369552914544425, 0.6052631578947368, 0.5594525611688083, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.61290323, 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.73076923, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  138  END-------
+
+-----EXPERIMENT  139  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.6263706140350876, 0.6052631578947368, 0.5518328224169942, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.59375   , 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  139  END-------
+
+-----EXPERIMENT  140  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv')
+Average
+Precision | Recall | F-Score
+(0.5027777777777778, 0.5, 0.5010452961672474, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.44444444, 0.55      , 0.        ]),
+ array([0.        , 0.47058824, 0.52380952, 0.        ]),
+ array([0.        , 0.45714286, 0.53658537, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  140  END-------
+
+-----EXPERIMENT  141  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv')
+Average
+Precision | Recall | F-Score
+(0.6263706140350876, 0.6052631578947368, 0.5518328224169942, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.59375   , 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  141  END-------
+
+-----EXPERIMENT  142  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.6263706140350876, 0.6052631578947368, 0.5518328224169942, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.59375   , 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  142  END-------
+
+-----EXPERIMENT  143  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+Average
+Precision | Recall | F-Score
+(0.5866028708133971, 0.5789473684210527, 0.5108984582668793, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.6       , 0.57575758, 0.        ]),
+ array([0.        , 0.17647059, 0.9047619 , 0.        ]),
+ array([0.        , 0.27272727, 0.7037037 , 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  143  END-------
+
+-----EXPERIMENT  144  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.47514619883040937, 0.4473684210526316, 0.31816415526099906, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.44444444, 0.5       , 0.        ]),
+ array([0.        , 0.94117647, 0.04761905, 0.        ]),
+ array([0.        , 0.60377358, 0.08695652, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  144  END-------
+
+-----EXPERIMENT  145  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.41342486651411137, 0.42105263157894735, 0.4161184210526316, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.33333333, 0.47826087, 0.        ]),
+ array([0.        , 0.29411765, 0.52380952, 0.        ]),
+ array([0.    , 0.3125, 0.5   , 0.    ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  145  END-------
+
+-----EXPERIMENT  146  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+Average
+Precision | Recall | F-Score
+(0.6842105263157895, 0.6842105263157895, 0.6842105263157895, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.64705882, 0.71428571, 0.        ]),
+ array([0.        , 0.64705882, 0.71428571, 0.        ]),
+ array([0.        , 0.64705882, 0.71428571, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  146  END-------
+
+-----EXPERIMENT  147  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.6675438596491228, 0.6578947368421053, 0.658605974395448, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.6       , 0.72222222, 0.        ]),
+ array([0.        , 0.70588235, 0.61904762, 0.        ]),
+ array([0.        , 0.64864865, 0.66666667, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  147  END-------
+
+-----EXPERIMENT  148  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.6263706140350876, 0.6052631578947368, 0.5518328224169942, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.59375   , 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  148  END-------
+
+-----EXPERIMENT  149  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.6370614035087719, 0.6052631578947368, 0.5994865211810013, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.54166667, 0.71428571, 0.        ]),
+ array([0.        , 0.76470588, 0.47619048, 0.        ]),
+ array([0.        , 0.63414634, 0.57142857, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  149  END-------
+
+-----EXPERIMENT  150  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv')
+Average
+Precision | Recall | F-Score
+(0.6263706140350876, 0.6052631578947368, 0.5518328224169942, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.59375   , 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  150  END-------
+
+-----EXPERIMENT  151  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.4720394736842105, 0.4473684210526316, 0.37844611528822053, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.    , 0.4375, 0.5   , 0.    ]),
+ array([0.        , 0.82352941, 0.14285714, 0.        ]),
+ array([0.        , 0.57142857, 0.22222222, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  151  END-------
+
+-----EXPERIMENT  152  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.6263706140350876, 0.6052631578947368, 0.5518328224169942, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.59375   , 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  152  END-------
+
+-----EXPERIMENT  153  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Average
+Precision | Recall | F-Score
+(0.20013850415512466, 0.4473684210526316, 0.27655502392344494, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.44736842, 0.        , 0.        ]),
+ array([0., 1., 0., 0.]),
+ array([0.        , 0.61818182, 0.        , 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  153  END-------
+
+-----EXPERIMENT  154  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.7766531713900134, 0.7631578947368421, 0.7553384561918369, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.83333333, 0.73076923, 0.        ]),
+ array([0.        , 0.58823529, 0.9047619 , 0.        ]),
+ array([0.        , 0.68965517, 0.80851064, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  154  END-------
+
+-----EXPERIMENT  155  START-----
+Percent of test data included in training:  0.95
+Training Data:  ('../dataset/raw/pitsA.csv', '../dataset/raw/pitsB.csv', '../dataset/raw/pitsC.csv', '../dataset/raw/pitsD.csv', '../dataset/raw/pitsE.csv')
+Average
+Precision | Recall | F-Score
+(0.6263706140350876, 0.6052631578947368, 0.5518328224169942, None)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/jude/thesis-env/lib/python3.6/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.66666667, 0.59375   , 0.        ]),
+ array([0.        , 0.23529412, 0.9047619 , 0.        ]),
+ array([0.        , 0.34782609, 0.71698113, 0.        ]),
+ array([ 0, 17, 21,  0]))
+-----EXPERIMENT  155  END-------
+
+Mon Mar 11 18:43:31 2019
+TOTAL RUNTIME:  8842.806040525436 s
+
