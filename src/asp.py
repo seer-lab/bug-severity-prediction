@@ -14,12 +14,14 @@ from sklearn.neural_network import MLPClassifier
 # Evaluation
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import precision_recall_fscore_support
+from pprint import pprint
+from itertools import combinations
 
 def load_data(datasets):
 	'''Reads in and formats data from the list of datasets given.
 
 	Args:
-		datasets: A list of Dataset objects
+		datasets: A list of Dataset objects (Dataset object defined below)
 	
 	Returns:
 		A numpy array that is the concatenation of the numpy arrays for all the
@@ -31,10 +33,10 @@ def _load_data(dataset):
 	'''Helper function to load_data. Reads in file for a single dataset given.
 	
 	Args:
-		dataset: A Dataset object
+		dataset: A Dataset object (Dataset object defined below)
 	
 	Returns:
-		A numpy array with only the required columns from dataset.
+		A numpy array with the required columns from dataset.
 	'''
 	df = pd.read_csv(dataset.path, sep=',', encoding='ISO-8859-1')
 	raw_data = np.array(df)
@@ -81,6 +83,20 @@ def _load_data(dataset):
 
 
 def preprocess(train_data, test_data):
+	'''Generate paragragh vectors using doc2vec from given data
+
+	Args:
+		train_data: 2-D numpy array that represents the data to train with
+		test_data:  2-D numpy array that represents the data to test with
+
+	Returns:
+		Preprocessed data ready to be fed into a classifer. 
+
+		X_train: list of paragragh vectors to train with
+		Y_train: actual severity ratings for X_train 
+		X_test:  list of paragragh vectors to test against
+		Y_test:  actual severity ratings for X_test
+	'''
 	# construct testing and training corpora (plural or corpus)
 	train_corpus = list(_read_corpus(train_data))
 	test_corpus = list(_read_corpus(test_data, tokens_only=True))
@@ -123,6 +139,17 @@ def preprocess(train_data, test_data):
 
 
 def _read_corpus(data, tokens_only=False):
+	'''Helper function to prepare data for hidden doc2vec model in preprocess
+	   function.
+
+	Args:
+		data: 2-D numpy array that can be training or test data
+		token_only: boolean value used to determine if training/test is data
+
+	Returns:
+		A list of lists filled with tokens if test data. If training data, then
+		a list of list of TaggedDocuments (doc2vec class) will be returned. 
+	'''
 	for i, line in enumerate(data):
 		if tokens_only:
 			yield gensim.utils.simple_preprocess(line[0])
@@ -159,9 +186,16 @@ class ASP():
 		#matrix = confusion_matrix(self.Y_test, prediction, labels=[1, 2, 3, 4])
 		#print(matrix)
 
-		prf = precision_recall_fscore_support(y_true=self.Y_test, y_pred=prediction, average='weighted')
+		prf1 = precision_recall_fscore_support(y_true=self.Y_test, y_pred=prediction, average='weighted')
+		print('Average')
 		print('Precision | Recall | F-Score')
-		print(prf)
+		pprint(prf1)
+
+		prf2 = precision_recall_fscore_support(y_true=self.Y_test, y_pred=prediction, average=None, labels=[2, 3, 4, 5])
+		print('')
+		print('By Severity')
+		print('Precision | Recall | F-Score')
+		pprint(prf2)
 
 
 class Dataset():
@@ -202,11 +236,19 @@ b = '../dataset/raw/pitsB.csv'
 c = '../dataset/raw/pitsC.csv'
 d = '../dataset/raw/pitsD.csv'
 e = '../dataset/raw/pitsE.csv'
-f = '../dataset/raw/pitsE.csv'
+f = '../dataset/raw/pitsF.csv'
 
 # ------------------------------------------------------------------------------
 # pitsF experiments
 # ------------------------------------------------------------------------------
+# generate combinations of datasets to use as training
+train_comb = (a, b, c, d, e)
+train_datasets = [[a], [b], [c], [d], [e]]
+for i in range(2, 6):
+	comb = combinations(train_comb, i)
+	for j in list(comb):
+		train_datasets.append(j)
+
 #percent of test data that will be in training data
 import time
 print(time.ctime(time.time()))
@@ -215,38 +257,28 @@ start = time.time()
 percent_range = [1, 0.20, 0.50, 0.80, 0.95]
 experiment_count = 1
 for per in percent_range:
-	train_datasets = [
-		[a, b, c, d, e],
-		[a, b, c, d],
-		[a, b, c],
-		[a, b],
-		[a],
-		[b, c, d, e],
-		[b, c, d],
-		[b, c],
-		[b],
-		[c, d, e],
-		[c, d],
-		[c],
-		[d, e],
-		[d],
-		[e]
-	]
 
+	# set up training data and test data for experiment
 	for datasets in train_datasets:
-		# set up training data and test data for experiment
 		project_id = 1
 		pits_train = []
+		
+		# training data
 		for dataset in datasets:
 			pits_train.append(Dataset(dataset, project_id, percent=1, train=True))
 			project_id += 1
 		if per != 1:
 			pits_train.append(Dataset(f, project_id, percent=per, train=True))
+		
+		# test data
 		pits_test = [Dataset(f, project_id, percent=per, train=False)]
 
 		# run experiment
 		print('-----EXPERIMENT ', experiment_count, ' START-----')
-		print('Percent: ', per)
+		if per == 1:
+			print('Percent of test data included in training: ', 0)
+		else:
+			print('Percent of test data included in training: ', per)
 		print('Training Data: ', datasets)
 		experiment = Experiment(pits_train, pits_test)
 		experiment.run()
