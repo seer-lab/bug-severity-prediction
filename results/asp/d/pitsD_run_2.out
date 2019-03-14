@@ -1,0 +1,454 @@
+Wed Mar 13 22:42:34 2019
+-----EXPERIMENT  1  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsA.csv']
+Average
+Precision | Recall | F-Score
+(0.738966390752105, 0.25824175824175827, 0.3731535968360547, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.80357143, 0.02272727, 0.        ]),
+ array([0.        , 0.26946108, 0.15384615, 0.        ]),
+ array([0.        , 0.40358744, 0.03960396, 0.        ]),
+ array([  1, 167,  13,   1]))
+-----EXPERIMENT  1  END-------
+
+-----EXPERIMENT  2  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsB.csv']
+Average
+Precision | Recall | F-Score
+(0.8895521886345022, 0.6648351648351648, 0.7388472540416003, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.95689655, 0.16129032, 0.        ]),
+ array([0.        , 0.66467066, 0.76923077, 0.        ]),
+ array([0.        , 0.7844523 , 0.26666667, 0.        ]),
+ array([  1, 167,  13,   1]))
+-----EXPERIMENT  2  END-------
+
+-----EXPERIMENT  3  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsC.csv']
+Average
+Precision | Recall | F-Score
+(0.8342045685795687, 0.6483516483516484, 0.7258885308973849, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.90625   , 0.03703704, 0.        ]),
+ array([0.        , 0.69461078, 0.15384615, 0.        ]),
+ array([0.        , 0.78644068, 0.05970149, 0.        ]),
+ array([  1, 167,  13,   1]))
+-----EXPERIMENT  3  END-------
+
+-----EXPERIMENT  4  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsD.csv']
+Average
+Precision | Recall | F-Score
+(0.9945381998953428, 0.9945054945054945, 0.9944038051500738, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([1.        , 0.99404762, 1.        , 1.        ]),
+ array([1.        , 1.        , 0.92307692, 1.        ]),
+ array([1.        , 0.99701493, 0.96      , 1.        ]),
+ array([  1, 167,  13,   1]))
+-----EXPERIMENT  4  END-------
+
+-----EXPERIMENT  5  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsE.csv']
+Average
+Precision | Recall | F-Score
+(0.8466388783630163, 0.7637362637362637, 0.8023059260102973, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.92      , 0.03448276, 0.        ]),
+ array([0.        , 0.82634731, 0.07692308, 0.        ]),
+ array([0.        , 0.87066246, 0.04761905, 0.        ]),
+ array([  1, 167,  13,   1]))
+-----EXPERIMENT  5  END-------
+
+-----EXPERIMENT  6  START-----
+Percent of test data included in training:  0
+Training Data:  ['../dataset/raw/pitsF.csv']
+Average
+Precision | Recall | F-Score
+(0.8305125531402904, 0.6813186813186813, 0.7485540775014461, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.90510949, 0.        , 0.        ]),
+ array([0.        , 0.74251497, 0.        , 0.        ]),
+ array([0.        , 0.81578947, 0.        , 0.        ]),
+ array([  1, 167,  13,   1]))
+-----EXPERIMENT  6  END-------
+
+-----EXPERIMENT  7  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsA.csv']
+Average
+Precision | Recall | F-Score
+(0.9717398338906267, 0.863013698630137, 0.9141552511415525, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.99212598, 0.        , 0.        ]),
+ array([0.        , 0.88111888, 0.        , 0.        ]),
+ array([0.        , 0.93333333, 0.        , 0.        ]),
+ array([  0, 143,   2,   1]))
+-----EXPERIMENT  7  END-------
+
+-----EXPERIMENT  8  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsB.csv']
+Average
+Precision | Recall | F-Score
+(0.9621956594559334, 0.7534246575342465, 0.8413725450183221, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.98198198, 0.02857143, 0.        ]),
+ array([0.        , 0.76223776, 0.5       , 0.        ]),
+ array([0.        , 0.85826772, 0.05405405, 0.        ]),
+ array([  0, 143,   2,   1]))
+-----EXPERIMENT  8  END-------
+
+-----EXPERIMENT  9  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsC.csv']
+Average
+Precision | Recall | F-Score
+(0.9673161666361626, 0.9452054794520548, 0.954710320930082, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.98561151, 0.14285714, 0.        ]),
+ array([0.        , 0.95804196, 0.5       , 0.        ]),
+ array([0.        , 0.97163121, 0.22222222, 0.        ]),
+ array([  0, 143,   2,   1]))
+-----EXPERIMENT  9  END-------
+
+-----EXPERIMENT  10  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsD.csv']
+Average
+Precision | Recall | F-Score
+(0.9817351598173517, 0.9863013698630136, 0.9835616438356164, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.99300699, 0.66666667, 0.        ]),
+ array([0.        , 0.99300699, 1.        , 0.        ]),
+ array([0.        , 0.99300699, 0.8       , 0.        ]),
+ array([  0, 143,   2,   1]))
+-----EXPERIMENT  10  END-------
+
+-----EXPERIMENT  11  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsE.csv']
+Average
+Precision | Recall | F-Score
+(0.9583128018133439, 0.9315068493150684, 0.9447197124259206, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.97841727, 0.        , 0.        ]),
+ array([0.        , 0.95104895, 0.        , 0.        ]),
+ array([0.        , 0.96453901, 0.        , 0.        ]),
+ array([  0, 143,   2,   1]))
+-----EXPERIMENT  11  END-------
+
+-----EXPERIMENT  12  START-----
+Percent of test data included in training:  0.2
+Training Data:  ['../dataset/raw/pitsF.csv']
+Average
+Precision | Recall | F-Score
+(0.9631605430161632, 0.7876712328767124, 0.8633162320833554, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0.        , 0.98275862, 0.04347826, 0.        ]),
+ array([0.       , 0.7972028, 0.5      , 0.       ]),
+ array([0.        , 0.88030888, 0.08      , 0.        ]),
+ array([  0, 143,   2,   1]))
+-----EXPERIMENT  12  END-------
+
+-----EXPERIMENT  13  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsA.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 0.978021978021978, 0.9888888888888888, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0.        , 0.97802198, 0.        , 0.        ]),
+ array([0.        , 0.98888889, 0.        , 0.        ]),
+ array([ 0, 91,  0,  0]))
+-----EXPERIMENT  13  END-------
+
+-----EXPERIMENT  14  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsB.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 0.9560439560439561, 0.9775280898876403, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0.        , 0.95604396, 0.        , 0.        ]),
+ array([0.        , 0.97752809, 0.        , 0.        ]),
+ array([ 0, 91,  0,  0]))
+-----EXPERIMENT  14  END-------
+
+-----EXPERIMENT  15  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsC.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 0.967032967032967, 0.9832402234636871, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0.        , 0.96703297, 0.        , 0.        ]),
+ array([0.        , 0.98324022, 0.        , 0.        ]),
+ array([ 0, 91,  0,  0]))
+-----EXPERIMENT  15  END-------
+
+-----EXPERIMENT  16  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsD.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 1.0, 1.0, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([ 0, 91,  0,  0]))
+-----EXPERIMENT  16  END-------
+
+-----EXPERIMENT  17  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsE.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 1.0, 1.0, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([ 0, 91,  0,  0]))
+-----EXPERIMENT  17  END-------
+
+-----EXPERIMENT  18  START-----
+Percent of test data included in training:  0.5
+Training Data:  ['../dataset/raw/pitsF.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 1.0, 1.0, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([ 0, 91,  0,  0]))
+-----EXPERIMENT  18  END-------
+
+-----EXPERIMENT  19  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsA.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 0.8918918918918919, 0.9428571428571428, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0.        , 0.89189189, 0.        , 0.        ]),
+ array([0.        , 0.94285714, 0.        , 0.        ]),
+ array([ 0, 37,  0,  0]))
+-----EXPERIMENT  19  END-------
+
+-----EXPERIMENT  20  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsB.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 0.9459459459459459, 0.9722222222222222, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0.        , 0.94594595, 0.        , 0.        ]),
+ array([0.        , 0.97222222, 0.        , 0.        ]),
+ array([ 0, 37,  0,  0]))
+-----EXPERIMENT  20  END-------
+
+-----EXPERIMENT  21  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsC.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 1.0, 1.0, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([ 0, 37,  0,  0]))
+-----EXPERIMENT  21  END-------
+
+-----EXPERIMENT  22  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsD.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 1.0, 1.0, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([ 0, 37,  0,  0]))
+-----EXPERIMENT  22  END-------
+
+-----EXPERIMENT  23  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsE.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 0.972972972972973, 0.9863013698630138, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0.        , 0.97297297, 0.        , 0.        ]),
+ array([0.        , 0.98630137, 0.        , 0.        ]),
+ array([ 0, 37,  0,  0]))
+-----EXPERIMENT  23  END-------
+
+-----EXPERIMENT  24  START-----
+Percent of test data included in training:  0.8
+Training Data:  ['../dataset/raw/pitsF.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 0.9459459459459459, 0.9722222222222222, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0.        , 0.94594595, 0.        , 0.        ]),
+ array([0.        , 0.97222222, 0.        , 0.        ]),
+ array([ 0, 37,  0,  0]))
+-----EXPERIMENT  24  END-------
+
+-----EXPERIMENT  25  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsA.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 0.8, 0.888888888888889, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0. , 0.8, 0. , 0. ]),
+ array([0.        , 0.88888889, 0.        , 0.        ]),
+ array([ 0, 10,  0,  0]))
+-----EXPERIMENT  25  END-------
+
+-----EXPERIMENT  26  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsB.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 1.0, 1.0, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([ 0, 10,  0,  0]))
+-----EXPERIMENT  26  END-------
+
+-----EXPERIMENT  27  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsC.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 1.0, 1.0, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([ 0, 10,  0,  0]))
+-----EXPERIMENT  27  END-------
+
+-----EXPERIMENT  28  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsD.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 1.0, 1.0, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([ 0, 10,  0,  0]))
+-----EXPERIMENT  28  END-------
+
+-----EXPERIMENT  29  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsE.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 1.0, 1.0, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([ 0, 10,  0,  0]))
+-----EXPERIMENT  29  END-------
+
+-----EXPERIMENT  30  START-----
+Percent of test data included in training:  0.95
+Training Data:  ['../dataset/raw/pitsF.csv']
+Average
+Precision | Recall | F-Score
+(1.0, 1.0, 1.0, None)
+
+By Severity
+Precision | Recall | F-Score
+(array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([0., 1., 0., 0.]),
+ array([ 0, 10,  0,  0]))
+-----EXPERIMENT  30  END-------
+
+Wed Mar 13 23:04:09 2019
+TOTAL RUNTIME:  1295.4096207618713 s
+
