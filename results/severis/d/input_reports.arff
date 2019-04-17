@@ -1,0 +1,188 @@
+@relation nasa
+@attribute Text string
+@attribute class-att {1, 2, 3, 4, 5}
+
+@data
+
+'possible inconsistenct in wheelcontrol rwa selection',3
+'inconsistent response to persistent coarse-to-fine pointing transition error',3
+'coding error in emc',2
+'command manager function exposing low access member information  cmd_seq_extra cpp - line 41 ',4
+'task manager contains two symbols with the same name  task_manager cpp - line 1521 ',4
+'command manager switch case missing default  cmd_pcvt cpp - line 318 ',4
+'possible unset data in ffi status packet',3
+'initialization of mycadencedetected in ffimanager',3
+'missing default case in function telemetrymanager  processcommand - file tlm cpp  line 773',3
+'corrections to short cadence collateral binning',3
+'improvements to fpadm verify logic',3
+'possible fpadm inconsistencies due to phasing',3
+'possible inaccurate setting of sfda telemetry item in fpadm',3
+'mode manager data checking on positionvaluespeci data in pktid_mom_in_replace_esi message',3
+'fsw86 incorrect code trace column',3
+'fsw82 incorrect code trace column',3
+'fsw2111 has blank code trace column',3
+'protection against potential modemanager attempt to access a zero-size arraywithsize',3
+'fsw1487 inconsistency between csc and code trace columns',3
+'dataencoder response to failure to obtain new packet from pool',3
+'mechanism manager public functions exposing protected data  sam_hg_antenna cpp - lines 963  967  971   975 ',3
+'mechanism manager hiding non-virtual member  sam_imp_impl h - lines 127   141 ',3
+'inconsistent use definition of dataencoder variable mycurrent32bitword',3
+'mechanism manager hiding non-virtual member  sam_fb_impl h - lines 158   184 ',3
+'mechanism manager possible null pointer  sam_fp_mon_agent cpp - line 179 ',3
+'memory manager switch with no case  filesync cpp - line 234 ',4
+'memory manager switch case missing default  log cpp - line 1061 ',4
+'memory manager missing condition if case  log cpp - line 452 ',3
+'functions may throw exceptions within  messaging     messaging cpp lines 296 302 303 304 305 308 ',3
+'pointer member mypmessaging not freed by the destructor  table_manager cpp line 135 ',3
+'command manager switch case missing default  cmd_sequence cpp - line 336 ',4
+'command manager switch case missing default  cmd_seq_eng_ex2 cpp - line 978 ',4
+'command manager switch case missing default  cmd_mgr_extra cpp - line 1416 ',4
+'command manager switch case missing default  cmd_mgr_extra cpp - line 1110 ',4
+'command manager switch case missing default  cmd_immediate_command cpp - line 686 ',4
+'public function returning protected data  file_class cpp line 508 ',4
+'memory manager - array deletion in log destructor  log cpp - line 464 ',3
+'surom inadvertent commenting  strfn h - line 10 ',3
+'thermal manager switch case missing default  therm_cvt cpp - lines 525   720 ',4
+'fault manager switch case missing default  faultmonitorset cpp - line 1383 ',4
+'incorrect or ambiguous error-handling in routine communicationpacket  send  communication_packet cpp  line 665 ',3
+'missing csc trace for fsw216',3
+'missing csc trace for fsw2079',3
+'questionable csc tracing for fsw1392',3
+'possible omitted csc trace for fsw1355 1386',3
+'missing csc trace for fsw449',3
+'questionable csc trace for fsw1992',3
+'questionable csc trace for fsw1552 1553',3
+'questionable csc trace for fsw1898',3
+'missing csc trace for fsw1548',3
+'questionable csc trace for fsw2097',3
+'questionable csc trace for fsw2014',3
+'questionable csc trace for fsw2093',3
+'questionable csc trace for fsw1443',3
+'questionable csc trace for fsw1441',3
+'returning private data via pointer - cmd_seq_extra cpp  line 41',3
+'shallow copy in assignment operator - tlm_subscription cpp  line 236',3
+'shallow copy in assignment operator - tlm_subscription cpp  line 271',3
+'assignment operator in subscription class  tlm_subscription cpp  line 171  does not check for assignment to this',5
+'downward trace from kav-3449',3
+'downward trace from kav-3444',3
+'downward trace from kav-3268',3
+'downward trace from kav-2960',3
+'downward trace from kav-3847',3
+'downward trace from kav-1567',3
+'downward trace from kav-3199',3
+'downward trace from kav-3373',3
+'downward trace from kav-4055',3
+'requirement sc524 appears to be childless',3
+'requirement sc523 appears to be childless',3
+'requirement sc422 appears to be childless',3
+'requirement sc2467 appears to be childless',3
+'requirement sc2465 appears to be childless',3
+'requirement sc2455 appears to be childless',3
+'requirement sc2454 appears to be childless',3
+'requirement sc2453 appears to be childless',3
+'requirement sc2452 appears to be childless',3
+'requirement sc2451 appears to be childless',3
+'requirement sc2450 appears to be childless',3
+'requirement sc2448 appears to be childless',3
+'requirement sc2446 appears to be childless',3
+'requirement sc2445 appears to be childless',3
+'requirement sc2443 appears to be childless',3
+'requirement sc2442 appears to be childless',3
+'requirement sc2426 appears to be childless',3
+'requirement sc2421 appears to be childless',3
+'requirement sc2420 appears to be childless',3
+'requirement sc2419 appears to be childless',3
+'requirement sc2417 appears to be childless',3
+'requirement sc2415 appears to be childless',3
+'requirement sc2250 appears to be childless',3
+'requirement sc2179 appears to be childless',3
+'requirement sc2172 appears to be childless',3
+'requirement sc2165 appears childless',3
+'requirement sc2136 appears to be childless',3
+'requirement sc2076 appears to be childless',3
+'requirement sc2075 appears to be childless',3
+'requirement sc2074 appears to be childless',3
+'requirement sc184 appears to be childless',3
+'requirement sc1475 appears to be childless',3
+'requirement sc1474 appears to be redundant',3
+'downward trace from sc2453',3
+'downward trace from sc2452',3
+'downward trace from sc2641',3
+'downward trace from sc431',3
+'downward trace from sc2064',3
+'downward trace from kav-3204',3
+'downward trace from sc208',3
+'downward trace from sc2112',3
+'downward trace from sc2111',3
+'downward trace from sc145',3
+'kav-3270 statement may need improvement ',3
+'more complete downward trace from kav-2128',3
+'more complete downward trace from kav-3855',3
+'more complete downward trace from kav-3853',3
+'more complete downward trace from kav-3836',3
+'more complete downward trace from kav-3857',3
+'more complete downward trace from kav-4002',3
+'downward trace from kav-2900',3
+'more complete downward trace from kav-3242',3
+'more complete downward trace from kav-3127',3
+'downward trace from kav-2274',3
+'more complete downward trace from kav-3171',3
+'more complete downward trace from kav-3170',3
+'more complete downward trace from kav-3075',3
+'more complete downward trace from kav-3168',3
+'more complete downward trace from kav-2553',3
+'more complete downward trace from kav-3232',3
+'more complete downward trace from kav-4360',3
+'more complete downward trace from kav-4338',3
+'possible inconsistency between kav-2966 and its downward trace',3
+'downward trace from kav-3534',3
+'downward trace from sc2243',3
+'downward trace from sc2237',3
+'more complete downward trace from sc1454',3
+'more complete downward trace from sc2464',3
+'more complete downward trace from sc2457',3
+'more complete downward trace from sc2469',3
+'downward trace from sc451',3
+'more complete downward trace from sc255',3
+'more complete downward trace from sc2648',3
+'more complete downward trace from sc2647',3
+'more complete downward trace from sc234',3
+'downward trace from sc2057',3
+'downward trace from sc2652',3
+'downward trace from sc182',3
+'more complete downward trace from sc2262',3
+'downward trace from sc2437',3
+'downward trace from sc2417',3
+'more complete downward trace from sc2439',3
+'clarification of sc160',3
+'downward trace from sc2429',3
+'downward trace from sc2134',3
+'downward trace from sc2074',3
+'downward trace from sc105',3
+'downward trace from sc132',3
+'downward trace from sc2132 and sc2148',3
+'downward trace from sc2127',3
+'more complete downward trace from sc2413',3
+'more complete downward trace from sc2149',3
+'emc requirements in sca specification 2215090 missing links',3
+'incomplete downward trace from sc2443',3
+'incomplete downward trace from sc2632',3
+'incomplete downward trace from kav-3189 ',3
+'closest sc version of kav-3029 and fs-145 is a âwillâ statement ',3
+'kav-4336 is not traced to analogous requirement fs-292 ',3
+'kav-3126 is not traced to analogous requirement fs-136 ',3
+'non-requirement statement fs-1001 traces both ways to requirements ',3
+'requirement sc1012 is childless',3
+'requirement kav-3787 is childless',3
+'requirement sc1992 is childless',3
+'requirement sc218 is childless',3
+'requirement kav-2129 is childless',3
+'requirements sc2473 and sc2474 are childless',3
+'requirement kav-3076 is childless',3
+'requirement kav-4226 is childless with respect to flight software ',3
+'requirement kav-4339 is childless',3
+'requirement sc159 is childless ',3
+'requirement sc2426 is childless ',3
+'requirements kav-4327 and kav-4199 are childless with respect to flight software ',3
+'requirements kav-4439  kav-1284  and kav-4029 are childless ',3
+'requirement sc2612 is childless ',3

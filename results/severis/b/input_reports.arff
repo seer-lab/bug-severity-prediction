@@ -1,0 +1,993 @@
+@relation nasa
+@attribute Text string
+@attribute class-att {1, 2, 3, 4, 5}
+
+@data
+
+'projectb spacecraft  pse fsw code does not implement the requirement 2201 13  2201 14  and 2201 20',3
+'projectb spacecraft  discrepancy between requirements  and design information and code',3
+'test scenario file  set6 doc   scenario 6g  editoral errors',4
+'test scenario file  set 6 doc  - 6g scenario  one step is missing for verifying the max warm restart count ',3
+'test scenario file  set6 doc   scenario 6b  wrong telemetry mnemonic was used ',4
+'projectb at set 6 - 6b scenario  warm start counter needs to reset to zero',3
+'projectb fsw acceptance test set 1 doc  acs thruster test with ace not in control',3
+'test scenario file âprojectb at set1 docâ  the ace control states didn t match in the scenario',4
+'test scenario file âprojectb at set2 docâ  scenario 2 h  test fdc a1 2 1  statements are reversed since kf should see no errors when reset',3
+'test scenario file âprojectb set1 docâ  scenario 1j  âbad ace-a css data initial sunacqâ  acs should be in control',3
+'system test scenarios â missing test for watchdog timeout causing cold restart',3
+'system test scenarios â missing test for projectb disposal',3
+'test scenario file âset6 docâ  scenarios 6a  6b   6e  no test to ensure that the system has entered inertial mode',3
+'test scenario file âset4 docâ  scenario 4h  âmp warm restart during a delta-vâ  burn duration validation should indicate 120   not 900 seconds',4
+'test scenario file âset4 docâ  scenario 4e  one acs thruster with reduced tsf  scenario statement is vague',4
+'test scenario file âset4 docâ  scenario 4d  âorbit circularization on acs thrustersâ  test for simultaneous firing of all thrusters',3
+'test scenario file  set3 doc   scenario 3e  delta-h  rw failure  change ârw-3â to ârw-4â',4
+'test scenario file  set2 doc   scenario 2f  inertial hold mode  use of  prime  and  backup  gyros is reversed',4
+'test scenario file set1 doc  scenario 1b part 2 does not test for transition of safehold ace-b to acs sunacq mode',3
+'inst2 fsw code vs  comment discrepancy regarding size of array',4
+'unused variable in inst2 fsw code  file  fsw cpu eve tasks hb hbhandlers c ',4
+'inconsistent functional prolog in inst2 fsw code  file fsw shared sb sblogfil c  - possible missing function call',5
+'inconsistent inst2 fsw code  file  fsw shared sb sblogfil c  - function stated to return true or false always returns false',5
+'projectb ground system  dds qcp - setmodtbl c - possible buffer overflow',3
+'projectb ground system  dds qcp - setconprms c - possible buffer overflow',3
+'projectb ground system  dds qcp - qcpmd5 c - possible buffer overflow',3
+'projectb ground system  dds qcp - qcplog c - possible buffer overflow',3
+'projectb ground system  dds qcp - qcpflindb c - possible buffer overflow',3
+'projectb ground system  dds qcp - qcpcc c - possible buffer overflow',3
+'projectb ground system  dds qcp - qcp c - possible misplaced semicolon',3
+'projectb ground system  dds qcp - qcp c - possible buffer overflow',3
+'projectb ground system  dds qcp - getmodtbl c - possible buffer overflow',3
+'projectb ground system  dds qcp - getinsid c - possible buffer overflow',3
+'projectb ground system  dds qcp - getconprms c - possible buffer overflow',3
+'projectb ground system  dds qcp - chkdir c - possible buffer overflow',3
+'inst2 requirement 8 9 4 3 is not tested in procedure listed in rtvm',3
+'inst2 requirements need to be updated in the requirements specification',4
+'inst2 requirement 8 5 6 2 2 is not fully tested',3
+'inst2 requirement 5 6 3 may not be fully tested',3
+'inst2 requirement 4 4 9 1 may not be fully tested',3
+'inst2 requirement 4 1 22 is not fully tested',3
+'inst2 interface requirements are not formally tracked through testing',3
+'discrepancy in register sizes between interface documents',3
+'error in section 3 5 3 5 mux control registers of pse interface document',4
+'missing requirements for turning on solar array segments',3
+'bit count discrepancy between requirement and interface documents',3
+'null command for thrusters not defined in 464-acs-icd-0062',3
+'projectb ground dds  logic improvement suggestion',5
+'projectb ground dds  magic numbers',4
+'projectb ground dds  allocated memory without deletion',3
+'projectb ground dds  values of pcramoverrunmarginlow and pcramoverrunmarginhigh may be reversed ',4
+'projectb ground dds  return value is always  true ',5
+'projectb ground dds  variable s and function s names are too long',4
+'projectb ground dds  incorrect comment',5
+'projectb ground dds  checking an unknown or non-existed file ',5
+'projectb dds ground  variable  lasttime  is used before initialization',3
+'projectb ground dds  lack of end-brace-comments',4
+'projectb ground dds  variables were declared in the middle of the function ',4
+'projectb spacecraft  ts  the fdc implementation for ts_df_9_pwm_control   does not match the fdc spec it is traced to ',4
+'inst2 code  there are declared variables that are not accessed',5
+'inst2 code  a comma operator exists in a place a logical or arithmetic operator should be',3
+'inst2 code  assignment operator used instead of instead of equality operator',2
+'projectb spacecraft  sdn mp rbel fsw - file and function prologs need to be updated',5
+'projectb spacecraft  upper level of requirement indicated pass  but its sub-requirement was not tested ',4
+'projectb spacecraft  requirement 2421 1 was not tested by the proc  sbc_bac_attdet_kalman_check prc ',3
+'projectb spacecraft  requirement 2431 was not tested by the proc  sbc_bac_attdet_kalman prc ',4
+'projectb spacecraft test  upper level requirement indicated pass  but its sub-requirement shows it was unable to be tested ',3
+'test objective does not consistently address gsrt test matrix dmr  4110 3 2',4
+'test objective does not completely address gsrt test matrix dmr  4130',4
+'test objective does not consistently address gsrt test matrix dmr  4121 2',4
+'test objectives do not completely address gsrt test matrix dmr  4100 16',4
+'test objectives do not completely address gsrt test matrix dmr  4000 13',4
+'test objective does not correctly address gsrt test matrix dmr  2230 2',4
+'test objective does not correctly address gsrt test matrix dmr  2200 3',4
+'test objective does not correctly address gsrt test matrix dmr  2140',4
+'tests not found in gsrt test matrix for several 464-gs-req-0005 rev  c requirements',3
+'464-gs-plan-0043 node to node interfaces not found in gsrt test matrix',3
+'missing test objective for gsrt test matrix dmr  7200 4 1',3
+'test requirement does not correctly address gsrt test matrix dmr  8205 1',4
+'n2 interface 7-16 listed for gsrt test matrix dmr  6000 does not exist in 464-gs-plan-0043',3
+'incomplete node to node interface test coverage for gsrt test matrix dmr  5000',3
+'n2 interfaces listed for gsrt test matrix dmr  4802 2 do not exist in 464-gs-plan-0043',4
+'n2 interfaces listed for gsrt test matrix dmr  4306 do not exist in 464-gs-plan-0043',4
+'inconsistent node to node interface test listed for gsrt test matrix dmr  4123 6',4
+'inconsistent node to node interface test listed for gsrt test matrix dmr  4123 5',4
+'missing verification methods for gsrt test matrix dmr  4000 13',3
+'verification method incorrect for gsrt test matrix dmr  2141',3
+'inconsistent node to node interface test listed for gsrt test matrix dmr  2007',3
+'ace propulsion test scenario does not explicitly verify several requirements',4
+'ace propulsion test scenario does not completely verify requirement 4440 1',3
+'ace propulsion test scenario traces requirement 4014 to incorrect step',4
+'ace propulsion test scenario traces requirement 4445 to incorrect step',4
+'ace propulsion test scenario does not verify requirement 4252',3
+'ace propulsion test scenario does not verify requirement 4251 14b',3
+'ace propulsion test scenario does not verify requirement 4251 13b',3
+'ace propulsion test scenario does not verify requirement 4251 11b',3
+'ace propulsion test scenario does not verify requirement 4251 10b',3
+'ace propulsion test scenario does not verify requirement 4251 9b',3
+'ace propulsion test scenario does not verify requirement 4251 8b',3
+'ace propulsion test scenario does not verify requirement 4251 7b',3
+'ace propulsion test scenario does not completely verify requirement 4441 3',3
+'ace propulsion test scenario does not verify requirement 4442 9 2',3
+'ace propulsion test scenario does not explicitly verify requirement 4442 5 1',4
+'ace propulsion test scenario traces requirement to incorrect step',4
+'ace propulsion test scenario testing of requirement 4441 is ambiguous',3
+'ace propulsion test scenario traces requirement to incorrect step',4
+'ace propulsion test scenario has statement that 2 requirements are not implemented in the code',3
+'ace propulsion test scenario verifies several requirements by insufficient method',3
+'projectb spacecraft  acs hga test scenarios - how are requirements 2670 and 2671 being tested ',3
+'projectb spacecraft   sbc_bac_hga_restart  scenario -question regarding the terms used in scenario',5
+'projectb spacecraft   sbc_bac_hga_taranglecalc  scenario - step 16k  need detail info',4
+'projectb spacecraft   sbc_bac_hga_taranglecalc  scenario - step 16c and d  need detail info',4
+'projectb spacecraft   sbc_bac_hga_taranglecalc  scenario - step 12  ivv suggests to test full park in both az and el direction for minus z antanna ',4
+'projectb spacecraft   sbc_bac_hga_taranglecalc  scenario - incorrect requirements tested in 10d  10e  11a',5
+'projectb spacecraft   sbc_bac_hga_taranglecalc  scenario - need detail procedures for step 9c  10c ',4
+'projectb spacecraft   sbc_bac_hga_taranglecalc  scenario - ivv suggests checking ground in control before testing step 9',4
+'projectb spacecraft   sbc_bac_hga_diag_packet  scenario - req 2722 may not be tested',3
+'projectb spacecraft   sbc_bac_hga_gce_tlm  scenario - question about the command  gcea_sb_disable ',5
+'projectb spacecraft   sbc_bac_hga_gce_tlm  scenario - requirement 2291 8 in step 6 is not fully tested',3
+'projectb spacecraft   sbc_bac_hga_commandtest scenario  - incorrect requirement tested',5
+'projectb spacecraft   sbc_bac_hga_commandtest  scenario - lack of command parameter s info',4
+'projectb spacecraft   sbc_bac_hga_commandtest  scenario- need to perform the boundary tests',3
+'projectb spacecraft   sbc_bac_hga_commandtest  scenario- several requirements listed in steps do not exist',5
+'projectb spacecraft  hga process test scenarios - several requirements are not tested',3
+'projectb spacecraft   acea_biru_other  scenario - requirement 2242 5 is not explicitly verified for ace-b in control',5
+'projectb spacecraft   acea_biru_other  scenario - requirement 2242 1 1 is not fully tested',3
+'projectb spacecraft   acea_biru_algorithm  - requirements 2242 3 and 4263 may not be tested',3
+'projectb spacecraft   acea_biru_algorithm  scenario - unclear statements in step descriptions',4
+'projectb spacecraft   acea_biru_algorithm  scenario - values listed for verifying the diagnostic telemetry of selected iru backup axis may be incorrect',3
+'projectb spacecraft   acea_biru_algorithm  scenario - more setup needed in the initialization step ',3
+'fsw rvtm test methods are not correct for several requirements',4
+'rt is incorrectly listed as a subsystem for cdhmp',4
+'projectb acs rwa test scenario  inconsistent telemetry nmemonics',4
+'projectb acs rwa test scenario  tolerance needs to be specified for calculation comparisons',3
+'projectb acs rwa test scenario  need a failure return for step 1 0',3
+'projectb acs pzt test scenario  should enable the fault detection',3
+'the structure _fpccr_t is defined in two source files ',4
+'redundantly declared symbol  os_copy_system_tables void  ',4
+'local declarator  gii_200hztaskctr   line 135  file fsw cpu gce tasks gi gitask c  is not referenced ',4
+'the declared external variable gi_startaddr in the file giglobal c is not referenced ',4
+'symbol return_code  on line 161 in file fsw shared os osstart c  is not accessed ',4
+'projectb ground system  dds qcp - qcpmd5 c - if statement contains no code',4
+'projectb ground system  dds qcp - sharmem c - if statement contains no code',4
+'variable  gicpcireaddataitems  may not have been initialized on line 1311 ',4
+'projectb ground system  dds qcp - imprecise event messages in  setinsld c ',4
+'projectb ground system  dds qcp - imprecise event messages in  flinfl c ',4
+'projectb ground system  incomplete event message in bldevntmsg c',4
+'there are two instances where a declaration was found for a function but not a definition ',4
+'there is a mismatch between the defined function ul_task_main the declaration ul_taskmain in file ulmain c ',4
+'there are fourteen instances where the extern keyword should have been used ',4
+'un-referenced externally declared parameters ',4
+'the assembledthrustertime parameter is not accessed in function ca_overrideevdcmd   of file ace_command_handler c ',4
+'the initialization function ccsds_cmdinitstat is not called ',4
+'conflicting data type definitions assigned to the label âsp_defaultservicestatestable_eeprom â uint16 and uint16   ',4
+'there are multiple and inconsistent definition of the variable sm_version_table_eeprom ',4
+'a comment indicates that two macros need to be removed from the source in file ace_command_actuators_task c on line 181 ',4
+'a condition in an if elseif else construct is repeated on line 528 of file ace_isolation_valve_task c ',4
+'loss of precision in cast unsigned value to assigned value on line 149 in file fsw cpu main cdh ds dsdump c ',4
+'loss of precision on line 232 in file  fsw cpu main acs ac code ac_tlmpacutils c ',4
+'the variable time_tonepktctr is declared three times in the file fsw shared time  timetask_client c ',4
+'the array xb_pse_b_evt_tlm_ios is defined on line 1630 and then redeclared in terms of itself on line 1633 of file fsw cpu main cdh xb xbchan c ',3
+'the array xb_scomm_b_evt_tlm_ios is defined on line 1757 and then redeclared in terms of itself on line 1762 of file fsw cpu main cdh xb xbchan c ',3
+'the array xb_inst3_iss_tlm_ios is defined on line 1491 and then redeclared in terms of itself on line 1495 of file  fsw cpu main cdh xb xbchan c ',3
+'projectb spacecraft  acs ep task - editorial error in an event message',5
+'projectb spacecraft  acs ep task - in acs lunar ephemeris algorithm appears to be implemented incorrectly',3
+'projectb spacecraft  acs ep task - in acs solar model algorithm appears to be implemented incorrectly',3
+'requirement 2000 has incorrect units in requirement text ',4
+'interface control documentation does not correctly adhere to requirement 1002 specification',3
+'inst3 inst1 kernel test plan has an incomplete section',4
+'inst3 inst1 kernel test plan - no information about documenting acceptance test results',3
+'inst1 test plan has an incomplete section',4
+'inst1 test plan - no information about documenting acceptance test results',3
+'dds qcp  qcpclient c  - magic number should pre   define ',5
+'dds qcp  qcpcc c - tries to close an unsuccessful-open file ',3
+'dds qcp  imprecise event message in file  getconprms c ',4
+'dds qcp  incorrect event messages in file  qcpflindb c ',4
+'dds qcp  file setmodtbl c contains three instances of incorrect assignmernts to flopntmout',2
+'dds qcp  file cnvrttm c contains hard coded numbers in the code ',4
+'dds qcp  setconprms c contains code that could be simplified ',4
+'dds qcp  file header for sharmem c is different from all the rest of the files in the packet ',5
+'dds qcp  file qcpcc c concerning the determination of the instrument id ',3
+'dds qcp   setconprms c  - wrong event message ',4
+'dds qcp  general issue - magic numbers use in many places',5
+'dds qcp  general issue - lack of comments',5
+'comments indicate design unknowns',5
+'extraneous comma in array definition',5
+'units in the comments are reversed',5
+'inconsistent use of the named constant number_of_css',4
+'spacecraft  return code is set but not returned',4
+'spacecraft  in function uint32 os_attachexceptions void  only the last return code is used ',4
+'spacecraft  magic numbers',4
+'spacecraft  wrong comment in  ac_faultdet c ',5
+'spacecraft  potential overflow of division operation in file ac_rwa c',3
+'requirement 2809 has incorrect units in requirement text ',3
+'explicit entry and exit criteria missing from gs test phases',3
+'flight dynamics system missing from section 6 1',3
+'inconsistent description of information on the test information sheets',3
+'missing interface in the n2 data description table',3
+'inconsistency with n2 data description table',3
+'inst3 test plan has an incomplete section',4
+'inst3 test plan - no information about documenting acceptance test results',3
+'gce sdn  no requirements found that support the commands indicated in icd  464-mecsm-icd-0104 rev - ',3
+'gce sdn  there is no command found in command   telemetry handbook to support requirement 5366',3
+'gce sdn  there is no command found in command   telemetry handbook to support requirement 5365',3
+'gce sdn  there is no command found in command   telemetry handbook to support requirement 5364',3
+'gce sdn  no command support requirement 5359 7',3
+'gce sdn  no command support requirement 5359 6',3
+'gce sdn  no command support requirement 5359 5',3
+'gce sdn  no command support requirement 5359 4',3
+'gce sdn  no command supports requirement 5359 3',3
+'gce sdn  no command support the requirement 5359 1',3
+'gce sdn  no command found in the command   telemetry handbook support requirement 5357',3
+'gce sdn  telemetry rate in requirement conflict with the telemetry handbook',3
+'s-comm sdn fsw requirement analysis  requirements 1300-1330 are not supported by icd s hardware commands',3
+'s-comm sdn fsw requirement analysis  no requirement supports the  output pulse level command register  command which is stated in icd ',3
+'ace fsw requirement 4030 can not be traced to an interface document',3
+'ace fsw requirement 4033 can not be traced to an interface document',3
+'ace fsw requirement 4032 can not be traced to an interface document',3
+'pse test scenario does not fully verify requirement 2201 15',3
+'pse test scenario does not fully verify requirement 2201 14',3
+'pse test scenario does not fully verify requirement 2201 13',3
+'pse test scenario step does not list requirement 2101 1 as tested',4
+'pse test scenario is still verifying deleted requirement 1232',4
+'pse test scenario does not verify requirement 2220 1',3
+'pse test scenario does not verify requirement 2220',3
+'pse test scenario does not verify requirement 2219',3
+'pse test scenario does not verify requirement 1239',3
+'pse test scenario pse_solararraycommand step 3 has several errors',3
+'pse test scenario does not fully verify requirement 1210',3
+'pse test scenario does not verify requirement 1207 for one case',3
+'pse test scenario only verifies on combination of signals for requirements 2301  2301 1  and 2302',3
+'pse test scenario has incorrect verification statements for requirement 1238',4
+'pse test scenario does not fully verify requirement 1213 4',3
+'pse test scenario traces requirement 1210 to incorrect test steps',4
+'pse test scenario does not verify requirement 1209',3
+'pse test scenario does not verify requirement 2101 7',3
+'pse test scenario does not explicitly verify requirement 2101 6',3
+'pse test scenario does not verify requirement 2101 5',3
+'pse test scenario does not verify requirement 2101 4 in one of the steps it is traced to',4
+'pse test scenario does not verify requirement 2101 2',3
+'pse test scenario does not verify requirement 2101',3
+'pse test scenario does not fully verify requirement 1202 and traces this requirement to incorrect steps',3
+'pse test scenario does not fully verify requirement 2220 1',3
+'pse test scenario does not fully verify requirement 2201 16',3
+'pse test scenario does not fully test req 2201 12',3
+'pse test scenario only partially tests req 1224',3
+'fsw test plan does not contain the rvtms to ensure all software and system requirements are verified',4
+'fsw test plan does not state if test environment or simulators are qualified',3
+'fsw test plan section 7 does not contain complete information about what the risk management',4
+'fsw test plan section 2 4 1 does not contain complete information about what the fsw test program will verify',3
+'the wrong command counter is used in tscmd c  the error counter should be used ',3
+'confusing comment on line 806 of the ts review ',5
+'the declared function arguments are unmatched to the function implementation for tsh_pkt_prcsr ',3
+'magic numbers 0   50 on lines 1737  1738  2077   2078 of the ts review',4
+'magic number 19 on line 319 of the ts review',4
+'magic number 32 on line 43 of the ts review',4
+'on cold start  the scrub rate is not set in the function  ms_initialize  on line 179 ',5
+'the default recorder scrub rate found in the code is not 35 minutes as found in the cdr materials ',3
+'comment errors in mspkt h',5
+'comment errors in osapi c',5
+'incorrect comment on line 1393  the word  disable  is used instead of  enables  ',5
+'error message is created on failure detected at line 396',4
+'the functions âos_intenableâ and âos_intdisableâ are both declared twice ',4
+'possible buffer overflow',4
+'the comment for function gc_resetcounters void  does not match the implementation ',4
+'magic numbers used in a calculation',4
+'ace propulsion test scenario verification of 4442 9 2a needs more details',4
+'ace propulsion test scenario step 13 2 has incorrect requirement listed',4
+'ace propulsion test scenario verification of 4442 7 does not fully verify the fire command executed',3
+'ace propulsion test scenario requirement 4442 needs step 12 0 added to its trace',4
+'ace propulsion test scenario requirement 4252 may not be fully tested',3
+'ace propulsion test scenario step 13 3 does not have any details',3
+'ace propulsion test scenario does not completely verify requirements 4511 and 4511 2a',3
+'deltah deltav test scenario uses code inspection method for may steps instead of more appropriate verification methods',3
+'deltah deltav test scenario does not completely verify requirements 2111 and 2111 1',3
+'deltah deltav test scenario contains a duplicate step',4
+'deltah deltav test scenario does not list requirement 2560 3a as being tested',4
+'deltah deltav test scenario does not completely test requirement 2552 2 3',3
+'deltah deltav test scenario has incorrect test case reference for several steps',5
+'deltah deltav test scenario does not completely verify requirement 2553 5b',3
+'projectb sc ace iru  update   a comment uses the wrong function name',4
+'projectb sc ace  incorrect comment and editorial mistake',5
+'projectb sc ace  variables used before initialized ',3
+'projectb sc ace  flow chart issues  section 4 3',5
+'acs dss test scenario does not verify req 2234',3
+'acs dss test scenario does not verify req 2232 and 2233',3
+'inst2 fsw test plan lacks specific details about the test environment',3
+'inst2 fsw test plan does not contain acceptance test details',3
+'inst2 fsw test plan implies that some requirements may not be fully tested',3
+'inst2 fsw test plan does not document any test methods',3
+'inst2 fsw test plan does not ensure all requirements are tested',3
+'the file msprocessor c defines three functions with no consequential code in their bodies ',4
+'unused nontrivial assignments',4
+'the object  _hifitbl_bss_start declared on line 110 of file ac_attctl c  is unused',5
+'possible use of an uninitialized value on ine 331 in file ac_attctlob c',3
+'redundant assignment where a variable is assigned to itself on line 3761 in file ospci c ',4
+'enumeration prevents execution  conditional block on line 191 in ac_guidetele c can only execute if variable is outside domain assigned to its type',5
+'enumeration prevents execution  line 207 in ac_epmgr c can only execute if variable is outside domain assigned to its type',4
+'enumeration prevents execution  line 622 in ac_datamgr c can only execute if variable is outside domain assigned to its type',4
+'enumeration prevents execution  line 580 in ac_datamgr c can only execute if a variable is outside the domain assigned to its type ',4
+'a variable is assigned a value of a constant and then used in place of the constant ',5
+'code is unreachable  a return statement follows an infinite loop on line 155 of syssuromlib c ',4
+'code is unreachable  the return on line 650 of msmain c cannot be reached ',4
+'code is unreachable  a break statement follows a return in tort c on line 668 ',4
+'code is unreachable  there are break statements following a return in tobuffer c on lines 603  607    611 ',4
+'unreachable code  a constantâs value makes conditional code unreachable ',3
+'buffer overflow  array index of   ac_iruprocdata aceid  rateirualign  of size 3 may use a value of 7 ',2
+'buffer overflow  array index of  rateiruchannel  of size 3 may use a value of 7 ',2
+'assignment in condition  a variable is assigned in the right hand side of a conditional expression in the file tortout c ',4
+'assignment in condition  a struct member is assigned in a conditional expression in the file tort c ',4
+'assignment in condition  a variable is assigned twice in a conditional expression in the file tobuffer c',4
+'ace safehold test scenario acea_bsh_safehold_parameter_table requirements tested section is incomplete',4
+'ace safehold test scenario has requirements listed as tested in scenarios  but are not being tested in them',4
+'ace safehold test scenario requirements section of acea_bsh_control is not complete',4
+'ace safehold test scenario acea_bsh_control step 4 c has incorrect wording',4
+'ace safehold test scenario acea_bsh_commandtest steps 9   10 are unnecessary',4
+'ace safehold test scenario acea_bsh_commandtest step 8 command and steps do not match',3
+'ace safehold test scenario acea_bsh_commandtest step 7 command and verification do not match',3
+'ace safehold test scenario requirements table incorrectly lists acea_bsh_restart for a requirement',4
+'ace safehold test scenario requirements table doesn t list acea_bsh_control for a requirement',4
+'ace safehold test scenario requirements table doesn t list acea_bsh_tlm_packet for several requirements',4
+'ace safehold test scenario does not verify requirement 4510',3
+'ace safehold test scenario setup  step 4 and step 6 of acea_bsh_commandtest have an incorrect requirement',4
+'ace safehold test scenario does not verify requirement 4314 3',3
+'ace safehold test scenario step 7 of acea_bsh_control has incorrect requirement',4
+'ace safehold test scenario does not verify requirement 4312 6',3
+'ace safehold test scenario step 5 of acea_bsh_commandtest has incorrect requirement',4
+'ace safehold test scenario step 2 of acea_bsh_tlm_packet has incorrect requirement',4
+'ace safehold test scenario not fully verifying requirement 4013 1',3
+'ace safehold test scenario does not verify requirement 4013',3
+'ace iv build 2  the variables ace_evd_targetid  iv_noopresetcmd  and iv_openclosecmd are not used ',4
+'ace iv build 2  missing reject counter increment on mutex failure',3
+'ace iv build 2  an incorrect comment marks the end of a function ',5
+'ace iv build 2  there are declarations in the wrong section of the code ',5
+'ace iv build 2  there are break statements that are at inconsistent levels of indent ',5
+'ace iv build 2  there is an unnecessary return before a break statement ',4
+'ace iv build 2  the command execute counter does not accurately represent the count of commands executed ',3
+'ace iv build 2  wrong variable type for the variable ivcmd ',4
+'ace iv task build 2  the variables iv_hktlm fast cmdexeccnt and iv_hktlm fast cmdrejectcnt are reset in different ways ',4
+'ace sv task  command execute counter is not accurately represent the counter information',3
+'ace sv task  editorial corrections',5
+'ace sv task  viable cmdexeccount is set to -1 then incremented immediately to zero',4
+'ace sv task  there is an unnecessary return before a break statement',4
+'ace sv task  unused variables',4
+'ac task attitude determination test scenario has ambiguous verification of requirements',3
+'ac task attitude determination test scenario verifies requirement 2562 3 but is not listed in relevant requirements',4
+'ac task attitude determination test scenario verifies requirement 2420 3 but does not list it in the relevant requirements',4
+'ac task attitude determination test scenario does not verify requirement 2433 1',3
+'ac task attitude determination test scenario cannot verify requirement 2432 2',3
+'ac task attitude determination test scenario has steps traced to requirement 2430 2 that does not verify it',3
+'ac task attitude determination test scenario does not verify requirement 2421 2b',3
+'ac task attitude determination test scenario does not verify the processing occurs at 5 hz',3
+'ac task attitude determination test scenario  relevant requirements  table has incorrect entries',3
+'code review  projectb guide telescope code review doc  feb 10  2006  discrepancy between algorithm design and source code for setting of sun biased vectors ',3
+'code review  projectb guide telescope code review doc  feb 10  2006  discrepancy between algorithm design   source code for computing the biased sun vector ',3
+'code review  dss  digital sun sensor  build 2  9-feb-06  there appears to be an error in the calculation of beta ',3
+'code review  dss  digital sun sensor  build 2  9-feb-06  no evidence found for converting the dss output to decimal values ',3
+'code review  dss  digital sun sensor  build 2  9-feb-06   the comment âvalue is not verifiedâ is on some macros ',3
+'acs science mode test scenario lacks some details in the steps to verify requirements',3
+'acs science mode test scenario lines 115 and 119 are duplicate rows',5
+'acs science mode test scenario step 4 should not be contingent on previous failure to verify',3
+'acs science mode test scenario is too vague in stating  generally approaches ',3
+'acs science moce test scenario verifies requirement by code review rather than by test',3
+'acs science mode test scenario does not completely verify requirement 2513 3',3
+'acs science mode test scenario does not verify computation of quaternion at 5 hz',3
+'acs science mode test scenario step 1 does not explicitly verify the requirements listed',3
+'acs science mode test scenario does not verify requirement 2541',3
+'acs inertial mode test scenario lacks some details in the steps to verify requirements',3
+'acs inertial mode test scenario is too vague in stating  generally approaches ',3
+'acs inertial mode test scenario verifies requirement by code review rather than by test',3
+'acs inertial mode test scenario does not completely verify requirement 2513 3',3
+'acs inertial mode test scenario does not verify computation of the quaternion at 5 hz ',3
+'acs inertial mode test scenario step 1 does not explicitly verify the requirements listed',3
+'acs inertial mode test scenario does not verify requirement 2532',3
+'acs inertial mode test scenario does not verify requirement 2531 4',3
+'acs inertial mode test scenario does not verify requirement 2531',3
+'acs inertial mode test scenario does not verify requirement 2530',3
+'ace evd table load  ca_tblreply hdr does not assign values to the ccsds primary header ',3
+'ace evd table load  in the structure diagram   dest_addr  is d_uword but in the code it is a pointer ',5
+'ace evd table load  table load code  the comment on line 173 does not match the code ',4
+'ace if test scenario  tlm  does not list requirement 4160 as tested',4
+'ace if test scenario  tlm  lists requirement 4171  but does not test it',3
+'ace if test scenario  tlm  lists requirement 4111  but does not test it',3
+'ace if test scenario  restart  has a misleading comment about missing card',4
+'ace if test scenario  restart  lists requirement 4531  but does not test it',3
+'ace if test scenario  restart  lists requirement 4530  but does not test it',3
+'ace if test scenario  restart  lists requirement 4022 as  not testable  ',3
+'ace if test scenario  cmd  lists requirement 4511  but does not test it',3
+'ace if test scenario  cmd  lists requirement 4510  but does not test it',3
+'ac iru code build 2 - functions ac_irustaticcountscheck   ac_irucalctemp declared  but never defined',4
+'acs iru test scenario rollover requirement 2242 1b is not tested ',3
+'acs iru test scenario requirement 2241 is not listed in the steps that test it ',5
+'ace iru test scenario line 102 does not specify what the entire range is ',4
+'ace iru test scenario - command rejected case  step 4 1 2  does not include verifying the command is not executed',3
+'ace iru test scenario - rollover requirement 4262 might not be tested',3
+'ace iru test scenario - requirement 4142 traced to a step that does not verify it',3
+'acs sun acquisition test scenario  requirement 2521 not verified',2
+'acs sun acquisition test scenario  expected result not clearly stated',3
+'acs sun acquisition test scenario  step 7 is ambiguous',3
+'inst2 fsw build pre-release d2  high complexity scores for some functions may necessitate more iv v analysis',3
+'acs sun acquisition test scenario  requirements not tied to scenario steps',3
+'acs sun acquisition test scenario  conditional verification step is ambiguous',4
+'acs sun acquisition test scenario  sun acquisition mode not verified',4
+'acs sun acquisition test scenario  assumptions not documented',4
+'guide telescope  discrepancy between algorithm design and the source code for setting of sun biased vectors',3
+'guide telescope code build 2  computing biased sun vector  possible discrepancy between algorithm and code',3
+'guide telescope code build 2  possible incomplete fdc events raised for lit diodes 3   12',4
+'guide telescope code build 2  function ac_gtconvertdata - no fdc event raised for delta packet time less than or equal to zero',4
+'guide telescope code build 2  in function ac_gtobtaindata  default case of âswitch pipestatus â does not raise fdc event',4
+'local functions in ac_guidetele c should use static storage class',3
+'guide telescope code build 2  local enumeration for ac_gt_incontrol_t used rather than global enumeration',4
+'guide telescope code build 2  use local enumeration for  ac_guidetelescope_t  rather than global enumeration',4
+'ac star tracker code build 2  use of  magic numbers  instead of named constants',4
+'ac dss code build 2  apparent error in dss algorithm beta calculation - last subscript wrong in calculating intermediate value beta_c',2
+'ace css test scenario - requirement 4232 not tested',3
+'acs css test scenario - requirement 4231 3 not tested',3
+'acs css test scenario - housekeeping data not identified',4
+'ace css test scenario - inconsistent terminology in test scenario',4
+'ac dss code build 2  conversion of the output from the dss into decimal number is not performed',3
+'ac dss code build 2  potential infinite loop if function âsb_receivecopyâ does not retrieve a new packet',3
+'ac iru code build 2  code does not satisfy requirement 2242 2',3
+'ac iru code build 2  variable âac_irustaticdataâ should be declared static',4
+'ac iru code build 2  there are ternary conditional statements that are difficult to read ',4
+'ac iru code build 2 - violation of coding standards on naming of new type',4
+'ac iru code build 2 0 - no comment signaling end of for loop',4
+'ac iru code build 2 0 - buffer underflow overflow possibility due to unsigned integer usage and no range check',3
+'c dh build 1 2 0 - unused files',4
+'ace build 1 0 0  function is defined but is prototyped in a  c file instead of a  h file',4
+'ace build 1 0 0  function is declared and is called several times but never defined',3
+'ace build 1 0 0  incorrect comment at the end of function sendactuatorcommandstohw',4
+'ace build 1 0 0  unclear comments in ca_taskmain function',4
+'gce build 1 0 0  return data is wrong type for gi_readeotzenable function declaration',3
+'c dh build 1 2 0 - acs - unused function ac_evdresetpktcounters',4
+'c dh build 1 2 0 - acs - delete ep_tablecons h from mks',4
+'c dh build 1 2 0 - unused return value  cpu2  in xb_link_command_blocks',4
+'c dh build 1 2 0 - array out of bounds error in hd_monitorkacard ',3
+'c dh build 1 2 0 - dereferencing a null pointer error in xb_chain_next_work_unit',3
+'c dh build 1 2 0 -  dereferencing a null pointer error in xb_makewus ',3
+'c dh build 1 2 0 - array out of bounds error in hd_getvcducount',3
+'c dh 1 2 0 - macro clash words_in',3
+'c dh build 1 2 0 - macro clash eeprom',3
+'c dh build 1 2 0 - directory should not be part of the build',4
+'acea_acs_brw_process test process  inconsistencies with requirements verification',4
+'acs css  ac_cssprocdata_t structure contains doubles but is not double word aligned',3
+'acs css  ac_cssparmtbl_t structure contains doubles but is not double word aligned',3
+'1553 xb test procedure  sbc_bxb_restart has inconsistent requirements tracking',4
+'1553 xb test procedure  sbc_bxb_channeltest has inconsistent requirements tracking',4
+'1553 xb test procedure  sbc_bxb_1553interface has inconsistent requirements tracking',3
+'1553 xb test procedure  sbc_bxb_tlmtest has inconsistent requirements tracking',3
+'1553 xb test procedure  sbc_bxb_commmandtest has inconsistent requirements tracking',3
+'1553 xb rvtm -- requirements 1213 and 1214 are not allocated to a test procedure',4
+'1553 xb test procedure review -- sbc_bxb_commandtest may not properly execute raw read',4
+'1553 xb test procedure review -- verification of command counters in sbc_bxb_configuretest and sbc_bxb_commandtest',4
+'gce_bgi test  proc gcea_bgi_coldstart prc appears to test requirement 5150 but does not state so per scenario document ',4
+'gce_bgi test  proc gcea_bgi_warmstart prc appears to test requirement 5150 but does not state so per scenario document',4
+'gce_bgi test  requirement 5430 not listed for gimbal table in the projectb gce gimbal interface  gi  and analog  an  build verification test scenarios',5
+'gce_bgi test  differences noted between scenario  rvtm and corresponding test proc for antenna stop',3
+'gce_bgi test  antenna stop proc step 7  source control  is missing a part to test requirement 5331 2 when ground is in control and acs sends a move antenna command',3
+'gce_bgi test  proc gcea_bgi_antenna_move_init prc dated 7-20-05 still appears fairly incomplete ',3
+'gce_bgi test  step 7 of proc gcea_bgi_badcommandtest prc is missing an identifier label',4
+'gce_bgi test  test in step 28 of test script gcea_bgi_commandtest prc appears to be incomplete',3
+'gce_bgi test  possible error in steps 26 and 27 of gce test script gcea_bgi_commandtest prc',3
+'projectb ace iru - incorrect array initialization in file sh_iru c',3
+'projectb ace iru - spelling error in sh_iru_tbl c',5
+'projectb ace iru - static variables should be global instead of local - sh_iru c',3
+'pse build 2  ps_slow_hk_tlm_size and mi_slow_hk_tlm_size are defined as the size of the fast packet ',3
+'the bootstrap loader monitor  blm  srs document needs updating to reflect that it is to power on eeprom bank 2',3
+'the memory scrub  ms  srs document needs updating to reflect that bulk memory needs to be initialized before beginning to scrub recorder memory',3
+'the memory scrub  ms  srs document needs updating to reflect that the ms task needs to initialize bulk memory  edac checkbits ',3
+'the telemetry   statistics monitor  ts  srs document needs updating to reflect that 512 points will be monitored as described at the fsw cdr ',3
+'the 1553 bus controller  bc  srs document needs updating to reflect new initialization design information which was presented at the fsw cdr ',3
+'pse build 2 - comments for else statements',4
+'checksum  cs  requirements document  srs  needs updating to reflect that the 8-bit with carry checksum alogithm is utilized',3
+'unreachable code in xbmakewu c line 323',3
+'array out-of-bounds in todsif c line 138',3
+'array out-of-bounds tobuffer c line 467',3
+'array out-of-bounds in tobuffer c line 359',3
+'unreachable code in timepkt h  timetask_client c line 211',3
+'unreachable code in ospci c line 263',3
+'array out-of-bounds in hdtask c line 713',3
+'unreachable code in timetask_client c line 211',3
+'unreachable code in timepkt h  timetask_client c line 211',3
+'non-initialized data in rtems c line 206',3
+'non-initialized data in osapi c line 1454',3
+'non-initialized data in osapi c line 1428',3
+'array out-of-bounds in acs_def h  capkt h  ace_command_actuators_task c line 646',2
+'two requirements in document that utilize the same requirement number id - requirement 3500',3
+'pse build 1 - unused global in  c file',4
+'pse build 1 - unused externs in  c file',4
+'pse build 1 - unused defines in  c file',4
+'pse build 1 - unused defines in  h file',4
+'pse build 1 -  defines in middle of source file are a violation of coding standards',4
+'pse build 1 - possible array out of bounds in main command task',2
+'464-cdh-spec-0012 requirement 2 10 3-f-g was not tested or verified by test procedures',3
+'test step verification information and description is vague and unclear as to what results the uart log file should capture',4
+'test step description and verification description appear to be reversed switched',4
+'a memory dump needs to be performed prior to step 2 3  to form a baseline comparison for the dump indicated in this step',3
+'step 2 3 was not performed and the functionality described in same was not properly verified as indicated in the test step procedures',3
+'test step description and verification description appear to be reversed switched',4
+'verification description for indicated test step is vague and unclear as to what should be expected in uart log file as it concerns test results',4
+'it is unclear why the uart result log shows that the starting address is the same after a por rest and a  non  por reset when the governing requirements for the conditions indicate otherwise',3
+'captured test results in the uart log file do not match verification description for indicated test step',4
+'on a por reset it is unclear why uart log file indicates that ram was preserved when requirement 1002 states otherwise',4
+'captured test results in the uart log file do not match verification description for indicated test step',4
+'test steps do not indicate which requirements are being tested and verified',3
+'test procedure document deviates from outline and document format previously provided by projectb project',5
+'test procedures document lacks thorough descriptions of the test procedures to be utilized',3
+'document lacks specifying explicit requirements which are tested and verified by respective test procedure steps',3
+'no  test coverage  information is provided for the first 11 requirement entries in the text matrix table',3
+'no requirement numbers shown for the first five requirement entries in the text matrix',4
+'no requirements document reference is provided with test procedures',4
+'mp pbbl test report  minor formatting enhancements recommended ',5
+'mp pbbl test procedure sbc_pbbl_commandtest prc  recommend additional test for potential error condition ',3
+'mp pbbl test procedure sbc_pbbl_initverify prc  procedure contains several steps for which there are no requirements ',3
+'requirement cdhmp-303 and the use of  sc  subsystem allocation',4
+'requirement cdhmp-180 and the use of  sc  subsystem allocation',4
+'requirement cdhmp-166 and the use of  sc  subsystem allocation',4
+'fsw level 3 requirement cdhmp-33 is not implemented in any requirements in the stored command srs level 4 document',3
+'array out-of-bounds in pse_common h  ttpkt h  pct_task_main c line 1000',2
+'non-initialized data in quaterniontest c line 540',4
+'non-initialized data in quaterniontest c line 444',4
+'non-initialized data in mat3x3d_ut c line 1169',4
+'possible use of an uninitialized variable in pciautoconfig c line 2208',2
+'requirement cdhmp-136 has no subsystem allocation for  hd   high-speed bus director ',4
+'fsw level 3 requirement cdhmp-130 is not implemented in any requirements in the hd srs level 4 document',3
+'fsw level 3 requirement cdhmp-66 is not implemented in any requirements in the hd srs level 4 document',3
+'fsw level 3 requirement cdhmp-60 is not implemented in any requirements in the hd srs level 4 document',3
+'fsw level 3 requirement cdhmp-59 is not implemented in any requirements in the hd srs level 4 document',3
+'fsw level 3 requirement cdhmp-52 is not implemented in any requirements in the hd srs level 4 document',3
+'fsw level 3 requirement cdhmp-24 is not implemented in any requirements in the hd srs level 4 document',3
+'no subsystem allocation in document for  hd   high-speed bus director ',4
+'multiple requirements in hd srs reference level 3 requirement cdhmp-182 as their parent requirement  but cdhmp-182 does not exist',3
+'mp pbbl - incorrect comment in pbblccsds c',5
+'mp pbbl - incorrect comments in systart s in the ram-init and prom-load directories',5
+'mp pbbl - incorrect ending comments on several header files in the build',5
+'mp pbbl - pbblregs h - incorrect header definition and ending comment',4
+'mp pbbl - hardware h  endif is not at end of file',4
+'mp pbbl - macro clash - eeprom_fsw_start_address defined with different values',3
+'mp pbbl - pciautoconfig c - variable used before initialized',2
+'sdn pbbl - unused structure members defined in sdnpbbl h',4
+'sdn pbbl - missing error message to ground in function pbbl_knowthyself',4
+'sdn pbbl - unused  defines in sdnpbbl h',4
+'traceability for requirement 5326 1 is incomplete',4
+'traceability for requirement 5021 indicates that it is derived however level 3 requirements sdn-3 and or sdn-5 seem more applicable',4
+'inst1 inst3  sur_007650 contains an invalid reference for the source requirement',4
+'incorrect function description comment in function prologue',5
+'incorrect header file name definitions in prom based boot loader  pbbl  header files',4
+'pbbl - function is defined but is not used',4
+'mp pbbl - error handling variables are defined but not used - point to missing error handling requirements',3
+'pbbl - typedef not defined according to coding standards',4
+'pbbl -  defines should be placed in header file',4
+'pbbl - incorrect comment for end of function',5
+'pbbl - incorrect spelling for an array index comment',5
+'pbbl - incorrect name for the main function in pbbl',4
+'requirement 4431 5 - level 3 parent requirement ace-31 does not seem to correlate with child requirement 4431 5',3
+'requirement 4431 4 - level 3 parent requirement ace-31 does not seem to correlate with child requirement 4431 4',3
+'requirement 4431 3 - level 3 parent requirement ace-31 does not seem to correlate with child requirement 4431 3',3
+'requirement 4430 2 - level 3 parent requirement ace-1 does not seem to correlate with child requirement 4430 2',3
+'requirement 4430 1 - level 3 parent requirement ace-1 does not seem to correlate with child requirement 4430 1',3
+'requirements spec 0017  surom updates to prom based boot loader  is of poor quality and readability',4
+'incomplete updates to affected requirement specs caused by main processor prom based boot loader',2
+'s-comm - unused word os_object_table_end',4
+'s-comm - unused structure type',4
+'s-comm - unused structure member vector',4
+'s-comm - unused structure member config_endian',4
+'s-comm - unused parameters in function os_taskcreate file osapi c',4
+'s-comm - unused parameter in function os_binsemcreate file osapi c',4
+'s-comm - unused parameter in function os_queuecreate file osapi c',4
+'s-comm - unused parameter in function matrixmxnd_mult file matmxnd c',4
+'s-comm - unused parameter in rtems c rtems_task_argument',4
+'s-comm - multiple copies of the same file defined in the build - osexception c',4
+'sdn s-comm - duplicate macros - null causes macro clash',3
+'sdn s-comm - duplicate macros - mbar causes macro clash',3
+'s-comm - duplicate macros - set_bit causes macro clash',3
+'s-comm - duplicate macros - bit cause macro clash',3
+'sdn s-comm - array-out-of-bounds violation - os_binsemcreate - line 795',4
+'sdn s-comm - array-out-of-bounds violation - os_binsemcreate - line 790',2
+'sdn s-comm - array-out-of-bounds violation - os_queueput - line 705',2
+'sdn s-comm - array out-of-bounds violation - os_queueget - line 576',2
+'sdn s-comm - array out-of-bounds - os_queuecreate - line 495',2
+'sdn s-comm - array-out-of-bounds violation in os_taskcreate - line 310',2
+'sdn s-comm - array out-of-bounds in function os_tasksetpriority - line 240',2
+'sdn s-comm - unreachable code in os_adcgetrawsample function',3
+'sdn s-comm - unreachable code in the function rtems c',2
+'sdn s-comm - array out of bounds violation in file osapi c - line 1049',4
+'sdn s-comm - osapi c - array-out-of-bounds violation for the variable sem_id - line 1012',2
+'ace_biru_data_proc_conversion test scenario  inconsistent verbiage in step 15 3 for assigning passing failing status',4
+'ace_biru_data_proc_conversion test scenario  unclear where requirement 2241 is verified in step 15 3',3
+'ace_biru_data_proc_conversion test scenario  possible incorrect requirement listed as being tested by step 15 3',3
+'ace_biru_data_proc_conversion test scenario  requirement 2243 b not properly assigned a passing failing status in step 15 3',3
+'ace_biru_data_proc_conversion test scenario  requirement 2243 a not properly assigned a passing failing status in step 15 2',3
+'ace_biru_data_proc_conversion test scenario  requirement 2243 b not properly assigned a passing failing status in step 11 2',3
+'ace_biru_data_proc_conversion test scenario  requirement 2243 a not properly assigned a passing failing status in step 11',3
+'ace_biru_data_proc_validation test scenario  requirement 2243 c does not appear to be assigned a failing or passing status',3
+'ace_biru_data_proc_validation test scenario  requirement 2241 1 partially tested in step 16 2',3
+'ace_biru_data_proc_validation test scenario  tbds for ao iru_i_cur_volts parameter',3
+'ace_biru_data_proc_validation test scenario  tolerance ranges are tbd',3
+'ace_biru_data_5hz test scenario  tbd in step 4',3
+'ace_biru_data_5hz test scenario  tolerance ranges are tbd in steps 3   6',3
+'ace_biru_data_acquisition test scenario  tbds in steps 5 1 and 5 2 on iru a d conversion error',3
+'ace_biru_data_acquisition test scenario  tolerance ranges are tbd in step 4 6',3
+'ace_biru_data_acquisition test scenario  test step appears to be missing in step 4',3
+'ace_biru_data_acquisition test scenario  tbds in step 3',3
+'sdn_bac_rw_process test scenario  requirements listed as being tested  but they are not',4
+'sdn_bac_rw_process test scenario  discrepancy between the test scenario and the rvtm',4
+'sdn_bac_rw_process test scenario  acs requirement 2272 4 does not appear to be verified in step 12',3
+'sdn_bac_rw_process test scenario  step 12 identifies verifying requirements that do not exist',4
+'sdn_bac_rw_process test scenario  step 11 not fully verifying acs requirement 2272 1 1',3
+'sdn_bac_rw_process test scenario  acs requirement 2272 2   term  convert  appears incorrect in the context of the requirement',4
+'sdn_bac_rw_process test scenario  acs requirement 2272 not properly listed as failing when it should fail in step 10',3
+'sdn_bac_rw_process test scenario  step 9 notations do not protect against invalid speed values',4
+'sdn_bac_rw_process test scenario  step 8 only partially verifies acs requirement 2271 5',3
+'sdn_bac_rw_process test scenario  scenario lacking test for what should never occur in step 7',3
+'sdn_bac_rw_process test scenario  requirement 2271 3 1 only partially tested in step 6',3
+'sdn_bac_rw_process test scenario  missing requirement in requirements tested section of step 5',4
+'sdn_bac_rw_process test scenario  incorrect requirement assigned failing status',3
+'sdn_bac_rw_process test scenario  missing check for fdc notification in steps 4   5',3
+'sdn_bac_rw_process test scenario  check for rw momenta missing from step 2 for requirement 2273',3
+'sdn_bac_rw_process test scenario  check for rw momenta missing from step 2 for requirement 2271 1',3
+'sdn_bac_rw_process test scenario  no passing or failing of acs requirement 2270',3
+'rt srs  rt srs does not address allocated requirement sdn-35',3
+'rt srs  rt srs does not address allocated requirement sdn-32',3
+'rt srs  rt srs does not address allocated requirement sdn-31',3
+'rt srs  rt srs does not address allocated requirement sdn-24',3
+'rt srs  rt srs does not address allocated requirement sdn-23',3
+'rt srs  rt srs does not address allocated requirement sdn-22',3
+'rt srs  rt srs does not address allocated requirement sdn-21',3
+'rt srs  rt srs does not address allocated requirement sdn-13',3
+'rt srs  rt srs does not address allocated requirement sdn-12',3
+'rt srs  rt srs does not address allocated requirement cdhmp-130',3
+'rt srs  rt srs does not address allocated requirement cdhmp-66',3
+'rt srs  rt srs does not address allocated requirement cdhmp-65',3
+'rt srs  rt srs does not address allocated requirement cdhmp-60',3
+'rt srs  rt srs does not address allocated requirement cdhmp-59',3
+'rt srs  rt srs does not address allocated requirement cdhmp-52',3
+'rt srs  rt srs does not address allocated requirement cdhmp-51',4
+'rt srs  rt srs does not address allocated requirement cdhmp-24',3
+'rt srs  rt srs does not address allocated requirement cdhmp-13',4
+'rt srs  rt srs does not address allocated requirement cdhmp-6',4
+'rt srs  rt srs does not address allocated requirement cdhmp-5',4
+'rt srs  requirement 1208 could be worded better',4
+'rt srs  requirement 1007 could be worded better',4
+'rt srs  incorrect reference to appendix in requirement 1002',4
+'ace_command_processing_1 0 test scenario  intended meaning of requirements is unclear ',3
+'h s srs  h s srs does not address allocated requirement sdn-24',3
+'h s srs  h s srs does not address allocated requirement sdn-23',3
+'h s srs  h s srs does not address allocated requirement sdn-21',3
+'h s srs  h s srs does not address allocated requirement sdn-13',3
+'h s srs  h s srs does not address allocated requirement sdn-12',3
+'h s srs  h s srs does not address allocated requirement sdn-11',3
+'h s srs  h s srs does not address allocated requirement cdhmp-133',3
+'h s srs  h s srs does not address allocated requirement cdhmp-132',3
+'h s srs  h s srs does not address allocated requirement cdhmp-66',3
+'h s srs  h s srs does not address allocated requirement cdhmp-65',3
+'h s srs  h s srs does not address allocated requirement cdhmp-60',3
+'h s srs  h s srs does not address allocated requirement cdhmp-59',3
+'h s srs  h s srs does not address allocated requirement cdhmp-52',3
+'h s srs  h s srs does not address allocated requirement cdhmp-24',3
+'h s srs  incorrect parent requirement for 2401',4
+'h s srs  difficult to understand wording for requirement 2400',4
+'h s srs  additional capability provided in requirements 2200  2201  and 2202',4
+'h s srs  insufficient detail in requirement 2100',3
+'h s srs  incorrect parent requirement for 1206',4
+'h s srs  incorrect parent requirement for 1203',4
+'h s srs  incorrect parent requirement for h s 1002',4
+'gce_bgi_antenna_stop test scenario  clarification needed as to intention behind test of  ground in-control  command near end of scenario ',3
+'gce_bgi_antenna_limit test scenario  additional instructions needed for tests of glitch position error counters when drive pulse counts are updated ',3
+'gce_bgi_antenna_limit test scenario  additional instructions needed for tests of glitch position error counters when home position values are updated ',3
+'gce_bgi_antenna_limit test scenario  additional instruction is needed to verify that the  command rejected  counter has incremented ',4
+'gce_bgi_warmstart test scenario  rvtm lists requirement that is not being tested in this scenario ',3
+'gce_bgi_gimbal_table test scenario  requirements tested section lists requirement that is not mentioned as being tested within any test steps ',3
+'gce_bgi_gimbal_table test scenario  requirements listed in scenario as being tested differ from requirements listed in rvtm as being tested by this scenario ',4
+'gce_bgi_antenna_limit test scenario  close of opposite side isolation relay is not being tested ',3
+'gce_bgi_antenna_limit test scenario  tests of the run register settings for absolute delta moves require additional instructions ',2
+'gce_bgi_antenna_limit test scenario  tests of the jog register settings for absolute delta moves require additional instructions ',2
+'gce_bgi_antenna_limit test scenario  clarification needed on whether instruction to  reset  is intended to mean the same as  initialize  ',3
+'gce_bgi_antenna_limit test scenario  clarification needed on whether instruction to set motor direction to  positive  is a setup step or a command being tested ',4
+'gce_bgi_antenna_limit test scenario  scenario steps need criteria for passing or failing requirements ',3
+'gce_bgi_antenna_limit test scenario  additional instructions needed in tests to verify commands that set positve negative limits on elevation axis position ',3
+'gce_bgi_antenna_limit test scenario  requirements listed in scenario as being tested differ from requirements listed in rvtm as being tested by this scenario ',3
+'gce_bgi_antenna_stop test scenario  clarification needed on methodogy for testing the  axis disable  command ',4
+'gce_bgi_antenna_stop test scenario  wrong requirement is listed as being tested in step to test the gce-a processor in control not in control command ',3
+'gce_bgi_antenna_stop test scenario  scenario steps need criteria for passing or failing requirements ',3
+'gce_bgi_antenna_stop test scenario  clarification needed as to why step to test  ground control command   slated for build 2  is in this scenario ',4
+'gce_bgi_antenna_stop test scenario  clarification needed on distinction between  gimbal axis init  and  gimbal axis enable disable  commands  if any  ',4
+'gce_bgi_antenna_stop test scenario  either step 4 is missing or the test scenario is misnumbered ',4
+'gce_bgi_antenna_stop test scenario  instructions need criteria for passing or failing the steps ',3
+'gce_bgi_antenna_stop test scenario  clarification needed on purpose of  axis init commands  in steps testing antenna stop command ',4
+'gce_bgi_antenna_stop test scenario  clarification needed on status of  gimbal axis initialization flag  upon execution of  stop antenna move  command ',3
+'gce_bgi_antenna_stop test scenario  requirements listed in scenario as being tested differ from requirements listed in rvtm as being tested by this scenario ',4
+'gce_bgi_coldstart test scenario  rvtm lists requirement that is not being tested in this scenario ',3
+'gce_bgi_acs_hga_packet test scenario  rvtm refers to this test scenario as gce_bgi_hga_pkt ',4
+'gce_bgi_antenna_move_delta test scenario  steps testing delta moves crossing 0 point do not seem to map to correct requirements ',3
+'gce_bgi_antenna_move_delta test scenario  steps to test fsw execution of hga  move  commands need to specify criteria for  failure  ',4
+'gce_bgi_antenna_move_delta test scenario  instructions need criteria for passing or failing the steps ',3
+'gce_bgi_antenna_move_delta test scenario  scenario steps need criteria for passing or failing requirements ',3
+'gce_bgi_antenna_move_delta test scenario  instructions need description on how to verify that the  end position  is correct ',4
+'gce_bgi_antenna_move_delta test scenario  scenario steps need to specify where requirements are only being partially tested ',3
+'gce_bgi_antenna_move_delta test scenario  instruction needs to specify how the motor direction for each gimbal will be verified ',4
+'gce_bgi_antenna_move_delta test scenario  instructions to verify time and completion of a commanded step need additional details ',3
+'gce_bgi_antenna_move_delta test scenario  scenario testing requirement 5220  which does not exist ',4
+'gce_bgi_antenna_move_delta test scenario  requirements listed in scenario as being tested differ from requirements listed in rvtm as being tested by this scenario ',4
+'gce_bgi_antenna_move_absolute test scenario  requirements aren t mapped to instructions within steps ',3
+'gce_bgi_antenna_move_absolute test scenario  scenario steps need criteria for passing or failing requirements ',3
+'gce_bgi_antenna_move_absolute test scenario  step 6 for  positive gimbal motor direction with initial time delay  is not clearly mapped to requirements ',3
+'gce_bgi_antenna_move_absolute test scenario  instructions need criteria for passing or failing the steps ',3
+'gce_bgi_antenna_move_absolute test scenario  instructions need description on how to verify that the  end position  is correct ',3
+'gce_bgi_antenna_move_absolute test scenario  scenario steps need to specify where requirements are only being partially tested ',3
+'gce_bgi_antenna_move_absolute test scenario  instruction needs to specify how the motor direction for each gimbal will be verified ',3
+'gce_bgi_antenna_move_absolute test scenario  instructions to verify time and completion of a commanded step need additional details ',3
+'gce_bgi_antenna_move_absolute test scenario  requirements tested differs from requirements listed as being tested in the rvtm ',3
+'gce_bgi_antenna_move_init test scenario  traceability of  gimbal axis initialization  commands to rvtm requires clarification ',3
+'gce_bgi_antenna_move_init test scenario  test of  enable disable gimbal axis   command needs additional instructions ',3
+'gce_bgi_antenna_move_init test scenario  test of  enable disable encoder current   command needs additional instructions ',3
+'gce_bgi_antenna_move_init test scenario  test of  gimbal in control   not in control  needs additional instructions ',3
+'gce_bgi_antenna_move_init test scenario  rvtm refers to this test scenario as gce_bgi_antenna_init ',4
+'gce_bgi_antenna_move_init test scenario  additional instructions needed to verify that  gimbal axis initialization flag  is available for downlink ',3
+'sbc_bac_css_sa_loadtesttables test scenario  name of scenario differs from name used to reference it in scenario overview ',4
+'sbc_bac_sa_rangecheck test scenario  scenario refers to a requirement that doesn t exist ',4
+'sbc_bac_css_rangecheck test scenario  several additional instructions needed to verify fdc notification and retention of previous values ',3
+'sbc_bacs_css_dotproductcheck test scenario  scenario contains a reference to a non-existent step ',4
+'sbc_bac_css_sa_dataanomalies test scenario  unable to determine how verification instruction for  normal processing  pertains to requirement for  incomplete deployment  processing ',4
+'sbc_bac_css_sa_dataanomalies test scenario  tests of sub-requirements for  2221 3 need to correspond to the instructions testing them ',3
+'sbc_bac_css_sa_dataanomalies test scenario  tests of sub-requirements for  2221 1 need to correspond to the instructions testing them ',3
+'sbc_bac_sa_validateresults test scenario   deployment status  does not appear to be verified ',3
+'sbc_bac_sa_validateresults test scenario  rvtm does not list this test scenario as one testing requirement  2213 ',4
+'sbc_bac_sa_dataprocessing test scenario  unable to determine if  conversion status  is a data packet component ',3
+'sbc_bac_css_validateresults test scenario  additional instruction needed to  verify css data is flagged as invalid  ',3
+'sbc_bac_css_dataprocessing test scenario  unable to determine if  conversion status  is a data packet component ',3
+'ti srs  ti srs does not address allocated requirement sdn-33',3
+'ti srs  ti srs does not address allocated requirement sdn-24',3
+'ti srs  ti srs does not address allocated requirement sdn-23',3
+'ti srs  ti srs does not address allocated requirement sdn-21',3
+'ti srs  ti srs does not address allocated requirement sdn-13',3
+'ti srs  ti srs does not address allocated requirement sdn-12',4
+'ti srs  ti srs does not address allocated requirement sdn-11',4
+'ti srs  ti srs does not address allocated requirement sdn-10',4
+'ti srs  ti srs does not address allocated requirement sdn-4',4
+'ti srs  ti srs does not address allocated requirement cdhmp-118',3
+'ti srs  ti srs does not address allocated requirement cdhmp-114',3
+'ti srs  requirement 3106 has an incorrect parent requirement',3
+'ti srs  requirement 1201 does not have a parent requirement',3
+'ti srs does not follow  process  for deleting requirements',5
+'sbc_bac_css_validateresults test scenario  additional instruction to flag ccs data as invalid needed ',3
+'sbc_bac_css_validateresults test scenario  rvtm does not list this test scenario as one testing requirement  2222 4 ',4
+'sbc_bac_css_dataprocessing test scenario  step numbering   step references need correction ',4
+'ace_thermistor_data_acquisision_1 0 test scenario  test to verify requirement  4170 doesn t appear to take place in steps 2 through 16 ',3
+'ace_thermistor_data_acquisition_1 0 test scenario  test to verify downlink of ace assembly housekeeping data does not appear to take place ',3
+'ace_thermistor_data_acquisition_1 0 test scenario  conversion and bias are tbd items ',3
+'ace_sat_sep_data_acquisition test scenario  test to verify requirement  4111 doesn t appear to take place in steps 2 through 14 ',3
+'ace_pci_bus_1 0 test scenario  step 2 does not test requirements 4032 and 4033 ',4
+'ace_pci_bus_1 0 test scenario  test of warm start requirement may be removed - already covered in ace_warm_restart_1 0 test scenario ',4
+'ace_pci_bus_1 0 test scenario  requirements tested section lists requirements for which there are no corresponding test steps ',3
+'ace_event_messages_1 0 test scenario  test steps contain several tbd items ',3
+'ace_event_messages_1 0 test scenario  requirements tested section lists requirements for which there are no corresponding test steps ',3
+'ace_command_processing_1 0 test scenario  requirements tested section lists requirements for which there are no corresponding test steps ',3
+'ace_command_processing_1 0 test scenario  step 11  line 206 is a tbd item ',3
+'ace_command_processing_1 0 test scenario  projectb_ace_command_processing xls worksheet contains several tbd items ',3
+'ace_cold_restart_1 0 test scenario  test to verify that packet sequence counters are reset to zero checks for  low numbers  instead ',3
+'ace_cold_restart_1 0 test scenario  intended meaning of requirements is unclear ',3
+'ace_warm_restart_1 0 test scenario  intended meaning of term  data segments  is unclear within requirements ',3
+'ace_warm_restart_1 0 test scenario  rvtm doesn t include this scenario on list of those testing requirement  4023 ',4
+'sbc_bac_css_sa_dataanomalies test scenario  test to verify  rsd packets not received  processing during a warm restart needs an additional instruction ',3
+'gce_bgi_housekeeping_packet test scenario  time period over which to run utility program ut_pfindicate needs to be supplied ',3
+'gce_ban_analog_packet test scenario  requirement  5120 appears to only be partially tested ',3
+'gce_ban_analog_packet test scenario  verification of  5130 is unclear using  get packet rate  utility program ',3
+'gce_bgi_badcommandtest test scenario  step 30 2 requires an additional instruction to verify that the control source does not change ',3
+'gce_bgi_badcommandtest test scenario  modify instruction  verify that the negative software limit does not change  to clarify that this should not occur  for any axis  ',3
+'gce_bgi_badcommandtest test scenario  instruction in step 15 2 contains a double negative  effectively stating the opposite of its intended meaning ',4
+'acea_bace_cold_restart test scenario  question as to the existence of required telemetry point',3
+'acea_bace_cold_restart test scenario  identified requirements are not tested in the scenario',3
+'gce_bgi_badcommandtest test scenario  wording of instructions has potential to create confusion ',4
+'gce_bgi_badcommandtest test scenario  test of the  disable processor in control  command needs an additional instruction',3
+'gce_bgi_badcommandtest test scenario  test of the  turn on encoder current  command needs an additional instruction ',3
+'gce_bgi_badcommandtest test scenario  test of the  close gic self isolation relay  command requires an additional instruction ',3
+'gce_bgi_badcommandtest test scenario  test of the  +z az gimbal axis disable  command requires an additional instruction ',3
+'gce_bgi_commandtest test scenario   clear glitch command  test is validating a sub-requirement that doesn t exist ',4
+'gce_bgi_commandtest test scenario  test of the  reset the gic control fpga  command only partially tests requirement 5140',4
+'gce_bgi_commandtest test scenario  verification instruction for test of the gic reset command conflicts with requirement specifications',3
+'gce_bgi_commandtest test scenario  step 29 1 may not be testable',3
+'gce_bgi_commandtest test scenario  step 28 5 should be removed in build 1 and placed in build 2 scenarios',4
+'gce_bgi_commandtest test scenario  test of the  set gic gimbal position  command tests ionly sub-requirement 5130g ',4
+'gce_bgi_commandtest test scenario  test of the  set cig driver pulse counts  command tests only sub-requirement 5130f ',4
+'gge_bgi_commandtest test scenario  test of the  set gic gimbal position  command needs a value supplied for number of counts ',3
+'gce_bgi_commandtest test scenario  test of the  set rf switch state  command tests only sub-requirement 5120g ',4
+'gce_bgi_commandtest test scenario  test ot fhe  home  command to each antenna for each gimbal tests only sub-requirement 5140c ',4
+'gce_bgi_command_test test scenario  requirements are misnumbered  two different unique requriements share the same number',3
+'gce_bgi_commandtest test scenario  test of the  open  and  close  opposite side relay commands only tests sub-requirement 5120h ',4
+'gce_ban_commandtest test scenario   an analog read  commands need clarification that they are being sent using raw  ccsds  format ',4
+'incorrect parent requirement for requirement 1405',3
+'incorrect parent requirement for requirement 1404',4
+'gce_bgi_commandtest test scenario  a number of steps require an additional instruction to  verify that the acs commands processed counter increments  ',3
+'test scenario sbc_bep_load_solar_lunar_tables  non-default values to load into system tables are tbd',3
+'acs ephemeris test scenarios contain  model execution counter  that requires clarification',4
+'variable name  ii  in  velocityaberration  algorithm routine is not defined in local variable declarations',4
+'variable  jed  not defined in  groundstation  algorithm routine',4
+'variable  gha  not defined in  groundstation  algorithm routine',4
+'variable name  ii  in  navdynamicfunction  algorithm routine is not defined in local variable declarations',4
+'variable  d0  not defined in  navdynamicfunction  algorithm routine',4
+'variable  mu  is used in  navdynamicfunction  algorithm routine  but it is unclear if it is the gravitational constant for the earth  sun or moon',4
+'variable name  i  in  acspropmodel  algorithm routine is not defined in local variable declarations',4
+'variable name  i  in  ephemerislunar  algorithm routine does not match variable name as specified in local declarations',4
+'variables  cos_e  and  sin_e  in  ephemerislunar  algorithm routine do not match variable names as specified in global declarations',4
+'variable  r  in  ephemerislunar  algorithm routine does not match variable name as specified in local declarations',4
+'variable  seconds_per_day  in  ephemerislunar  algorithm routine does not match variable name as specified in global declarations',4
+'variable  t  in  ephemerislunar  algorithm routine does not match variable name as specified in local declarations',4
+'variable  lambdap  in algorithm routine does not match variable name as specified in local declarations',4
+'variable  eta  in algorithm routine does not match variable name as specified in local declarations',4
+'variable name  i  in  ephemerissolar  algorithm routine does not match variable name as specified in local declarations',4
+'variable  t  in  ephemerissolar  algorithm routine does not match variable name as specified in local declarations',4
+'variable  seconds_per_day  in  ephemerissolar  algorithm routine does not match variable name as specified in global declarations',4
+'variable  pos_gcif_scwrtearth  not defined in  ephemerisgenerator  algorithm routine',4
+'pse requirement 1213 1 is vague and not testable',3
+'projectb surom - commas after the last members of array initializations',3
+'projectb surom - external declarations are not prefaced by an extern keyword',4
+'projectb surom - incorrect comment explaining the assembly instruction',4
+'projectb surom - incorrect comment in function description',4
+'pse requirement 2107 incomplete',3
+'pse requirements 2101 2  2101 4  2101 7  2104 1  2104  and 2201 5 all have partial traces  missing trace to sdn-21   22',4
+'pse requirement 1304 is incomplete and cannot be tested as currently written',3
+'pse requirements 1239 and 1240 have partial traces to the parent level 3 fsw srs',4
+'pse requirements 1236 1 and 1237 1 have incomplete inaccurate traces to level 3 fsw srs',4
+'pse requirement 1213 is incomplete are currently written',3
+'pse requirements 1212   1216 have incomplete traces to parent requirement in level 3 fsw srs',4
+'pse fsw requirement 1206 has incomplete trace to level 3 fsw requirements',4
+'pse fsw requirements  1202   1203 have incomplete traces to level 3 fsw reqs',4
+'not an issue',5
+'projectb surom - missing explanation for warm restart',4
+'projectb surom - incorrect section labels',5
+'test scenarios sbc_bac_restart  sbc_bac_gt_process  and sbc_bac_gt_tabletest define acronymns inconsistently',4
+'test scenario sbc_bac_restart doesn t define what is meant by  all  acs statistics and  all  fdc notifications',3
+'test scenario sbc_bac_restart doesn t specify which  prior solutions  to initialize to zeroes',3
+'test scenario sbc_bac_restart  tbd parameters',3
+'464-fsw-spec-0050  requirement difference between warm restart and cold restart',3
+'464-fsw-spec-0050 acs fsw requirements do not distinguish between  cold restart  and  power on ',3
+'test scenario sbc_bac_gt_process steps 4  5  6   7 lack detail and don t fully verify requirements as currently written',3
+'test scenario sbc_bac_gt_process step 2 1 lacks details on the parameters that need to be verified',4
+'test scenario sbc_bac_gt_process does not completely verify requriement 2203',3
+'test scenario sbc_bac_gt_process step 1 3 tests an unrequired measurement counter',3
+'test scenario sbc_bac_gt_process is lacking a test to set controlling gt to something other than the primary or backup',3
+'test scenario sbc_bac_restart  discrepancy between test scenario and rvtm ',4
+'464-fsw-req-0056 has two requirements that are the same',4
+'to requirement 3203 has an incomplete trace  the trace is tbd ',3
+'to requirement 3202 is actually 2 requirements and the trace is incomplete as currently written',4
+'to requirement 3202 has no trace  it is tbd ',3
+'to requirement 2800 has incomplete trace',4
+'to requirement 2101 has incomplete trace',4
+'to requirement 1220 does not have an accurate trace to a parent requirement',4
+'to requirements 1103  1104  1105   1106 and 1109 lack trace to 464-fsw-req-0056 cdhmp-10',4
+'to requirement 1008 does not accurately trace to level 3 requirements as currently written',3
+'projectb cd h - missing function purposes and parameter definitions in function comment headers in file osapiarch c',4
+'projectb rwa processing - initialization routine does not initialize array momrwaf to a set of values',2
+'projectb rwa processing - wrong filenames referenced in end of file comments',4
+'projectb cd h - pci api  vxworks api  exception handling  eeprom - incorrect comments',4
+'projectb cd h - pci api   eeprom writes  exception handling  vxworks api - not following branch standards for code sections',4
+'projectb c dh - pci api  eeprom  vxworks api - typename does not conform to branch standards',4
+'projectb c dh pci api  exception handling  vxworks api - parameters are not checked for the null pointer',3
+'projectb c dh pci api  exception handling  vxworks - misleading variable name',4
+'s-comm test scenario review  problems with traceability matrix',3
+'s-comm test scenario review  com_bvt_telemetry  question as to how step 2 verifies 1405',4
+'s-comm test scenario review  com_bvt_badcmds_test  steps 6  7   8 do not indicate requirements tested',3
+'s-comm test scenario review  com_bvt_local_cmds  discrepancy between incrementation   is it by 1 or 2 ',3
+'s-comm test scenario review  com_bvt_pulse_cmd  inconsistent use of enable disable and on off to mean the same thing',5
+'s-comm test scenario review  com_bvt_pulse_cmd  disable mistakenly used for enable',3
+'s-comm test scenario review  com_bvt_generic_cmd  no indication of source for default configuration in step 6',3
+'s-comm test scenario review  com_bvt_generic_cmd  no indication of source for default configuration info',4
+'s-comm test scenario review  com_bvt_generic_cmd  confusion surrounding command variables',4
+'s-comm test scenario review  com_bvt_generic_cmds  pulse_cmds  local_cmds scenarios do not indicate passing failing conditions for requirements',3
+'s-comm test scenario review  restarttest  requirement 1006 not explicitly addressed in scenario',4
+'projectb rwa processing - missing enumerated types in code review packet introduction',5
+'projectb command actuator code review - static variable declaration incorrect usage',3
+'projectb ace command actuator task - reference unused variables to prevent compiler warnings',3
+'projectb rwa data processing - explicit typecasts for an eeprom table should be removed',4
+'projectb rwa data processing - purpose of function does not reflect the code',4
+'projectb rwa task code review - section label violates branch standards',4
+'projectb - ace iv task code - event statement will not get executed on warm restart',3
+'projectb - ace iv task code - section label violates branch standards',4
+'projectb - ace iv task - incorrect comment for macro definitions sections',4
+'projectb ace iv task code review - incorrect suffix name for  h file',5
+'projectb - s-comm sdn downlink software - label for section of code violates branch standards - duplicate of tim-1738',4
+'projectb - s-comm sdn uplink fsw - missing comments around complex if statement',4
+'projectb - s-comm projectb uplink fsw - inconsistency of comments between same function in uplink and downlink code',4
+'projectb - gce gi task code - missing comment on default statement of switch',4
+'projectb gce gi task - switch statements throughout code violate coding standards - no default',4
+'projectb ace sensor data code review - not necessary to capture memreadstatus if not checking the returned value',4
+'projectb ace raw sensor data processing - read-only pointer parameters - missing usage of const',4
+'lpsc srs req 1206 is incomplete',3
+'lpsc srs does not explicitly address all requirements allocated from the parent document  level 3 s c fsw srs',3
+'lpsc child req 1006 defines more capability than parent requirement',3
+'to srs does not include complete traceability',3
+'1553 xb test scenario review - need for new requirement which describes how the command error counter should work',3
+'1553 xb test scenario review -  tbd commands     in procedures',4
+'1553 xb test scenario review - the initialization of counters as specified in req  1001 is unclear',4
+'1553 xb test scenario review - the preservation of counters as specified in req  1004 is unclear',4
+'1553 xb test scenario review - grammatical error on line 599 in mp_bxb_reset test procedure',5
+'1553 xb test scenario review - grammatical error on line 598 in mp_bxb_reset test procedure',5
+'1553 xb test scenario review - vague housekeeping terminology inhibits proper verification of req  1302',4
+'1553 xb test scenario review - reference made in procedures to repeat steps 3 1 through 3 4 is incorrect',4
+'1553 xb test scenario review - req  1303 is not properly verified as indicated by mp_bxb_1553interface procedures',3
+'1553 xb test scenario review - requirement 2002 is not checked by the mp_bxb_1553interface test procedures',4
+'1553 xb test scenario review - badcommandtest does not verify requirements identified',3
+'1553 xb test scenario review - req  1211 needs to be added as being checked by mp_bxb_commandtest procedures',4
+'1553 xb test scenario review - req  1212 not verified by procedures in mp_bxb_commandtest',3
+'1553 xb test scenario review - req  1301 and 1302 are not properly verified throughout the mp_bxb_commandtest procedures',3
+'1553 xb test scenario review - req  1209 and 1210 are not properly verified in steps 9   10 in mp_bxb_commandtest',3
+'1553 xb test scenario review - req  1208 is not properly tested and verified in step 8 of mp_bxb_commandtest',3
+'1553 xb test scenario review - req  1207 is not properly verified in step 7 of the mp_bxb_commandtest procedures',3
+'1553 xb test scenario review - req  1206 is only partially verified by step 6 of the mp_bxb_commandtest',3
+'1553 xb test scenario review - verification method for requirement 1205 is questionable',3
+'1553 xb test scenario review - verification method for requirement 1204 is questionable in commandtest scenario',3
+'1553 xb test scenario review - req  1203 only partially tested in step 3 of mp_bxb_commandtest',3
+'1553 xb test scenario review - req  1206 is not properly verified by mp_bxb_commandtest procedures in step 2',3
+'1553 xb test scenario review - conflicting test scenario information makes the test procedure unclear',4
+'1553 xb test scenario review - req 1206 is not properly verified by mp_bxb_commandtest procedures in step 1 1 and 1 2',3
+'flight software actuator command - include void in the parentheses for the advertised function in the header file',3
+'evd code review - remove memcpy and use os_memcpy',3
+'fault detection software - better matching of closing comments to  if  statements',3
+'fault detection software not following 582 branch standards - labels for discrete sections of code',4
+'s-comm sdn flight software requirements - unclear on what level requirements are being specified ',3
+'s-comm sdn downlink - violation of coding standards in terms of commenting sections of code',3
+'hd - better commenting around if and else if statements',4
+'hd - numerous switch constructs in the codebase are unclear on whether they break or fall through',3
+'hd - no comments on default statement for switch - violates coding standards',4
+'acs algorithm document - incorrect requirements specified for fdc purposes in the  processgcedata  algorithm',3
+'acs algorithm document - piezoelectric transducer  pzt  algorithm appears to be incomplete',3
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in local declarations',4
+'acs algorithm document - incorrect requirements specified for fdc purposes in the  processgtdata  algorithm',3
+'acs algorithm document -  quat_velaberr_corr_def  variable not defined in  processtrackerdata  algorithm',3
+'acs algorithm document -  vel_bcsf_sc  variable not defined in  processtrackerdata  algorithm',3
+'acs algorithm document -  quat_error  variable not defined in  processtrackerdata  algorithm',3
+'acs algorithm document - requirement 2132 3 needs to be addressed by the  processtrackerdata  algorithm',4
+'acs algorithm document - star tracker data processing algorithm routine names do not match',4
+'acs algorithm document - incorrect requirements specified for fdc purposes in the  processdssdata  algorithm',3
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in global declarations',4
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in global declarations',4
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in global declarations',4
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in global declarations',4
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in global declarations',4
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in global declarations',4
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in global declarations',4
+'acs algorithm document - incorrect requirements specified for fdc purposes in the  processevddata  algorithm',3
+'acs algorithm document - note concerning the need for a new acs requirement pertaining to jitter ',3
+'acs algorithm document -  flag_rwadeltapulsevalid  variable appears to always have a false state',3
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in global declarations',4
+'acs algorithm document - incorrect requirements specified for fdc purposes in the  processrwadata  algorithm',3
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in global declarations',3
+'acs algorithm document - variable name in algorithm routine does not match variable name as specified in global declarations',3
+'acs algorithm document - note indicating requirement 2121 4 needs to be changed to fit the algorithm',3
+'acs algorithm document - iru data processing algorithm routine names do not match',4
+'acs algorithm document - requirement 2031 not fully addressed by  processsolararraydata  algorithm',3
+'acs algorithm document - incorrect requirements specified for fdc purposes in the  processsolararraydata  algorithm',3
+'sdn_bcs_addsegment  line 1855 indicates a passing of 1210 when it should indicate failure',3
+'sdn_bcs_addsegment  various tbds throughout scenario',3
+'sdn_bcs_addsegment  discrepancy between the test scenario and rvtm with respect to 1209   1301',4
+'sdn_bcs_table_entry_jam  requirements 1305   1306 are partially tested by step 2  but not indicated as such',4
+'sdn_bcs_table_entry_jam  no comments conditions exist to indicate how 2009 passes or fails verification',3
+'sdn_bcs_rate_limit  discrepancy between the requirements listed in the test scenario and those in the rvtm',4
+'sdn_bcs_rate_limit  line 1147 contains vague information that does not appear to aid in verification',4
+'sdn_bcs_rate_limit  various tbds contained in test scenario',3
+'sdn_bcs_table_segments  no comments conditions exist indicating when requirement 2004 passes or fails',3
+'sdn_bcs_table_segments  requirements 1305   1306 are partially tested by step 2  but not indicated as such',4
+'sdn_bcs_table_segments  contains question on how functionality should be tested',4
+'sm discrepancies between the requirements verification matrix and test scenarios',4
+'sdn_bsm_uninterruptible_load  several spellings of the same scenario',4
+'sm test scenarios do not indicate when requirements should pass or fail',3
+'sdn_bsm_memory_load_bad_checksum  requirement 1206 not verified',3
+'sdn_bsm_memory_load_bad_checksum  requirements 2004   2005 not verified ',3
+'sdn_bsm_memory_load_bad_checksum  step 3 does not properly verify 1203 and 2000 as indicated',3
+'sdn_bsm_memory_load_bad_checksum  requirement 2003 not verified',3
+'sdn_bsm_memory_load_bad_checksum  requirements 1207   2000 are not properly verified in step 2',3
+'questionable interpretation for requirements 1206   1207 for sm test scenarios load dump memory and uninterruptible load',3
+'questionable interpretation for requirements 1208   1209 in load dump memory and uninterruptbile load sm scenarios',3
+'sdn_bsm_ram_system_tables  call to load_dump_commit is vague and unsupported',4
+'sdn_bsm_ram_system_tables  requirement 2006 only partially verified',3
+'sdn_bsm_ram_system_tables  requirement 1214 not properly verified',3
+'sdn_bsm_load_dump_system_tables  steps 3  4   5 are too vague as currently written to perform any proper verification',3
+'sdn_bsm_load_dump_system_tables  requirement 2006 only partially verified',3
+'sdn_bsm_load_dump_system_tables  requirement 1214 is not properly verified',3
+'sdn_bsm_load_dump_system_tables  requirement 1312 not fully verified',3
+'sdn_bsm_load_dump_system_tables  requirement 1311 in only partially verified',3
+'sdn_bsm_load_dump_system_tables  requirement 1300 is only partially verified',3
+'sdn_bsm_load_dump_system_tables  requirement 1301 only partially verified',3
+'sdn_bsm_load_dump_commit  requirement 1216 is not properly verified',3
+'sdn_bsm_load_dump_commit  requirement 1217 not fully verified',3
+'sdn_bsm_load_dump_commit  test step in line 115-119 does not fit in test scenario',4
+'snd_bsm_load_dump_commit  requirements 1214   2006 are not properly verified',3
+'sdn_bsm_load_dump_commit  requirement 2018 is not addressed in test scenario but is listed as being verified',4

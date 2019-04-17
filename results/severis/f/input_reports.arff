@@ -1,0 +1,750 @@
+@relation nasa
+@attribute Text string
+@attribute class-att {1, 2, 3, 4, 5}
+
+@data
+
+'lack of verification of requirement fsw sn 25 in the pulse train firing thruster mode',3
+'lack of verification of requirement fsw sn 24 in the pulse train firing thruster mode',3
+'lack of verification of requirement fsw sn 21 in the pulse train firing thruster mode',3
+'lack of verification of requirement fsw sn 16 in the pulse train firing thruster mode',3
+'lack of verification of requirement fsw sn 15 in the pulse train firing thruster mode',3
+'lack of verification of requirement fsw sn 14 in the pulse train firing thruster mode',3
+'lack of verification of requirement fsw sn 13 in the pulse train firing thruster mode',3
+'lack of verification of requirement fsw sn 12 in the pulse train firing thruster mode',3
+'lack of verification of requirement fsw sn 10 in the pulse train firing thruster mode',3
+'test_hsk_2 does not have an executing test script',3
+'fsw sci-19 not tested',3
+'fsw fit-3 not tested',3
+'fsw fit-2 not tested',3
+'fsw exec-18 not tested',3
+'test_cmd_4 bps represented as bps',5
+'lack of verification of iruâs y-axis angular rate aspect of fsw ac 14 in the continuous firing and pulse train firing thruster modes',3
+'lack of verification of iruâs x-axis angular rate aspect of fsw ac 14 in the continuous firing and pulse train firing thruster modes',3
+'lack of verification of fsw ac 11 in the pulse train firing thruster mode',3
+'fsw lm 06  proc only partially tests requirement',4
+'fsw lm 08  proc only partially verifies requirement',3
+'fsw lm 09  no  operator inspection  detail is identified',3
+'fsw ds 05 02  proc does not verify requirement',3
+'fsw ds 05 01  proc does not verify requirement',3
+'fsw sc 02  proc uses aperiodic counters for a clock',3
+'fsw sc 03  proc only partially verifies requirement',3
+'fsw sc 05  proc only partially verifies requirement',3
+'fsw sc 06  proc only partially verifies requirement',3
+'fsw sc 07  proc only partially verifies requirement',3
+'fsw sc 10  requirement is not verifiable as written  needs an interval definition of  concurrent  ',3
+'fsw sc 10  proc does not verify requirement',3
+'fsw sc 18  insufficient verification detail provided',3
+'fsw sc 20  proc only partially verifies requirement',3
+'fsw ds 02  proc does not test requirement',4
+'fsw ds 01 02  proc does not specifically and explicitly assign virtual recorder',3
+'fsw ds 01 01  proc does not specifically and explicitly assign virtual recorder',3
+'fsw ds 11  proc filename is ambiguous',3
+'fsw ds 13  proc does not verify requirement',3
+'fsw ds 13  operator inspection is inadequate to verify requirement',3
+'fsw ds 18  operator inspection is inadequate to verify requirement',3
+'fsw sc 24  proc only partially tests requirement',3
+'fsw sc 25  proc does not verify requirement',3
+'fsw ds 19  proc does not verify requirement',3
+'fsw ds 19  source inspection is inadequate to verify requirement',3
+'fsw sc 27  proc filename is ambiguous',3
+'fsw sc 28  proc filename is ambiguous',3
+'fsw sc 29  proc filename in test matrix is ambiguous',3
+'fsw ba2 14  proc sampling rate is an order of magnitude too small to verify requirement',3
+'fsw mm 15  proc does not verify requirement',3
+'fsw mm 13  proc does not verify requirement',3
+'fsw mm 11  proc does not verify requirement',3
+'fsw mm 01  proc does not verify requirement',3
+'fsw mm 01  proc does not verify requirement',3
+'fsw mm 05  proc does not verify requirement',3
+'fsw mm 04  proc does not verify requirement',3
+'fsw mm 03  proc does not verify requirement',3
+'fsw mm 02  proc does not verify requirement',3
+'fsw cs 16  proc does not verify requirement',3
+'fsw cs 01 02  proc does not verify requirement',4
+'fsw cs 07 02  proc does not test requirement',3
+'fsw cs 07 01  proc does not specifically and explicitly test and report that the requirement was not verfied',3
+'fsw mm 18  source inspection is inadequate to verify requirement',3
+'fsw mm 10  source inspection is inadequate to verify requirement',3
+'fsw cs 01 03  proc does not specifically and explicitly test and record failure to validate eeprom',3
+'fsw cs 01 01  proc does not specifically record failure of cs to validate instruction ram',3
+'fsw ba2 07  proc tests for wrong failure condition',3
+'fsw tp 26  operator inspection is inadequate to verify requirement',3
+'fsw tp 17  operator inspection is inadequate to verify requirement',3
+'fsw tp 16  operator inspection is inadequate to verify requirement',3
+'fsw tp 06 05  analysis is inadequate to verify requirement',3
+'fsw tp 06 04  analysis is inadequate to verify requirement',3
+'fsw tp 06 03  analysis is inadequate to verify requirement',3
+'fsw tp 06 02  analysis is inadequate to verify requirement',3
+'fsw tp 06 01  analysis is inadequate to verify requirement',3
+'mrd pb eps 1  - 2  - 3  proc does not check to determine whether iru assembly power slow trip is enabled',3
+'mrd pb eps 1  - 2  - 3  pressure transducer power slow trip mode not checked',3
+'fsw tc 04  source inspection is insufficient to verify requirement',3
+'fsw ac-19 vague required limits for measured aspect angle',3
+'fsw tc 03  sampling rate is an order of magnitude too small to verify requirement',3
+'fsw ac 14 vague required limits for nutation angle',3
+'fsw ac-12 vague required limits for computed probe spin rate',3
+'fsw tp 14  operator inspection is inadequate to verify requirement',3
+'fsw tp 08  operator inspection is inadequate to verify requirement',3
+'fsw tp 37  operator inspection is inadequate to verify requirement',3
+'fsw tp 36  operator inspection is inadequate to verify requirement',3
+'fsw tp 29  operator inspection is inadequate to verify requirement',3
+'fsw tp 28  operator inspection is inadequate to verify requirement',3
+'fsw tp 22  operator inspection is inadequate to verify requirement',3
+'fsw tp 11  operator inspection is inadequate to verify requirement',3
+'fsw tp 10  operator inspection is inadequate to verify requirement',3
+'fsw tp 09  operator inspection is inadequate to verify requirement',3
+'fsw tp 07  operator inspection is inadequate to verify requirement',3
+'fsw tp 05  operator inspection is inadequate to verify requirement',3
+'fsw tp 04  operator inspection is inadequate to verify requirement',3
+'fsw tc 02  proc sampling rate is an order of magnitude too low to verify requirement',3
+'fsw tp 03  operator inspection is inadequate to verify requirement',3
+'fsw tp 02  operator inspection is inadequate to verify requirement',3
+'fsw tp 01 02  operator inspection is inadequate to verify requirement',3
+'fsw hs 12  proc does not fully verify requirement',3
+'fsw hs 11  proc only partially verifies requirement',3
+'fsw tp 01 01  operator inspection is inadequate to verify requirement',3
+'fsw tp 33  source inspection is inadequate to verify requirement',3
+'fsw tp 13  source inspection is inadequate to verify requirement',3
+'fsw tp 12  source inspection is inadequate to verify requirement',3
+'fsw tp 06 06  source inspection is inadequate to verify requirement',3
+'fsw tp 39  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 38  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 29  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 18  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 08  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 06 05  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 06 04  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 06 03  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 06 02  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 06 01  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 13  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 12  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 07  operator inspection is inadequate to verify requirement',3
+'fsw tp 37  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 36  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 28  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 22  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 16  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 14  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 11  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 10  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 09  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 05  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 04  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 03  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 02  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 01 02  fsw test report content is not sufficient to verify requirement',3
+'fsw tp 01 01  fsw test report content is not sufficient to verify requirement',3
+'fsw hs 03  sampling frequency is two orders of magnitude too low to verify requirement',3
+'fsw hs 02  proc only partially verifies requirement',3
+'fsw cp 06 01  proc does not verify requirement',3
+'fsw cp 06 02  proc does not verify requirement',3
+'fsw hs 01  proc only partially verifies requirement',3
+'fsw cp 06 03  proc does not test requirement',3
+'fsw cp 11  proc does not test requirement',4
+'fsw cp 13 01  fsw test report content is not sufficient to verify requirement',3
+'fsw cp 13 01  source inspection is insufficient to verify requirement',3
+'fsw cp 13 02  analysis is insufficient to verify requirement',3
+'fsw cp 13 02  test report does not contain information that is sufficient to determine adequacy of verification',3
+'fsw cp 13 03  test report is not sufficient to verify requirement',3
+'fsw cp 16  requirement conflict between fsw srs and projectf command specification  version d',3
+'fsw cp 20 01  source code inspection is insufficient to verify requirement',3
+'fsw cp 20 02  analysis is insufficient to verify requirement  and test matrix contradicts test report',3
+'fsw cp 28  proc does not test requirement  xref says it does',3
+'fsw cp 08 03  operator inspection is insufficient to verify requirement',3
+'fsw cp 08 03  test report says nothing about procedure identified in test matrix',3
+'fsw cp 18  source inspection is insufficient to verify requirement',3
+'fsw cp 18  verification cross-reference matrix is missing information needed to verify requirement',3
+'fsw cp 17  source inspection is insufficient for verifying requirement',3
+'fsw cp 17  verification cross reference matrix is missing information required to assess adequacy of test',3
+'fsw cp 08 02  source inspection is insufficient to verity requirement',3
+'fsw cp 08 01  source inspection is insufficient to verify requirement',3
+'fsw cp 07  source inspection is insufficient to verify requirement',3
+'fsw cp 05  source inspection is inadequate to verify requirement',3
+'fsw cp 05  test matrix contradicts test report  test report verification method is insufficient',3
+'fsw cp 02  cross-reference matrix is missing information needed to permit assessment of adequacy of testing',3
+'fsw cp 03  proc does not test uplink rate',4
+'fsw cp 03  xref matrix logfile  field  value should not be  n a ',3
+'fsw stress-test failure counter can have an erroneous failure count value',4
+'mrd pb eps-1  -2  -3  proc reports pressure tank isolation valve power control test passed even when required tests skipped',4
+'mrd pb eps-1  -2  -3  proc reports rcs heater service 3 control test passed even when required tests are skipped',4
+'mrd pb eps-1  -2  -3  proc reports test rcs heater service 2 control test passed even when required tests skipped',4
+'mrd pb eps-1  -2  -3  proc reports rcs heater service 1 control test passed even when required tests skipped',4
+'mrd pb eps-1  -2  -3  proc only partially tests catbed survival heater control',4
+'mrd pb eps-1  -2  -3  proc only partially tests the catbed primary heater control',4
+'mrd pb eps-1  -2-  -3  proc does not test instrument survival heater control because it calls wrong subproc',3
+'mrd pb eps-1  -2  -3  proc reports instrument primary heater control test passed even when required tests skipped',4
+'mrd pb eps-1  -2  -3  proc reports bus survival heater power control test passed even when required test cases skipped',4
+'mrd eps-1  -2  -3  proc reports bus primary heater power control test passed even when required test cases are skipped',4
+'mrd pb eps-1  -2  -3  proc reports idpu power toggle satisfies requirements even when required test cases skipped',4
+'mrd pb eps-1  pb eps-2  pb eps-3  proc reports idpu boom power toggle test passed even though required test actions are skipped',4
+'mrd pb cdh 08 and pb cdh 07  proc will report requirements satisfied even when all tests of requrements failed',3
+'mrd pb fsw-14  proc does not report watchdog servicing resumption failure',3
+'mrd pb fsw-14  cold restart test conditions inconsistent with test-passed message',3
+'mrd pb fsw-10  proc does not report requirement not met',4
+'mrd pb fsw-14  erroneous time reported in test-passed message',4
+'mrd pb fsw-14  proc does not report watchdog timer failure',4
+'cpt09  global failure count variable set to 0',3
+'memory load function sm_check_load_length is not portable',4
+'failure to check semaphore initialization in os_seminit',3
+'test_cmd_4 - inconsistent uplink rate',3
+'test_acs_5- degree variations between requirements and test',3
+'test_acs_2 - requirements not fully tested',3
+'mrd vh  pb fsw-10  timing value is incorrect',3
+'subsys1 fsw v3 003  test for floating point equality in sun-sensing thruster-command-generation',2
+'subsys1 fsw v3 003  test of floating point equality in sun-sensing thruster-command-generation',2
+'subsys1 fsw v3 003  test for floating-point equality in sun-sensing thruster-command-generation',2
+'subsys1 fsw v3 003  test for floating point equality in sun-sensing thruster-command-generation',2
+'provisional incorrect calculation of the total number of test failures in test procedure cpt01_rts proc of subsys1 build 2 504',4
+'incorrect local declaration and initialization of global variable âfailcntâ in test procedure cpt01_rts proc of subsys1 build 2 504',4
+'questionable filter table selection for 32k  16k  1k  and 64k bps downlink rates in test procedure cpt01_gotodl proc of subsys1 build 2 504',3
+'illegitimate continuation of test run after failure to load tables in test procedure cpt01_gotodl proc of subsys1 build 2 504',3
+'incorrect calculation of the total number of test failures in test procedure cpt01_gotodl proc of subsys1 build 2 504',4
+'lack of global declaration of variable âfailcntâ in test procedure cpt01_gotodl proc of subsys1 build 2 504',4
+'incorrect calculation of the total number of test failures in test procedure cpt01_clock proc of subsys1 build 2 504',4
+'incomplete verification of pb-cdh 9 in test procedure cpt01 proc of subsys1 build 2 504',3
+'unjustified verification declaration of pb-cdh 21 in test procedure cpt01 proc of subsys1 build 2 504',3
+'unjustified verification declaration of pb-cdh 20 in test procedure cpt01 proc of subsys1 build 2 504',3
+'unjustified verification declaration of pb-cdh 23 in test procedure cpt01 proc of subsys1 build 2 504',3
+'unjustified verification declaration of pb-cdh 22 in test procedure cpt01 proc of subsys1 build 2 504',3
+'derivation from mrd requirement pb fsw-13 is broken',3
+'derivation from mrd requirement pb fsw-14 is broken',3
+'derivation from mrd requirement pb fsw-12 is incomplete',3
+'aggregate mrd timing requirement pb fsw-10 is allocated to multiple cscs',3
+'derivation from mrd pb fsw-10 is broken',4
+'derivation from mrd pb fsw-9 is broken',4
+'lack of requirements tracing in the idpu comprehensive performance test  cpt ',3
+'subsys1 fsw v3 003  lock flaw in function ds_clear_bulk',3
+'fsw v3 003 lock flaw in function ds_three_copy',3
+'fsw v3 003  memory-scrub lock management design flaws',3
+'subsys1 fsw v2 504 unused objects',3
+'subsys1 fsw v2 504 unused functions',3
+'fsw srs v3 0 command and telemetry requirements  continue to be  missing',3
+'subsys1 fsw 3 003  potential for corruption of global thruster start stop time values',3
+'subsys1 fsw 3 10  potential for loss of event-order information in event messages',3
+'manifest arrays found in procedure delcarations',4
+'strange unsigned value comparisons',3
+'dangerous floating point comparisons',3
+'inconsistent extern declaratives in subsys1 fsw',3
+'return values systematically ignored',3
+'fall-through case statement  no  break  ',3
+'no value returned from function',3
+'subsys1 fsw - macro defined twice',3
+'code makes risky assumption',3
+'ac_unittest misspelled',3
+'debug-specific code needs conditional compilation directives',5
+'lack of declaration of testing of fsw sc 27 in test procedure fssc_invalid',4
+'lack of declaration of testing of fsw sc 14 in test procedure fssc_scs',4
+'lack of initialization of error counter for load-testing of fssc_rts_64 as part of testing of fsw sc 04 in test procedure fssc_rts',4
+'incorrect declaration of testing of  and attribution of test results to  fsw ds 07 in test procedure fsds_ds',4
+'uncertainty in complete verification of fsw tc 07 in test procedure fstc_cmd',4
+'uncertainty in complete verification of fsw tc 06 in test procedure fstc_cmd',4
+'incorrect attribution of test results for fsw mm 23 to fsw mm 24 in test procedure fsmm_cmd',4
+'lack of attribution of test results to fsw mm 20 in test procedure fsmm_tblload',4
+'lack of attribution of test results to fsw mm 16 in test procedure fsmm_tblload',4
+'lack of attribution of test results to fsw mm 14 in test procedure fsmm_tblload',4
+'lack of attribution of test results to fsw mm 13 in test procedure fsmm_tbldump',4
+'incorrect requirement description of fsw mm 13 as a test target for test procedure fsmm_tbldump',4
+'lack of attribution of test results to fsw mm 11 in test procedure fsmm_tbldump',4
+'lack of attribution of test results to fsw mm 07 in test procedure fsmm_write',4
+'lack of declaration of test results for fsw cp 14 in test procedure fscp_cop1',4
+'lack of initialization of error flag in testing of fsw cp 14 in test procedure fscp_cop1',4
+'incorrect declaration of testing of fsw tp 27 10 in test procedure fstp_cmd',3
+'incorrect declaration of testing of fsw tp 27 09 in test procedure fstp_cmd',3
+'incorrect declaration of testing of fsw tp 27 08 in test procedure fstp_cmd',3
+'incorrect declaration of testing of fsw tp 27 07 in test procedure fstp_cmd',3
+'incorrect declaration of testing of fsw tp 27 06 in test procedure fstp_cmd',3
+'incorrect declaration of testing of fsw tp 27 05 in test procedure fstp_cmd',3
+'incorrect declaration of testing of fsw tp 27 04 in test procedure fstp_cmd',3
+'incorrect declaration of testing of fsw tp 27 03 in test procedure fstp_cmd',3
+'incorrect declaration of testing of fsw tp 27 02 in test procedure fstp_cmd',3
+'incorrect declaration of testing of fsw tp 27 01 in test procedure fstp_cmd',3
+'incorrect declaration of testing of fsw tp 26 in test procedure fstp_cmd',3
+'incorrect testing of fsw tp 25 in test procedure fstp_cmd',4
+'subsys1 fsw v3 10  unused macros and typedefs',3
+'flight software build 2 000 design vis-ã -vis implementation ambiguity in global variables referenced',3
+'subsys1 fsw v3 10  unused global variables',3
+'subsys1 fsw v3 10  unused functions',3
+'subsys1 fsw v3 10  globalsvariables with multiple definitions',3
+'subsys1 fsw v3 10  global variables defined and set but not referenced',3
+'subsys1 fsw v3 10  functions declared but not defined or used',3
+'subject  projectf flight software build 2 x configuration management',3
+'maturity of fsw formal test procedures',3
+'not all fsw requirements are covered by fsw test procedures',3
+'stp appendix b  projectf software test procedure overview  is missing',3
+'fsw traceability matrix is missing',3
+'incorrect testing of fsw cp 24 in test procedure fscp_cmd',3
+'incorrect testing of fsw ds 17 in test procedure fsds_ds',3
+'questionable testing of fsw ds 16 in test procedure fsds_ds',3
+'incorrect testing of fsw ds 08 in test procedure fsds_ds',3
+'incorrect implied attribution of test results for fsw ds 07 01 to fsw ds 07 02 in test procedure fsds_ds',3
+'incorrect declaration of testing of fsw  ds  01 02 and universal test passage declaration in test procedure fsds_ds',3
+'incorrect declaration of testing of fsw  ds  01 01 and universal test passage declaration in test procedure fsds_ds',3
+'incomplete testing of fsw ds 15 in test procedure fsds_ds',3
+'incorrect declaration of testing of fsw  ds  14 and universal test passage declaration in test procedure fsds_ds',3
+'incomplete testing of fsw ds 13 in test procedure fsds_ds',3
+'incorrect testing of fsw ds 12 in test procedure fsds_ds',3
+'incorrect declaration of both testing and test passage of fsw ds 11 in test procedure fsds_ds',3
+'incomplete testing of fsw ds 10 in test procedure fsds_ds',3
+'incorrect declaration of both testing and test passage of fsw ds 06 in test procedure fsds_ds',3
+'incorrect declaration of both testing and test passage of fsw ds 03 in test procedure fsds_ds',3
+'incomplete testing of fsw cp 23 in test procedure fscp_cmd',3
+'incorrect testing of fsw cp 21 in test procedure fscp_cmd',3
+'incorrect testing of fsw cp 19 in test procedure fscp_cmd',3
+'incorrect declaration of both testing and test passage of fsw cp 15 in test procedure fscp_cop1',3
+'incomplete testing of fsw cp 14 in test procedure fscp_cop1',3
+'incorrect incrementation of error flag  rsc32_failed  for testing fsw sc 32 in test procedures fssc_rts and fssc_scs',3
+'incorrect attribution of test results for fsw sc 31 to fsw sc 32 in test procedures fssc_rts and fssc_scs',3
+'incorrect attribution of test results to fsw sc 32 in test procedures fssc_rts and fssc_scs',3
+'incorrect incrementation of error flag  rsc31_failed  for testing fsw sc 31 in test procedures fssc_rts and fssc_scs',3
+'failure of a failed test result for fsw sc 27 to trigger the overall failure declaration of test procedure fssc_invalid',3
+'incomplete testing of fsw sc 27 in test procedure fssc_invalid',3
+'incorrect declaration of testing of fsw sc 22 in test procedure fssc_rts',3
+'incomplete testing of fsw sc 19 01 in test procedure fssc_invalid',3
+'incomplete testing of fsw sc 16 01 in test procedure fssc_invalid',3
+'incomplete testing of fsw sc 15 in test procedure fssc_invalid',3
+'incomplete testing of fsw sc 14 in test procedure fssc_scs',3
+'conflict in statements on rts 33 configuration for testing fsw sc 06 in test procedure fssc_scs',3
+'bsw 012  first step wording is imprecise',4
+'bs 011  csar7  requirements vs  implementation ',4
+'bsw 005  parameters required by the boot process',4
+'bsw 009  validating fsw image',4
+'maintenance mode code compilation',3
+'bsw 026  requirement design wording is inverted',4
+'bs 024  user-defined address wording is ambiguous',4
+'bsw 024  reference to s-record formatted files',4
+'bsw 023  maintenance mode available on ground only',4
+'bsw 023  character sequence timing not specified',4
+'bsw 023  delay timing wording is vague',4
+'bsw 022  boot register update wording is vague',4
+'bs 022  mode log update wording is vague',4
+'bsw 021  boot register update wording is vague',4
+'bsw 020  boot register update wording is vague',4
+'bsw 019  boot register update wording is vague',4
+'bsw 018  boot register update wording is vague',3
+'test 8 does not clearly verify that the boot software meets requirement bsw 026',3
+'bsw 021  mode log update wording is vague',3
+'test 8 procedure does not match test output',3
+'bsw 020  mode log update wording is vague',3
+'inconclusive test results for fsw sc 19 03 in test procedure fssc_invalid',3
+'inconclusive test results for fsw sc 19 02 in test procedure fssc_invalid',3
+'incomplete testing of fsw sc 16 02 in test procedure fssc_enadis',3
+'incomplete testing of fsw sc 13 in test procedure fssc_invalid',3
+'incomplete testing of fsw sc 13 in test procedure fssc_invalid',3
+'incorrect universal passage declaration of test results for fsw mm 24 in test procedure fsmm_tblperm',3
+'incorrect attribution of test results for fsw mm 17 to fsw mm 24 in test procedure fsmm_tblperm',3
+'incorrect attribution of test results for fsw mm 23 to fsw mm 24 in test procedure fsmm_cmd',3
+'incorrect universal declaration of test results in test procedure fsmm_tblperm',3
+'incorrect test result declaration and its incorrect attribution to fsw mm 24 in test procedure fsmm_tblperm',3
+'bsw 019  mode log update wording is vague',3
+'bsw 018  mode log update wording is vague',3
+'etc-11 was deleted from idpu srs rev  f',3
+'bsw 014  mode log initialization',3
+'bsw 009  lack of specificity',3
+'boot srs   shall  vs   will ',3
+'bsw 001  is redundant or is not a requirement',3
+'bsw 006  wording change recommendation',3
+'bsw 005  mode log history of boot events',3
+'bsw 005  information conveyed from boot to boot',3
+'bsw 005  information conveyed to fsw',3
+'bsw 005  fsw requirements are not boot requirements',3
+'bsw 005  parameters stored in the mode log',3
+'bsw 005  address of the mode log',3
+'bsw 004 wording is a little vague',4
+'bsw 002 formulation is not precise enough',3
+'bsw 020 wording recommendation',4
+'tm-12 was deleted from idpu srs rev  f',3
+'util-15 was deleted from idpu srs revision f',3
+'util-14 was deleted from idpu srs revision f',3
+'fsw util-13 was deleted from idpu srs revision f',3
+'util-12 was deleted from idpu srs revision f',3
+'hsk-3 was deleted from idpu srs revision f',3
+'tm-8 was deleted from idpu srs revision f',3
+'abstraction of integer types  boot sw v2 1',4
+'mapping of subsys1 fsw srs v3 1to subsys1 fsw v3 16 code',4
+'subsys1 fsw  change tracking from subsys1 fsw v1 design to subsys1 fsw v2 design to subsys1 fsw v3 design',4
+'mapping of boot sw v2 1 to boot sw v2 4 unit tests',3
+'boot srs change tracking explanations missing',3
+'mapping of boot srs v2 1 to boot sw v2 1',3
+'inadequate presentation  document precedence figure 3-1',3
+'typographical error  requirement number for pb-16',5
+'typographical error  title for fsw cs 05',5
+'incomplete tbd s listing  sai-spec-tbd and fsw cs 05',4
+'ambiguous requirement  fsw cs 17',3
+'syntax error  fsw tp 37',5
+'outdated figure  prom memory size in fig  5-1',5
+'inaccurate trace source categorization  sec  3 2 and table 3-1',5
+'incorrect reference  revision value for bsw srs in sec  2',5
+'incomplete change log and notes  revision history and section 7 2 8',4
+'missing requirement  fsw ba1 01',3
+'incorrect trace  fsw ba1 06 to mdr req  pb fsw-17',4
+'incorrect trace  fsw ba1 04 to mdr req  pb fsw-16',4
+'incorrect trace  fsw hs 06 versus fsw hs 13 to mrd req  pb fsw-16',4
+'inconsistent requirement fidelity  fsw hs 05 versus mrd req  pb fsw-9',4
+'outdated tentative value and document reference  fsw tf 04 and associated acs req  3 2 1 8 32',3
+'defunct requirements  fsw sn 20 and associated acs req  3 2 1 8 30',3
+'inconsistent requirements titles  titles to fsw sn 19 and associated acs req  3 2 1 8 29',5
+'defunct requirements  fsw sn 18 and associated acs req  3 2 1 8 28',3
+'inconsistent requirement  fsw sn 17 versus acs req  3 2 1 8 27',3
+'typographical error  acs req  3 2 1 8 26 as a trace to fsw sn 16',5
+'ambiguous requirement  acs req  3 2 1 8 21 and associated fsw sn 11',3
+'inconsistent requirement  fsw sn 11 versus acs req  3 2 1 8 21',3
+'typographical error  fsw sn 09 versus acs req  3 2 1 8 19',4
+'typographical error  fsw sn 08 versus acs req  3 2 1 8 18',4
+'inconsistent requirement  fsw sn 03 versus acs req  3 2 1 8 13',3
+'incosistent requirement fidelity  fsw ba2 14 versus acs req  3 2 1 8 12',3
+'incorrectly deleted requirement  acs req  3 2 1 8 11 as a trace to fsw ac 09',2
+'inconsistent requirement  acs req  3 2 1 6 11 as a trace to fsw ba2 14',4
+'typographical error  fsw ba2 14 trace to acs req  3 2 1 6 11',4
+'document precedence definition location ',4
+'bsw unit test  test 5 does not test the requirements it claims to test',3
+'bsw 014   bsw 015 not consistent with similar requirements',3
+'bsw 014 only partially tested',3
+'bsw 012 only partially tested',3
+'bsw 011 only partially tested',3
+'bsw 009 only partially tested',3
+'test 1 does not clearly test bsw 006',3
+'test 1 does not test bsw 005',3
+'bsw 025 is not tested',3
+'bsw 024 is not tested',3
+'bsw 023 is not tested',3
+'bsw 010 is not tested',3
+'bsw 003 is not tested',3
+'bsw 002 is not tested',3
+'bsw 001 is not tested',3
+'requirements change tracking unclear',3
+'requirement bsw 003 poorly formulated',3
+'requirement bsw 002 poorly formulated',3
+'verification activity type missing',4
+'subsys1 boot  requirements allocation to test plan incomplete',3
+' requirements  are actually product descriptions',3
+'boot sw srs diagram confusing',4
+'software being developed against a cots board',5
+'macros defined but never used',5
+'unused global variables',5
+'functions that are never called',5
+'comment needed on commented-out code block',5
+'potential infinite loop',5
+'if with no code block where else has a code block',5
+'question on code breakdown',5
+'strange code',5
+'unused parameter in loadimage',5
+'no check to see if a char is available',5
+'using instruction cycles as delays',3
+'redundant code',5
+'unused header run h',5
+'possibly copyright issue',3
+'header file misc h not used',5
+'unused file',5
+'differing declarations for memcpy',5
+'output to uart while in-flight',5
+'buffer overflow potential in maintenance mode',5
+'questionable cast',5
+'return value not checked',5
+'parameter declared with wrong type',5
+'conditional expression style',5
+'compile error',5
+'boot register unitialized on reset',4
+'effect of watchdog timer failure on bsw',3
+'active printf commands',5
+'clarification needed for commented out code for cs_valid_table_entry',5
+'inconsistency between the pdl and the code in function cs_get_code_table',5
+'inconsistent initial checksum value cs_build_master_cslists',4
+'incosistency between code and psuedo code for function cs_add_code',4
+'uninitialized counters',4
+'potential divide by zero',3
+'multiply defined macro ss_task_id',3
+'use of c++ keyword  operator  for structure element identifier',4
+'non-initialized - subsys1 code release 1 -  next_reference block  in line 190 of dstif c',3
+'non-initialized - subsys1 code release 1 -  next_reference block  in line 166 of dstif c',3
+'potential null pointer dereference',3
+'use of uninitalized pointer for memcpy   destination',1
+'potential array out of bounds  to_ort ',3
+'logic error in sm_mem_dump_send  ',3
+'array index out of bounds',3
+'fsw sc 10 is not supported in the subsys1 design',4
+'fsw sc 07 is not supported in the subsys1 design',4
+'fsw sc 06 is not supported in the subsys1 design',4
+'fsw sc 05 is not supported in the subsys1 design',4
+'fsw sc 03 is not supported in the subsys1 design',4
+'fsw sc 02 is not supported in the subsys1 design',4
+'idpu operational states',3
+'conflict  tp subsys1 design - fill data virtual channel and priority assignments',3
+'conflict  tp subsys1 design - probe events data virtual channel and priority assignments',3
+'conflict  tp subsys1 design - idpu playback science data virtual channel assignment',3
+'conflict  tp subsys1 design - idpu realtime science data virtual channel assignment',3
+'traceability  tp subsys1 design - autonomous restart of downlink requirement',3
+'incomplete  cp subsys1 design - command packets flow specifications',4
+'conflict  cp subsys1 design - role of cp in sc-originated commands',4
+'ambiguous  cp subsys1 design - cltu tail sequence length specifications',4
+'ambiguous  cp subsys1 design - cltu multiple codeblock length specifications',4
+'inconsistent  cp subsys1 design - cp command list',3
+'traceability  cp subsys1 design - command processing statistics requirement',4
+'traceability  cp subsys1 design - farm-related commands requirement',4
+'traceability  cp subsys1 design - command distribution criterion requirement',4
+'ambiguous  cp subsys1 design - code blocks validation functionality',4
+'traceability  cp subsys1 design - handling of software commands',4
+'traceability  cp subsys1 design - transfer frames requirement - âcontrol flagâ',4
+'traceability  cp subsys1 design - transfer frames requirement - âbypass flagâ',4
+'traceability  cp subsys1 design - transfer frames requirement -  spacecraft id ',4
+'traceability  cp subsys1 design -  special commands  requirement',4
+'special command vc assignment',4
+'no traceability between mrd requirement in dpu-11 and the pwr module in the srs',3
+'unreferenced subroutines',4
+'no interfaces for the io module are shown in idpu fsw overview',4
+'incomplete statement in the io mini-spec',4
+'fsw cmp-8 is not supported in the cmp mini-spec',4
+'the initialization requirements need additional support in the mini-specs',3
+'fsw sci-2 is not addressed in the sci mini-spec',3
+'compression rates are not described in detail in the cmp mini-spec',3
+'fsw cmp-9 is not sufficiently supported in the cmp mini-spec',3
+'the cmp mini-spec does not sufficiently support fsw cmp-6',3
+'fsw cmp-4 is not completely supported in the mini-spec',4
+'fsw cmp-3 is not supported in the cmp mini-spec',3
+'the cmp mini-spec does not sufficiently support fsw cmp-2',4
+'none of the ffp requirements or routines are discussed in additional detail in the ffp mini-spec',2
+'matrix mini-spec is incomplete',3
+'fsw fit-5 is not supported in the fit mini-spec',3
+'fsw fit-4 is not supported in the fit mini-spec',3
+'fsw fit-3 is not supported in the fit mini-spec',3
+'fsw fit-2 is not supported in the fit mini-spec',3
+'dep_cmd is in fsw fit-2 rather than fit_cmd',5
+'fsw dep-6 is not supported in the dep mini-spec',3
+'fsw dep-5 is not sufficiently supported in the dep mini-spec',3
+'fsw dep-3 is not supported in the dep mini-spec',3
+'fsw dep-2 is not completely supported in the dep mini-spec',4
+'fsw scm-5 is not supported in the scm mini-spec',3
+'fsw scm-4 is not supported in the scm mini-spec',3
+'fsw scm-2 is not supported in the scm mini-spec',3
+'fsw fgm-6 is not supported in the fgm mini-spec',3
+'fsw fgm-5 is not completely supported in the fgm mini-spec',4
+'fsw fgm-4 is not completely supported in the fgm mini-spec',4
+'fsw etc-14 is not supported in the etc mini-spec',3
+'fsw etc-13 is not supported in the etc mini-spec',3
+'fsw etc-12 is not supported in the etc mini-spec',3
+'fsw etc-11 is not supported in the etc mini-spec',3
+'fsw etc-10 is not supported in the etc mini-spec',3
+'fsw etc-9 is not supported in the etc mini-spec',3
+'fsw etc-8 is not supported in the etc mini-spec',3
+'fsw etc-7 is not supported in the etc mini-spec',3
+'fsw etc-6 is not supported in the etc mini-spec',3
+'fsw etc-5 is not supported in the etc mini-spec',3
+'fsw etc-4 is not supported in the etc mini-spec',3
+'fsw etc-3 is not supported in the etc mini-spec',3
+'fsw etc-2 is not supported in the etc mini-spec',3
+'inconsistent action if critical tasks fail to check in',4
+'cop-1 sliding window size off by one',4
+'inconsistent telemetry packet length specification',3
+'fsw efi-6 is not supported in the efi mini-spec',3
+'fsw efi-5 is not supported in the efi mini-spec',3
+'fsw efi-4 is not supported in the efi mini-spec',3
+'fsw efi-3 is not supported in the efi mini-spec',3
+'fsw efi-2 is not supported in the efi mini-spec',3
+'ssr mini-spec incomplete',4
+'fsw ssr-12 is not supported in the mini-spec',3
+'fsw ssr-11 is partially supported in the mini-spec',4
+'inconsistency between fsw ssr-9 and the mini-spec',3
+'fsw ssr-7 is not supported in the mini-spec',3
+'memory allocation is different between fsw ssr-6 and the ssr mini-spec',3
+'memory subdivision is different between fsw ssr-5 and the ssr mini-spec',3
+'fsw ssr-2 is not supported in the ssr mini-spec',4
+'tbrs tbs in the pwr mini-spec',4
+'fsw pwr-11 is not clearly supported in the pwr mini-spec',4
+'fsw pwr-10 is not supported in the pwr mini-spec',3
+'fsw pwr-9 is not supported in the pwr mini-spec',3
+'fsw pwr-8 is not supported in the pwr mini-spec',3
+'fsw pwr-7 is not supported in the pwr mini-spec',3
+'fsw pwr-6 is not supported in the pwr mini-spec',3
+'fsw pwr-4 is not supported in the pwr mini-spec',3
+'fsw pwr-3 is not sufficiently supported in the pwr mini-spec',3
+'fsw pwr-2 is not supported in the pwr mini-spec',3
+'items in the io mini-spec are not in the code',4
+'fsw io-22 is not supported in the io mini-spec',3
+'fsw io-21 is not supported in the io mini-spec',3
+'fsw io-20 is not supported in the io mini-spec',3
+'fsw io-19 may be partially supported in the io mini-spec',4
+'fsw io-18 is not supported in the io mini-spec',3
+'fsw io-17 is not supported in the io mini-spec',3
+'fsw io-16 is not supported in the io mini-spec',3
+'fsw io-15 is not supported in the io mini-spec',3
+'fsw io-14 is not supported in the io mini-spec',3
+'fsw io-13 is not supported in the io mini-spec',3
+'fsw io-12 is not supported in the io mini-spec',3
+'fsw tm-9 is not supported in the tm mini-spec',4
+'fsw io-10 is not supported in the io mini-spec',4
+'inconsistent vc assignments',4
+'possible inconsistency between fsw io-9 and the tm mini-spec',4
+'fsw io-8 is partially addressed in the tm mini-spec',4
+'fsw io-7 is not supported in the io mini-spec',4
+'fsw io-6 is not supported in the io mini-spec',4
+'fsw io-5 is not supported in the io mini-spec',3
+'routines in the util mini-spec but not in the code',4
+'routines in the srs but not in the util mini-spec',3
+'fsw ld-4 is not sufficiently supported in the ld mini-spec',4
+'fsw ld-3 is not supported in the ld mini-spec',3
+'fsw ld-1 ld_init is not completely supported in the ld mini-spec',3
+'fsw tm-4 is not sufficiently supported in the tm mini-spec',3
+'fsw cmd-3 is not sufficiently supported in the bkg mini-spec',4
+'fsw bkg-5 is not supported in the bkg mini-spec',3
+'fsw bkg-2 is not supported in the bkg mini-spec',3
+'fsw exec-7 is not supported in the exec mini-spec',3
+'inconsistent initialization delay',4
+'soh telemetry timing',3
+'no backward trace matrix for the idpu fsw',4
+'no backward trace matrix for the subsys1 fsw',4
+'partial trace of in esa-1',4
+'partial trace of in efi-7',4
+'mrd rqmt in scm-1 not traced',3
+'mrd rqmt in fgm-7 not traced',3
+'partial trace of in esa-8',4
+'mrd rqmt in dpu-28 not traced',3
+'mrd rqmt in dpu-27 not traced',3
+'partial trace of in dpu-15',4
+'mrd rqmt in dpu-11 not traced',3
+'mrd rqmt in dpu-9 not traced',3
+'partial trace of in dpu-8',4
+'telecommand tbd',3
+'interface tbd',3
+'mrd rqmt in dpu-12 not traced',3
+'partial trace of in dpu-38',3
+'partial trace of fsw tm-6',3
+'partial trace of fsw io-22',4
+'partial trace of fsw efi-6',4
+'partial trace of fsw cmd-2',4
+'partial trace of in dpu-50',3
+'partial trace of in dpu-49',3
+'partial trace of in dpu-5',3
+'partial trace of in dpu-4',3
+'partial trace of in dpu-3',4
+'pb fsw-18 trace too general',4
+'pb fsw-17 trace too general',4
+'pb fsw-16 trace too general',4
+'pb fsw-15 trace too general',4
+'pb fsw 12 trace too general',4
+'pb fsw 11 trace too general',4
+'pb fsw-9 trace too general',4
+'pb fsw-7 trace too general',4
+'pb fsw-6 trace too general',4
+'pb fsw-5 trace too general',4
+'pb fsw-4 trace too general',4
+'pb fsw-3 trace too general',4
+'pb fsw-2 trace too general',4
+'pb cdh-21 trace too general and possible missing fsw requirements',2
+'pb cdh 20 trace too general',4
+'pb cdh-19 trace too general',4
+'pb cdh-18 trace too general',4
+'pb-6 trace too general',4
+'unclear warm restart requirement',3
+'missing timing requirement on restart',2
+'fsw tm-5 - clarify if the second sentence is meant to be a requirement',5
+'vague statement in fsw io-1',4
+'bkg table identification',3
+'document inconsistency',3
+'compressed packets',4
+' click ',4
+'calibrate on off commands',4
+'efi typo',5
+'appropriate cdi interfaces',3
+'typo',5
+'initialization requirements',3
+'appropriate command list',3
+'long calculations',3
+'operate in a timely fashion',3
+'scm trace',3
+'esa trace',3
+'efi partial trace',3
+'esa field of view',4
+'science and hk telemetry storage',4
+'sufficient hw and sw safety latches',3
+'no parent for in dpu-37',4
+'sampling times of fgm  scm  and efi',4
+'time-tagging dfb and fgm data',3
+' necessary  thermal control',3
+'instrument hk telemetry',3
+'no parent for in dpu-15',4
+'or vs  and',4
+'no  shall  in requirements',4
+'esa rqmt unclear',4
+'idpu rqmt typo',5
+'critical instrument functions',2
+'sc telemetry typo',4
+'missing ground commands  fsw sc 27',3
+'inconsistent sc terminology',3
+'unclear type of sc',3
+'related lm requirements',3
+'dm vs lm',5
+'fsw ds 20',3
+'two of three match',4
+'inconsistent level of detail',4
+'full vr',3
+'unclear wording',3
+'missing requirement 2',3
+'unclear im requirement',4
+'unclear tc requirement',4
+'requirement misallocation to flight software  fsw mm 22',3
+'requirement misallocation to flight software  fsw mm 21',3
+'missing reference',4
+'tp requirement typo',5
+'unclear tp wording',4
+'incomplete requirement  fsw cp 25',3
+'unclear cp requirement',4
+'cp requirement typo',5
+'missing requirement',3
+'fsw cp 10',3
+'fsw cp 09',3
+'fsw cp 13',3
+'operator inspection',3
+'unclear cp requirement wording',4
+'inconsistent reference to bsw',5
+'mislabeled table7-1',5
+'mislabeled figure 6-1 and 6-2',5
+'csc name change',5
+'unclear ds requirement',3
+'ram margin',4
+'eeprom margin',4
+'cpu margin',4
+'inadvertent probe release',3
+'undocumented met traceability',4
+'utc vs uto',3
+'pb cdh-43',3
+'pb cdh-42',4
+'pb cdh-38',4
+'pb cdh-37',4
+'pb cdh-35',4
+'pb cdh-34',3
+'pb cdh-33',3
+'pb cdh-32',3
+'pb cdh-31',4
+'pb cdh-29',3
+'pb cdh-28',4
+'pb cdh-27',4
+'pb cdh-26',4
+'pb cdh-23',3
+'pb cdh-15',3
+'pb cdh-13',4
+'pb cdh-12',4
+'pb cdh-11',4
+'pb cdh-10',4
+'pb cdh-9',4
+'pb cdh-8',4
+'pb cdh-7',4
+'pb cdh-6',4
+'pb cdh-4',4
+'pb cdh-3',4
+'pb cdh-2',4
+'pb cdh-1',4
+'pb rcs-14',3
+'pb rcs-13',4
+'pb acs-16',3
+'pb acs-15',3
+'pb acs-11',3
+'pb acs-10',3
+'pb acs-9',3
+'pb acs-2',3
+'duplicate requirement',3
+'duplicate requirement id',3
+'fsw sc 16',3
+'fsw ds 06',3
+'dropped requirement',4
+'fsw cp 25',4

@@ -1,0 +1,59 @@
+=== Run information ===
+
+Scheme:weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1
+Relation:     nasa-weka.filters.unsupervised.attribute.StringToWordVector-R1-W100-prune-rate-1.0-C-T-I-N1-L-stemmerweka.core.stemmers.LovinsStemmer-stopwords-handlerweka.core.stopwords.WordsFromFile -stopwords /home/jude/nltk_data/corpora/stopwords/english-M2-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:-_\'\"()?!0123456789"-weka.filters.unsupervised.attribute.Remove-R13,42-44,46-48,79,81-84,86-87,89-101,103-113,115,117-118,120,122-128,130-132,134,136-142,144,147-150,153-155,157-160,162-164,166-167,169-170,172,175,177-178,181-183,185,187,189
+Instances:    987
+Attributes:   101
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+JRIP rules:
+===========
+
+(pciautoconfig >= 3.350788) => class-att=2 (2.0/0.0)
+(requir <= 0.48935) and (issu >= 2.307146) => class-att=5 (4.0/0.0)
+(fil >= 1.324436) => class-att=4 (66.0/18.0)
+(vari >= 1.2616) => class-att=4 (44.0/9.0)
+(requir <= 0) and (cod >= 1.455076) and (cod <= 2.086508) => class-att=4 (30.0/5.0)
+(requir <= 0.79567) and (scenari >= 0.905623) => class-att=4 (42.0/20.0)
+(ac <= 0.795268) and (step >= 1.205531) => class-att=4 (47.0/21.0)
+ => class-att=3 (752.0/292.0)
+
+Number of Rules : 8
+
+
+Time taken to build model: 0.9 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         575               58.2573 %
+Incorrectly Classified Instances       412               41.7427 %
+Kappa statistic                          0.1697
+Mean absolute error                      0.2091
+Root mean squared error                  0.3312
+Relative absolute error                 92.2674 %
+Root relative squared error             98.4962 %
+Total Number of Instances              987     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          ?        1
+                 0.304     0.007      0.5       0.304     0.378      0.682    2
+                 0.889     0.716      0.583     0.889     0.705      0.588    3
+                 0.27      0.121      0.585     0.27      0.369      0.576    4
+                 0         0          0         0         0          0.519    5
+Weighted Avg.    0.583     0.426      0.547     0.583     0.525      0.581
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   0   0   0   0   0 |   a = 1
+   0   7  13   3   0 |   b = 2
+   0   3 465  55   0 |   c = 3
+   0   2 277 103   0 |   d = 4
+   0   2  42  15   0 |   e = 5
+

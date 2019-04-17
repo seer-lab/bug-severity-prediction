@@ -1,0 +1,114 @@
+=== Run information ===
+
+Scheme:weka.classifiers.rules.JRip -F 3 -N 2.0 -O 2 -S 1
+Relation:     nasa-weka.filters.unsupervised.attribute.StringToWordVector-R1-W100-prune-rate-1.0-T-I-N1-L-S-stemmerweka.core.stemmers.LovinsStemmer-M2-stopwords/home/jude/nltk_data/corpora/stopwords/english-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-R2
+Instances:    182
+Attributes:   61
+              class-att
+              analog
+              appear
+              ar
+              assignm
+              cas
+              child
+              cod
+              column
+              comples
+              cop
+              cp
+              csc
+              dat
+              dataencoder
+              destruc
+              flight
+              fpadm
+              funct
+              h
+              hid
+              incomples
+              inconsist
+              incorrect
+              lin
+              log
+              manager
+              may
+              mechan
+              member
+              memor
+              mes
+              mis
+              mor
+              non-virtu
+              oper
+              packes
+              pointer
+              pos
+              protect
+              question
+              requir
+              requirement
+              respect
+              respons
+              sc
+              sc2074
+              sc2417
+              sc2426
+              sc2443
+              sc2452
+              sc2453
+              shallow
+              softwar
+              stat
+              tlm_subscript
+              trac
+              cmd_mgr_extr
+              command
+              default
+              switch
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+JRIP rules:
+===========
+
+(switch >= 0.84824) => class-att=4 (10.0/0.0)
+(manager >= 0.786778) => class-att=4 (3.0/1.0)
+ => class-att=3 (169.0/3.0)
+
+Number of Rules : 3
+
+
+Time taken to build model: 0.06 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         170               93.4066 %
+Incorrectly Classified Instances        12                6.5934 %
+Kappa statistic                          0.5385
+Mean absolute error                      0.0321
+Root mean squared error                  0.1485
+Relative absolute error                 46.619  %
+Root relative squared error             84.625  %
+Total Number of Instances              182     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0         0          0         0         0          ?        1
+                 0         0          0         0         0          0.086    2
+                 0.97      0.467      0.959     0.97      0.964      0.707    3
+                 0.615     0.03       0.615     0.615     0.615      0.805    4
+                 0         0          0         0         0          0.08     5
+Weighted Avg.    0.934     0.43       0.924     0.934     0.929      0.707
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+   0   0   0   0   0 |   a = 1
+   0   0   1   0   0 |   b = 2
+   0   0 162   5   0 |   c = 3
+   0   0   5   8   0 |   d = 4
+   0   0   1   0   0 |   e = 5
+

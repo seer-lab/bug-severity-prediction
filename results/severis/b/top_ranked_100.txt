@@ -1,0 +1,124 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 100
+Relation:     nasa-weka.filters.unsupervised.attribute.StringToWordVector-R1-W100-prune-rate-1.0-C-T-I-N1-L-S-stemmerweka.core.stemmers.LovinsStemmer-M2-stopwords/home/jude/nltk_data/corpora/stopwords/english-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Remove-R2
+Instances:    987
+Attributes:   192
+[list of attributes omitted]
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 1 class-att):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.0696      23 lin
+ 0.05529     36 scenari
+ 0.05491     34 requir
+ 0.04989    117 verif
+ 0.0431      44 vari
+ 0.04261     40 test
+ 0.03815    122 com
+ 0.03507    146 nam
+ 0.03331      7 arra
+ 0.03201     28 out-of-bound
+ 0.03117    152 rout
+ 0.02781     68 fil
+ 0.02765    127 declar
+ 0.02651     64 docum
+ 0.02556     45 viol
+ 0.02422     37 sdn
+ 0.02299     76 incorrect
+ 0.0227     163 unus
+ 0.02253    144 match
+ 0.0208      35 s-com
+ 0.02023      8 array-out-of-bound
+ 0.01971     94 projectb
+ 0.01938     16 funct
+ 0.01788     69 fl
+ 0.01693     66 fail
+ 0.01666    175 issu
+ 0.01557    107 sr
+ 0.01432     97 ps
+ 0.01384    167 editor
+ 0.01313    114 tbd
+ 0.01266    142 loc
+ 0.01256     91 pas
+ 0.01218    111 support
+ 0.01195    134 event
+ 0.01195    150 refer
+ 0.01176     95 proper
+ 0.01129    156 standard
+ 0.01124     52 6
+ 0.01118    145 mes
+ 0.01112     30 pciautoconfig
+ 0.01112      4 absolut
+ 0.01106    143 mag
+ 0.01081    137 glob
+ 0.00828    182 sb
+ 0.00828    191 unknown
+ 0.00828    184 sblogfil
+ 0.00828    173 grammat
+ 0.00828    181 prolog
+ 0.00828    170 format
+ 0.00828    190 tru
+ 0.00828    178 mp_bxb_reses
+ 0           59 comples
+ 0           57 ar
+ 0            9 buffer
+ 0           65 error
+ 0           63 defin
+ 0           60 control
+ 0           58 command
+ 0           61 counter
+ 0           62 dat
+ 0           10 build
+ 0           31 pos
+ 0           67 fdc
+ 0           77 iners
+ 0           75 implem
+ 0           78 inform
+ 0           73 ground
+ 0           79 inst2
+ 0           74 ha
+ 0            3 7
+ 0           11 c
+ 0            6 addit
+ 0           70 found
+ 0            5 ac
+ 0           72 gc
+ 0           71 fsw
+ 0           56 appear
+ 0           54 algorithm
+ 0           55 alloc
+ 0           32 proces
+ 0           20 initial
+ 0           19 indic
+ 0           81 iru
+ 0           38 ses
+ 0           39 siz
+ 0           21 instead
+ 0           22 instruc
+ 0           24 main
+ 0           29 overflow
+ 0           33 register
+ 0           27 oper
+ 0           25 may
+ 0           26 mov
+ 0           18 h
+ 0           17 gce_bgi_antenna_limis
+ 0           41 th
+ 0           13 cod
+ 0           51 5
+ 0           53 addres
+ 0           49 2
+
+Selected attributes: 23,36,34,117,44,40,122,146,7,28,152,68,127,64,45,37,76,163,144,35,8,94,16,69,66,175,107,97,167,114,142,91,111,134,150,95,156,52,145,30,4,143,137,182,191,184,173,181,170,190,178,59,57,9,65,63,60,58,61,62,10,31,67,77,75,78,73,79,74,3,11,6,70,5,72,71,56,54,55,32,20,19,81,38,39,21,22,24,29,33,27,25,26,18,17,41,13,51,53,49 : 100
+
