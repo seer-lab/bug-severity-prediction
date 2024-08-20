@@ -1,4 +1,8 @@
-# Automatic Prediction of Bug Severity
+# AutoBugTriage: Automatically Predicting Bug Severity
+
+## Description
+
+Bug severity is an important factor in prioritizing which bugs to fix first. The process of triaging bug reports and assigning a severity requires developer expertise and knowledge of the underlying software. The Automatic Bug Traige (AutoBugTriage) tool allows for the prediction of bug severity at the beginning of the project by using an organization’s historical data, in the form of bug reports from past projects, to train the prediction classifier.
 
 ## Environment Setup
 We recommend running our application in a python virtual environment to ensure the packages required do not conflict with your exisitng python distribution.
